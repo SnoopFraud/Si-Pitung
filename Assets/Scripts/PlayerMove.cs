@@ -20,7 +20,7 @@ public class PlayerMove : MonoBehaviour
     private bool canSlide = true;
     private bool isSlide;
     private float slidePower = 24f;
-    private float slideTime = 0.2f;
+    private float slideTime = 0.3f;
     private float slideCooldown = 1f;
 
     [Header("Ground Check")]
@@ -59,7 +59,7 @@ public class PlayerMove : MonoBehaviour
         //Set jump Animation
         anim.SetBool("onGround", isGrounded);
         //Do Slide
-        if(Input.GetKeyDown(KeyCode.LeftShift) && canSlide && isGrounded)
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canSlide && isGrounded && rb.velocity.magnitude > 0)
         {
             StartCoroutine(Sliding());
         }
