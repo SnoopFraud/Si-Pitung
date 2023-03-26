@@ -14,7 +14,7 @@ public class PlayerMove : MonoBehaviour
 
     [Header("Physic Force")]
     public float _moveSpeed, _jumpForce;
-    private Vector2 _moveDir;
+    public Vector2 _moveDir; [HideInInspector]
 
     //Sliding Var
     private bool canSlide = true;
@@ -31,6 +31,8 @@ public class PlayerMove : MonoBehaviour
     [Header("Animation")]
     public Animator anim;
     public Animator flip_anim; //For flipping
+
+    private bool facingright;
 
     private void Update()
     {
@@ -63,7 +65,6 @@ public class PlayerMove : MonoBehaviour
         {
             StartCoroutine(Sliding());
         }
-
         //Do Flip
         flip();
     }
@@ -95,6 +96,7 @@ public class PlayerMove : MonoBehaviour
     //Flip function
     private void flip()
     {
+        //Do Flip
         //Flip the sprite to other direction
         if (!sr.flipX && _moveDir.x < 0)
         {
