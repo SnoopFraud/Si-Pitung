@@ -19,7 +19,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        
+        if (CurrentHealth <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     void takeDamage(int damage)

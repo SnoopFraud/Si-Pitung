@@ -10,6 +10,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private CapsuleCollider regularcol, crouchcol;
+    [SerializeField] private GameObject hitbox;
 
     [Header("Physic Force")]
     public float _moveSpeed, _jumpForce, _crouchSpeed;
@@ -27,7 +28,7 @@ public class PlayerInput : MonoBehaviour
     private float _horizontalmove;
 
     //Flipping
-    private bool isFacingRight = true;
+    public bool isFacingRight = true;
 
     //Crouching
     private bool crouching;
@@ -63,10 +64,14 @@ public class PlayerInput : MonoBehaviour
         if(!isFacingRight && _horizontalmove > 0f)
         {
             flip();
+            //Flip the Hitbox
+            hitbox.transform.localPosition = new Vector3(1, 0, 0);
         }
         if (isFacingRight && _horizontalmove < 0f)
         {
             flip();
+            //Flip the Hitbox
+            hitbox.transform.localPosition = new Vector3(-1, 0, 0); 
         }
         //Jump Animation
         anim.SetBool("onGround", isGrounded());
@@ -110,7 +115,6 @@ public class PlayerInput : MonoBehaviour
 
     public void crouch(InputAction.CallbackContext crouch)
     {
-
         //Press crouch button
         if(crouch.performed && isGrounded())
         {
