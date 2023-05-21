@@ -8,8 +8,6 @@ public class EnemyAI : MonoBehaviour
     public int maxhealth = 100;
     int currenthealth;
 
-    public GameObject scoreui;
-
     #endregion
 
     private void Start()
@@ -24,13 +22,7 @@ public class EnemyAI : MonoBehaviour
         if(currenthealth <= 0)
         {
             Die();
-            GiveScore();
         }
-    }
-
-    public void GiveScore()
-    {
-        scoreui.GetComponent<Scoring>().AddScore(10);
     }
 
     void Die()

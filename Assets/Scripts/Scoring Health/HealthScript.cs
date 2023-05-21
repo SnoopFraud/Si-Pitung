@@ -17,4 +17,9 @@ public class HealthScript : MonoBehaviour
     {
         slider.value = health;
     }
+
+    private void Update()
+    {
+        
+    }
 }
