@@ -45,7 +45,6 @@ public class PlayerInput : MonoBehaviour
         //Do Flip
         isFacingRight = !isFacingRight;
         sr.flipX = !sr.flipX;
-        anim.SetTrigger("Flip");
     }
     #endregion
 
