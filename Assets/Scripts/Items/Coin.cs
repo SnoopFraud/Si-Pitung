@@ -18,7 +18,7 @@ public class Coin : MonoBehaviour
 
     public void GiveScore()
     {
-        ScoreUI.GetComponent<Scoring>().AddScore(10);
+        ScoreUI.GetComponent<Scoring>().AddScore(score);
     }
 
     // Update is called once per frame

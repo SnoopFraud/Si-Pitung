@@ -22,7 +22,6 @@ public class PlayerInput : MonoBehaviour
 
     [Header("Animation")]
     public Animator anim;
-    public Animator flip_anim; //For flipping
 
     //To see where the character heading in the XY Axis
     private float _horizontalmove;
@@ -46,7 +45,7 @@ public class PlayerInput : MonoBehaviour
         //Do Flip
         isFacingRight = !isFacingRight;
         sr.flipX = !sr.flipX;
-        flip_anim.SetTrigger("Flip");
+        anim.SetTrigger("Flip");
     }
     #endregion
 

@@ -6,7 +6,6 @@ public class HealthItem : MonoBehaviour
 {
     #region Var
     GameObject PlayerHealth;
-    PlayerHealth plhealth;
 
     #endregion
 
@@ -14,6 +13,20 @@ public class HealthItem : MonoBehaviour
     void Start()
     {
         PlayerHealth = GameObject.Find("/Player2.0");
+    }
+
+    void giveHealth()
+    {
+        if (PlayerHealth.GetComponent<PlayerHealth>().CurrentHealth < 
+            PlayerHealth.GetComponent<PlayerHealth>().MaxHealth)
+        {
+            PlayerHealth.GetComponent<PlayerHealth>().getHealth(10);
+        }
+        else
+        {
+            Debug.Log("Health is Full");
+            return;
+        }
     }
 
     // Update is called once per frame
@@ -27,15 +40,7 @@ public class HealthItem : MonoBehaviour
         if (contactwith.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
-
-            if(plhealth.CurrentHealth >= plhealth.MaxHealth)
-            {
-                PlayerHealth.GetComponent<PlayerHealth>().getHealth(0);
-            }
-            else
-            {
-                PlayerHealth.GetComponent<PlayerHealth>().getHealth(10);
-            }
+            giveHealth();
         }
     }
 }

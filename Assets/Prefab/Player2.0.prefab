@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 7927715423562065519}
   - component: {fileID: 6028821091204409015}
   - component: {fileID: 7927715423562065520}
+  - component: {fileID: 1858734088}
   m_Layer: 0
   m_Name: Player2.0
   m_TagString: Player
@@ -244,7 +245,7 @@ MonoBehaviour:
   sr: {fileID: 5180933806205810556}
   regularcol: {fileID: 5180933805035371844}
   crouchcol: {fileID: 5180933805076227012}
-  atkpoint: {fileID: 0}
+  hitbox: {fileID: 694385659790672680}
   _moveSpeed: 7
   _jumpForce: 7.5
   _crouchSpeed: 4
@@ -268,12 +269,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818526d00d31a154aa30801356e104f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Anim: {fileID: 0}
+  Anim: {fileID: 5180933806205810557}
   EnemyLayers:
     serializedVersion: 2
-    m_Bits: 0
-  atkpoint: {fileID: 0}
-  atkrange: 0.5
+    m_Bits: 128
+  atkpoint: {fileID: 3738368296256267899}
+  atkrange: 0.68
   atkDMG: 25
   atkRate: 5
 --- !u!114 &7927715423562065520
@@ -398,7 +399,19 @@ MonoBehaviour:
     m_ActionId: 1a08fd6d-23a1-464c-9318-d016444ff268
     m_ActionName: Player/Slide[/Keyboard/leftShift]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6028821091204409015}
+        m_TargetAssemblyTypeName: CombatInput, Assembly-CSharp
+        m_MethodName: attack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 16efeb28-cf14-4f43-be91-76ac35b62398
     m_ActionName: Player/Combat[/Keyboard/p]
   m_NeverAutoSwitchControlSchemes: 0
@@ -406,6 +419,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1858734088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5180933805035371897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c716f75229aac499cefaf33e7a9e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100
+  CurrentHealth: 0
+  healthbar: {fileID: 0}
 --- !u!1 &5180933805076227014
 GameObject:
   m_ObjectHideFlags: 0

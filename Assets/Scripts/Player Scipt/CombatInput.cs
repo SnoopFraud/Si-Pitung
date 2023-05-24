@@ -15,13 +15,18 @@ public class CombatInput : MonoBehaviour
     public int atkDMG = 25;
 
     public float atkRate = 5f;
-    float nextatkTime = 0f;
+    float lastAttackTime = 0f;
+
+    public float pushForce = 50f;
+    public Transform Player;
+    private Rigidbody rb;
     #endregion
 
-    void start()
+    private void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
+
     private void Update()
     {
         
@@ -30,14 +35,10 @@ public class CombatInput : MonoBehaviour
     #region Combat
     public void attack(InputAction.CallbackContext combat)
     {
-        if (Time.time >= nextatkTime)
+        if (combat.performed && Time.time >= lastAttackTime + 5f / atkRate)
         {
-            //Perform attack
-            if (combat.performed)
-            {
-                melee();
-                nextatkTime = Time.time + 1f / atkRate;
-            }
+            melee();
+            lastAttackTime = Time.time; // Update the time of the last attack
         }
     }
 
@@ -45,6 +46,14 @@ public class CombatInput : MonoBehaviour
     {
         //Play Animation
         Anim.SetTrigger("Attack");
+        //Put some force
+        Vector3 pushDirection = Player.right; // Set the push direction based on the player's right direction
+        if (!GetComponent<PlayerInput>().isFacingRight) // If the player is not facing right, flip the push direction
+        {
+            pushDirection *= -1f;
+        }
+        rb.AddForce(pushDirection * pushForce, ForceMode.Impulse);
+
         //Detect enemy in the attack range
         Collider[] hitenemies = Physics.OverlapSphere(atkpoint.position, atkrange, EnemyLayers);
         //Damage the enemy

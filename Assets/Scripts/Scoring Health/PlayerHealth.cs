@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        Debug.Log(CurrentHealth);
+        //Debug.Log(CurrentHealth);
     }
 
     void takeDamage(int damage)
