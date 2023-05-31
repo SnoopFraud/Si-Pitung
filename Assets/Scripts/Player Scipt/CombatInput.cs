@@ -8,8 +8,7 @@ public enum ComboState
     None,
     Attack1,
     Attack2,
-    Attack3,
-    AirAttack
+    Attack3
 }
 
 public class CombatInput : MonoBehaviour
@@ -61,10 +60,19 @@ public class CombatInput : MonoBehaviour
         //Every time the button pressed logic, don't block it using ComboState.None
         if (combat.performed)
         {
-            if(!PlayerVar.onAtkCooldown)
-            //Do the attack
-            //every press will continue the chain until attack 3
-            ComboAttack();
+            //Ground attack
+            if(!PlayerVar.onAtkCooldown && PlayerInput.instance.isGrounded())
+            {
+                //Do the attack
+                //every press will continue the chain until attack 3
+                ComboAttack();
+            }
+            //Air attack
+            if (!PlayerVar.onAtkCooldown && !PlayerInput.instance.isGrounded())
+            {
+                //Do the attack
+                AirAttack();
+            }
         }
 
     }
@@ -112,6 +120,12 @@ public class CombatInput : MonoBehaviour
                 StartCoroutine("AttackCooldown");
                 break;
         }
+    }
+    void AirAttack()
+    {
+        doAttack(5, "Player_AirAttack");
+        StartCoroutine(MovePlayerForward(0.2f, 5f));
+        StartCoroutine("AttackCooldown");
     }
 
     private void ResetCombo()
