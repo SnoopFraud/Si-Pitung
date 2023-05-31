@@ -7,6 +7,12 @@ public class PlayerHealth : MonoBehaviour
     public int MaxHealth = 100;
     public int CurrentHealth;
 
+    bool isInvincible = false;
+    [SerializeField]
+    private float InvinsibilitySeconds;
+    [SerializeField]
+    private float InvisibilityDeltaTime;
+
     public HealthScript healthbar;
 
     private void Start()
@@ -22,13 +28,13 @@ public class PlayerHealth : MonoBehaviour
     {
         //update the current health to the health bar
         healthbar.SetHealth(CurrentHealth);
-
         //Death condition
         if (CurrentHealth <= 0)
         {
+            CurrentHealth = 0;
             gameObject.SetActive(false);
+            //return;
         }
-
         //Debug.Log(CurrentHealth);
     }
 
@@ -40,6 +46,19 @@ public class PlayerHealth : MonoBehaviour
     public void getHealth(int health)
     {
         CurrentHealth += health;
+    }
+
+    private IEnumerator TempInvulnerability()
+    {
+        //Make player invulnerable for a limited amount of time
+        Debug.Log("Player is Invincible"); isInvincible = true;
+
+        for(float i = 0; i<InvinsibilitySeconds; i += InvisibilityDeltaTime)
+        {
+            yield return new WaitForSeconds(InvinsibilitySeconds);
+        }
+
+        isInvincible = false; Debug.Log("Player is No Longer Invincible");
     }
 
     private void OnCollisionEnter(Collision collision)

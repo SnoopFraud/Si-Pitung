@@ -14,27 +14,22 @@ public class PlayerInput : MonoBehaviour
 
     [Header("Physic Force")]
     public float _moveSpeed, _jumpForce, _crouchSpeed;
+    public float BaseSpeed;
     public Vector2 movedir; [HideInInspector]
 
     [Header("Ground Check")]
     [SerializeField] private LayerMask WhatIsGround;
     [SerializeField] private Transform _groundPoint;
 
-    [Header("Animation")]
-    public Animator anim;
+    public static PlayerInput instance;
 
     //To see where the character heading in the XY Axis
-    private float _horizontalmove;
-
-    //Flipping
-    public bool isFacingRight = true;
-
-    //Crouching
-    private bool crouching;
+    
+    [HideInInspector] public float _horizontalmove;
     # endregion
 
     #region Conditions
-    private bool isGrounded()
+    public bool isGrounded()
     {
         RaycastHit hit;
         return Physics.Raycast(_groundPoint.position, Vector3.down, out hit, .3f, WhatIsGround);
@@ -43,50 +38,53 @@ public class PlayerInput : MonoBehaviour
     void flip()
     {
         //Do Flip
-        isFacingRight = !isFacingRight;
+        PlayerVar.isFacingRight = !PlayerVar.isFacingRight;
         sr.flipX = !sr.flipX;
     }
     #endregion
 
+    #region Player Update
+    private void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _moveSpeed = BaseSpeed;
     }
 
-    #region Player Update
     // Update is called once per frame
     void Update()
     {
-        //Flip character
-        if(!isFacingRight && _horizontalmove > 0f)
+        //Only flip when player is not attacking
+        if (!PlayerVar.isAttacking)
         {
-            flip();
-            //Flip the Hitbox
-            hitbox.transform.localPosition = new Vector3(1, 0, 0);
+            //Flip character
+            if (!PlayerVar.isFacingRight && _horizontalmove > 0f)
+            {
+                flip();
+                //Flip the Hitbox
+                hitbox.transform.localPosition = new Vector3(1, 0, 0);
+            }
+            if (PlayerVar.isFacingRight && _horizontalmove < 0f)
+            {
+                flip();
+                //Flip the Hitbox
+                hitbox.transform.localPosition = new Vector3(-1, 0, 0);
+            }
         }
-        if (isFacingRight && _horizontalmove < 0f)
-        {
-            flip();
-            //Flip the Hitbox
-            hitbox.transform.localPosition = new Vector3(-1, 0, 0); 
-        }
-        //Jump Animation
-        anim.SetBool("onGround", isGrounded());
-        //Crouch Animation
-        anim.SetBool("Crouch", crouching);
     }
     private void FixedUpdate()
     {
-        //Rigidbody velocity calc here
-        if (crouching)
+        if (PlayerVar.crouching)
         {
             rb.velocity = new Vector2(_horizontalmove * _crouchSpeed, rb.velocity.y);
         }
         else
         {
             rb.velocity = new Vector2(_horizontalmove * _moveSpeed, rb.velocity.y);
-            anim.SetFloat("moveSpeed", rb.velocity.magnitude);
         }
     }
     #endregion
@@ -100,7 +98,7 @@ public class PlayerInput : MonoBehaviour
 
     public void jump(InputAction.CallbackContext jump)
     {
-        if(jump.performed && isGrounded() && crouching == false)
+        if(jump.performed && isGrounded() && PlayerVar.crouching == false)
         {
             rb.velocity = new Vector2(rb.velocity.x, _jumpForce);
         }
@@ -116,18 +114,17 @@ public class PlayerInput : MonoBehaviour
         //Press crouch button
         if(crouch.performed && isGrounded())
         {
-            crouching = true;
+            PlayerVar.crouching = true;
             regularcol.enabled = false;
             crouchcol.enabled = true;
         }
         //Press crouch cancelled
         else
         {
-            crouching = false;
+            PlayerVar.crouching = false;
             regularcol.enabled = true;
             crouchcol.enabled = false;
         }
-        Debug.Log(crouching);
     }
     #endregion
 }

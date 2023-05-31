@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     #region Variable
-    public int maxhealth = 100;
-    int currenthealth;
+    [SerializeField] private int maxhealth = 100;
+    [SerializeField] private int currenthealth;
 
     #endregion
 
@@ -18,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     public void TakeDMG(int damage)
     {
         currenthealth -= damage;
+        Debug.Log("Enemy HP: " + currenthealth);
         //Die
         if(currenthealth <= 0)
         {

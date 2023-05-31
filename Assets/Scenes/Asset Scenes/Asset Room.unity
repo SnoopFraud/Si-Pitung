@@ -693,6 +693,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034462324}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1099999973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2876485467190561488, guid: 678677716bf790a4ba7115898d9725c2, type: 3}
+  m_PrefabInstance: {fileID: 4468158885839581006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1140064412 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4468158885556748772, guid: 678677716bf790a4ba7115898d9725c2, type: 3}
+  m_PrefabInstance: {fileID: 4468158885839581006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1147270305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1123,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595003267}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1602918223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8783225496922336631, guid: 678677716bf790a4ba7115898d9725c2, type: 3}
+  m_PrefabInstance: {fileID: 4468158885839581006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1602918224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602918223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818526d00d31a154aa30801356e104f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1140064412}
+  EnemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  atkpoint: {fileID: 1099999973}
+  atkrange: 0.5
+  atkDMG: 25
+  atkRate: 3
+  Player: {fileID: 5180933805209059846}
+  isAttacking: 0
+  attackMoveDuration: 0
+  attackMoveSpeed: 0
 --- !u!1 &1726657396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5766562426892514913, guid: 678677716bf790a4ba7115898d9725c2, type: 3}
+      propertyPath: BaseSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8783225496922336584, guid: 678677716bf790a4ba7115898d9725c2, type: 3}
       propertyPath: m_RootOrder
       value: 3

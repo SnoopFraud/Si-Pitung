@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Attack
+  m_Name: Player_Attack2
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8933616670531744033, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+      value: {fileID: -6551809146543317313, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
     - time: 0.25
-      value: {fileID: -7816401098179802684, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
-    - time: 0.41666666
-      value: {fileID: -7816401098179802684, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+      value: {fileID: 8983136720727038175, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+    - time: 0.5
+      value: {fileID: 8983136720727038175, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,20 +44,20 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8933616670531744033, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
-    - {fileID: -7816401098179802684, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
-    - {fileID: -7816401098179802684, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+    - {fileID: -6551809146543317313, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+    - {fileID: 8983136720727038175, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
+    - {fileID: 8983136720727038175, guid: 749e3fcd852f6c54c88307147b292144, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.43333334
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

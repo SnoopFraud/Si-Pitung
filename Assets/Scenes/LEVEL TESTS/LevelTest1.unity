@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetplayer: {fileID: 7927715423562065489}
   offset: {x: 0, y: 0.5, z: -6}
-  smoothspeed: 0.125
+  smoothspeed: 0.1
   smoothtime: 0.1
 --- !u!1 &1257614079
 GameObject:
@@ -1771,25 +1771,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5180933805035371847, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
-      propertyPath: m_Drag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5180933805035371847, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
-      propertyPath: m_Mass
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 5180933805035371897, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
       propertyPath: m_Name
       value: Player2.0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028821091204409015, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 7927715423562065489}
-    - target: {fileID: 6028821091204409015, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
-      propertyPath: pushForce
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61e9a86a8db2a2d4db0d37f4b2c3197b, type: 3}
