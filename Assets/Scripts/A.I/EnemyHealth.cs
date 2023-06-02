@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
     #region Variable
     [SerializeField] private int maxhealth = 100;
@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
         currenthealth = maxhealth;
     }
 
+    #region health
     public void TakeDMG(int damage)
     {
         currenthealth -= damage;
@@ -31,4 +32,5 @@ public class EnemyAI : MonoBehaviour
         Debug.Log("Enemy Die");
         gameObject.SetActive(false);
     }
+    #endregion
 }

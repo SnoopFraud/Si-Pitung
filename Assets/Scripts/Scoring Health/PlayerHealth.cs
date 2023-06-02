@@ -40,7 +40,10 @@ public class PlayerHealth : MonoBehaviour
 
     void takeDamage(int damage)
     {
-        CurrentHealth -= damage;
+        if (!PlayerVar.isAttacking)
+        {
+            CurrentHealth -= damage;
+        }
     }
 
     public void getHealth(int health)

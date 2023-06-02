@@ -124,8 +124,10 @@ public class CombatInput : MonoBehaviour
     void AirAttack()
     {
         doAttack(5, "Player_AirAttack");
-        StartCoroutine(MovePlayerForward(0.2f, 5f));
+        StartCoroutine("StopPlayerSpeed");
+        StartCoroutine(MovePlayerForward(0.2f, 15f));
         StartCoroutine("AttackCooldown");
+        StartCoroutine("Attackfalse");
     }
 
     private void ResetCombo()
@@ -154,6 +156,14 @@ public class CombatInput : MonoBehaviour
         PlayerVar.onAtkCooldown = false;
     }
 
+    //isAttacking to false timer
+    private IEnumerator Attackfalse()
+    {
+        PlayerVar.isAttacking = true;
+        yield return new WaitForSeconds(0.5f);
+        PlayerVar.isAttacking = false;
+    }
+
     //Function to intiate attack
     private void doAttack(int DMG, string AnimName)
     {
@@ -172,7 +182,7 @@ public class CombatInput : MonoBehaviour
         foreach (Collider enemy in hitenemies)
         {
             //Give enemy the damage
-            enemy.GetComponent<EnemyAI>().TakeDMG(DMG);
+            enemy.GetComponent<EnemyHealth>().TakeDMG(DMG);
         }
     }
 
