@@ -20,7 +20,7 @@ public class IdleState : States
         }
         else
         {
-            EnemyScript.instance.StopChase(); // 1. Idle animation transition to patrol
+            EnemyScript.instance.PatrolMovement(); // 1. Idle animation transition to patrol
             // 2. Then do some patrol
             return this;
         }

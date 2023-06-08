@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1381527593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381527595}
+  - component: {fileID: 1381527594}
+  m_Layer: 9
+  m_Name: Normal Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381527595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381527593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5180933805035371846}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1381527594
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381527593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.0515358
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.12666953, z: 0}
 --- !u!1 &694385659790672680
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3738368296256267899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Atk Point
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -39,7 +84,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5180933805035371846}
-  - component: {fileID: 5180933805035371844}
   - component: {fileID: 5180933805035371847}
   - component: {fileID: 862691110764673722}
   - component: {fileID: 620427718979144725}
@@ -48,7 +92,7 @@ GameObject:
   - component: {fileID: 7927715423562065519}
   - component: {fileID: 6028821091204409015}
   - component: {fileID: 7927715423562065520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player2.0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -67,6 +111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5180933806205810559}
+  - {fileID: 1381527595}
   - {fileID: 5180933806737241492}
   - {fileID: 5180933805076227015}
   - {fileID: 5180933806168446249}
@@ -74,20 +119,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &5180933805035371844
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5180933805035371897}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.63918114
-  m_Height: 2.168444
-  m_Direction: 1
-  m_Center: {x: -0.00018107891, y: -0.058710933, z: 0}
 --- !u!54 &5180933805035371847
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -97,7 +128,7 @@ Rigidbody:
   m_GameObject: {fileID: 5180933805035371897}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0.5
+  m_Drag: 1
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -236,6 +267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 5180933806205810557}
+  AnimName: []
 --- !u!114 &1858734088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5180933805035371847}
   sr: {fileID: 5180933806205810556}
-  regularcol: {fileID: 5180933805035371844}
+  regularcol: {fileID: 1381527594}
   crouchcol: {fileID: 5180933805076227012}
   hitbox: {fileID: 694385659790672680}
   _moveSpeed: 0
@@ -297,8 +329,6 @@ MonoBehaviour:
     m_Bits: 128
   atkpoint: {fileID: 3738368296256267899}
   atkrange: 0.68
-  atkDMG: 25
-  atkRate: 4
   Player: {fileID: 5180933805035371846}
 --- !u!114 &7927715423562065520
 MonoBehaviour:
@@ -456,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5180933805076227015}
   - component: {fileID: 5180933805076227012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crouch Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +505,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5180933805035371846}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &5180933805076227012
 CapsuleCollider:
@@ -502,7 +532,7 @@ GameObject:
   - component: {fileID: 5180933806168446249}
   - component: {fileID: 5180933806168446263}
   - component: {fileID: 5180933806168446262}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +551,7 @@ Transform:
   m_LocalScale: {x: 1.3055892, y: 1.0277802, z: 1.2373446}
   m_Children: []
   m_Father: {fileID: 5180933805035371846}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5180933806168446263
 MeshFilter:
@@ -583,7 +613,7 @@ GameObject:
   - component: {fileID: 5180933806205810559}
   - component: {fileID: 5180933806205810556}
   - component: {fileID: 5180933806205810557}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Normal State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5180933806737241492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,7 +732,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5180933805035371846}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7810285769904864452
 GameObject:
@@ -713,7 +743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1867096773515811550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,5 +763,5 @@ Transform:
   m_Children:
   - {fileID: 3738368296256267899}
   m_Father: {fileID: 5180933805035371846}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -18,16 +18,23 @@ public class EnemyScript : MonoBehaviour
      * This script will detect if the condition of detecting met
      * and will communicated to IdleState -> Chase State -> etc.
      */
-    
+
     #region Variable
+    const string LEFT = "left";
+    const string RIGHT = "right";
+
+    string facingDir;
+
     public Transform _player;
-    public Transform castPoint;
+    public Transform castPoint; //for enemy sight point
+    [SerializeField] Transform castpos; //for checking the wall
     public string _playerName;
+    [SerializeField] float basecastDistance;
     public float Detectrange;
     public float moveSpeed;
     public bool isDetectingPlayer;
-    public bool isSearching;
-    public bool isFacingRight;
+
+    Vector2 baseScale;
 
     public Rigidbody rb;
     public Animator anim;
@@ -35,6 +42,9 @@ public class EnemyScript : MonoBehaviour
 
     private void Start()
     {
+        baseScale = transform.localScale;
+        facingDir = RIGHT;
+
         //Get the rigidbody component
         rb = GetComponent<Rigidbody>();
         //Find the player transform component automatically
@@ -51,19 +61,29 @@ public class EnemyScript : MonoBehaviour
         detectPlayer();
     }
 
+    private void FixedUpdate()
+    {
+        
+    }
+
     #region Player Detection
     //This will detect the player in sight of the enemy
     bool canSeePlayer(float distance)
     {
         var castDist = distance;
 
-        if (isFacingRight == false)
+        if (facingDir == RIGHT)
+        {
+            castDist = distance;
+        }
+        else
         {
             castDist = -distance;
         }
 
         Vector3 endpos = castPoint.position + Vector3.right * castDist;
         RaycastHit hit;
+        Debug.DrawLine(castPoint.position, endpos, Color.red); //This is not consequential, just for knowning raycast
         return Physics.Linecast(castPoint.position, endpos, out hit, 1 << LayerMask.NameToLayer("Player"));
     }
 
@@ -91,36 +111,128 @@ public class EnemyScript : MonoBehaviour
     #endregion
 
     #region enemy movement
+    // Below are functions to set up player movement and physics
     public void chasePlayer()
     {
         /* NOTE: why right is transform.position < player transform.position
          * is because it moves along on the XY coordinate, left means negative while right means positive
          */
-        
+        float ChaseSpeed = moveSpeed * 2; //Calculate to a more faster speed when chasing the player
+
         //When the player position is on the right side of the enemy
         if (transform.position.x < _player.position.x)
         {
             //move to the right side
-            rb.velocity = new Vector2(EnemyScript.instance.moveSpeed, 0);
-            transform.localScale = new Vector2(1, 1);
-            isFacingRight = true;
+            rb.velocity = new Vector2(ChaseSpeed, rb.velocity.y);
+            ChangeFacingDirection(RIGHT);
         }
         //When the player position is on the right side of the enemy
         else if (transform.position.x > _player.position.x)
         {
             //move to the left side
-            rb.velocity = new Vector2(-EnemyScript.instance.moveSpeed, 0);
-            transform.localScale = new Vector2(-1, 1);
-            isFacingRight = false;
+            rb.velocity = new Vector2(-ChaseSpeed, rb.velocity.y);
+            ChangeFacingDirection(LEFT);
         }
         //Kedua kondisi tetap jalankan animasi enemy run
-        anim.Play("EnemyRun");
+        anim.Play("EnemyRunFaster");
     }
 
-    public void StopChase()
+    public void PatrolMovement()
     {
-        rb.velocity = Vector2.zero;
-        anim.Play("EnemyIdle");
+        float vK = moveSpeed;
+
+        if (facingDir == LEFT)
+        {
+            vK = -moveSpeed;
+        }
+        rb.velocity = new Vector2(vK, rb.velocity.y);
+        anim.Play("EnemyRun");
+
+        if (isHittingTheWall() || isOnEdge())
+        {
+            if (facingDir == LEFT)
+            {
+                ChangeFacingDirection(RIGHT);
+            }
+            else if (facingDir == RIGHT)
+            {
+                ChangeFacingDirection(LEFT);
+            }
+            Debug.Log("Hitting wall");
+        }
+    }
+
+    void ChangeFacingDirection(string newDir)
+    {
+        Vector2 newScale = baseScale;
+        if(newDir == LEFT)
+        {
+            newScale = new Vector2(-1, 1);
+        }
+        else if(newDir == RIGHT)
+        {
+            newScale = baseScale;
+        }
+
+        transform.localScale = newScale;
+        facingDir = newDir;
+    }
+
+    bool isHittingTheWall()
+    {
+        bool val = false;
+
+        float castDist = basecastDistance;
+
+        //Define the cast distance for left and right
+        if(facingDir == LEFT)
+        {
+            castDist = -basecastDistance;
+        }
+        else
+        {
+            castDist = basecastDistance;
+        }
+
+        //determine the target destination based on cast distance
+        Vector3 targetpos = castpos.position;
+        targetpos.x += castDist;
+
+        Debug.DrawLine(castpos.position, targetpos, Color.red);
+
+        if(Physics.Linecast(castpos.position, targetpos, 1 << LayerMask.NameToLayer("Ground")))
+        {
+            val = true;
+        }
+        else
+        {
+            val = false;
+        }
+
+        return val;
+    }
+    bool isOnEdge()
+    {
+        bool val = false;
+
+        float castDist = basecastDistance;
+
+        //determine the target destination based on cast distance
+        Vector3 targetpos = castpos.position;
+        targetpos.y -= castDist;
+
+        Debug.DrawLine(castpos.position, targetpos, Color.red);
+
+        if (Physics.Linecast(castpos.position, targetpos, 1 << LayerMask.NameToLayer("Ground")))
+        {
+            val = false;
+        }
+        else
+        {
+            val = true;
+        }
+
+        return val;
     }
     #endregion
 }
