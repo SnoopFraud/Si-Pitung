@@ -6,7 +6,8 @@ public class PlayerAnim : MonoBehaviour
 {
     public static PlayerAnim instance;
     public Animator Animation;
-    [SerializeField] private string[] AnimName;
+    public string[] AnimAttackName; //Simpan nama dari animasi
+    public string DashAnim;
 
     private Rigidbody rb;
 
@@ -24,7 +25,7 @@ public class PlayerAnim : MonoBehaviour
     void BasicMovement()
     {
         //Jump Animation
-        Animation.SetBool("onGround", PlayerInput.instance.isGrounded());
+        Animation.SetBool("onGround", PlayerInput.instance.IsGrounded());
         //Crouch Animation
         Animation.SetBool("Crouch", PlayerVar.crouching);
         //Set the Speed

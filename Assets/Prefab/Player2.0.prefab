@@ -267,7 +267,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 5180933806205810557}
-  AnimName: []
+  AnimAttackName:
+  - Player_Attack1
+  - Player_Attack2
+  - Player_Attack3
+  DashAnim: 
 --- !u!114 &1858734088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +334,8 @@ MonoBehaviour:
   atkpoint: {fileID: 3738368296256267899}
   atkrange: 0.68
   Player: {fileID: 5180933805035371846}
+  dashCooldown: 0
+  trailRenderer: {fileID: 0}
 --- !u!114 &7927715423562065520
 MonoBehaviour:
   m_ObjectHideFlags: 0

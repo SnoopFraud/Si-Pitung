@@ -13,40 +13,44 @@ public enum ComboState
 
 public class CombatInput : MonoBehaviour
 {
-    #region Variable
+    #region Variables
     public static CombatInput instance;
 
-    public LayerMask EnemyLayers;
-    public Transform atkpoint;
+    public LayerMask enemyLayers;
+    public Transform attackPoint;
 
-    public float atkrange = 0.5f;
+    public float attackRange = 0.5f;
 
-    //to Push
-    public Transform Player;
+    // Push variables
+    public Transform player;
     private Rigidbody rb;
 
-    //Combo stuffs
+    // Combo stuff
     private ComboState currentComboState;
     private float currentComboTimer;
-    private float defaultComboTime = 0.5f;
+    private float defaultComboTime = 0.7f;
     private bool activateReseter;
     private float attackCooldown = 1f;
+
+    // Dashing
+    public float dashCooldown;
+    private int enemyLayerNumber = 7;
+
+    // Trail renderer
+    [SerializeField] private TrailRenderer trailRenderer;
     #endregion
 
     private void Awake()
     {
         instance = this;
+        rb = GetComponent<Rigidbody>();
+        trailRenderer = GetComponent<TrailRenderer>();
     }
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-
-        //For Combo Starter
-        currentComboTimer = defaultComboTime;
-        currentComboState = ComboState.None;
-        PlayerVar.isAttacking = false;
-        PlayerVar.onAtkCooldown = false;
+        InitializeCombo();
+        InitializeDashing();
     }
 
     private void Update()
@@ -54,101 +58,75 @@ public class CombatInput : MonoBehaviour
         ResetCombo();
     }
 
-    #region Combat
-    public void AttackControl(InputAction.CallbackContext combat)
+    #region Combat Actions
+    public void ComboAttack()
     {
-        //Every time the button pressed logic, don't block it using ComboState.None
-        if (combat.performed)
-        {
-            //Ground attack
-            if(!PlayerVar.onAtkCooldown && PlayerInput.instance.isGrounded())
-            {
-                //Do the attack
-                //every press will continue the chain until attack 3
-                ComboAttack();
-            }
-            //Air attack
-            if (!PlayerVar.onAtkCooldown && !PlayerInput.instance.isGrounded())
-            {
-                //Do the attack
-                AirAttack();
-            }
-        }
-
-    }
-
-    void ComboAttack()
-    {
-        //Melakukan performa combo terakhir
         if (currentComboState == ComboState.Attack3)
-        {
             return;
-        }
 
-        currentComboState++; //Adding enum after each combo
+        currentComboState++;
         PlayerVar.isAttacking = true;
-        activateReseter = true; //Timer is on when combo is active
-        currentComboTimer = defaultComboTime; //counting combo time from the default the combo start
+        activateReseter = true;
+        currentComboTimer = defaultComboTime;
+        PlayerInput.instance._moveSpeed = 0;
 
-        /* Each Combo will give different damage
-         * Attack 1 = 5 DMG
-         * Attack 2 = 10 DMG
-         * Attack 3 = 15 DMG
-         */
+        int damage = GetComboDamage();
 
         switch (currentComboState)
         {
-            /*Each case attack process
-             * 1. do the attack (damage, play animation)
-             * 2. Attack 1 stops player to move
-             * 3. Attack 3 will activate the cooldown
-             */
             case ComboState.Attack1:
-                doAttack(5, "Player_Attack1");
-                StartCoroutine("StopPlayerSpeed");
+                HitEnemies(damage);
+                StartCoroutine(MovePlayerForward(0.1f, 3f));
+                PlayerAnim.instance.AnimationPlay(PlayerAnim.instance.AnimAttackName[0]);
+                Debug.Log("Attack 1");
                 break;
             case ComboState.Attack2:
-                doAttack(10, "Player_Attack2");
-                //Move the player
-                StartCoroutine(MovePlayerForward(0.1f, 3f));
+                HitEnemies(damage);
+                StartCoroutine(MovePlayerForward(0.1f, 20f));
+                PlayerAnim.instance.AnimationPlay(PlayerAnim.instance.AnimAttackName[1]);
+                Debug.Log("Attack 2");
                 break;
             case ComboState.Attack3:
-                doAttack(15, "Player_Attack3");
-                //Move the player further
-                StartCoroutine(MovePlayerForward(0.2f, 5f));
-                //Do Attack cooldown
-                StartCoroutine("AttackCooldown");
+                HitEnemies(damage);
+                StartCoroutine(MovePlayerForward(0.2f, 20f));
+                PlayerAnim.instance.AnimationPlay(PlayerAnim.instance.AnimAttackName[2]);
+                Debug.Log("Attack 3");
+                StartCoroutine(AttackCooldown());
                 break;
         }
     }
-    void AirAttack()
+
+    private int GetComboDamage()
     {
-        doAttack(5, "Player_AirAttack");
-        StartCoroutine("StopPlayerSpeed");
-        StartCoroutine(MovePlayerForward(0.2f, 15f));
-        StartCoroutine("AttackCooldown");
-        StartCoroutine("Attackfalse");
+        switch (currentComboState)
+        {
+            case ComboState.Attack1:
+                return 5;
+            case ComboState.Attack2:
+                return 10;
+            case ComboState.Attack3:
+                return 20;
+            default:
+                return 0;
+        }
     }
 
     private void ResetCombo()
     {
-        //Logic when the combo timer is active
         if (activateReseter)
         {
-            currentComboTimer -= Time.deltaTime; //Timer doing a countdown until reset
+            currentComboTimer -= Time.deltaTime;
 
-            if(currentComboTimer <= 0) //The timer reaches 0
+            if (currentComboTimer <= 0)
             {
-                //Reset the combo back to square one
-                currentComboState = ComboState.None;
+                InitializeCombo();
                 PlayerVar.isAttacking = false;
                 activateReseter = false;
-                currentComboTimer = defaultComboTime;
+                PlayerInput.instance._moveSpeed = PlayerInput.instance.BaseSpeed;
             }
         }
     }
 
-    //Cooldown timer
     private IEnumerator AttackCooldown()
     {
         PlayerVar.onAtkCooldown = true;
@@ -156,51 +134,22 @@ public class CombatInput : MonoBehaviour
         PlayerVar.onAtkCooldown = false;
     }
 
-    //isAttacking to false timer
-    private IEnumerator Attackfalse()
+    private void HitEnemies(int damage)
     {
-        PlayerVar.isAttacking = true;
-        yield return new WaitForSeconds(0.5f);
-        PlayerVar.isAttacking = false;
-    }
+        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
 
-    //Function to intiate attack
-    private void doAttack(int DMG, string AnimName)
-    {
-        //Play Animation
-        PlayerAnim.instance.Animation.Play(AnimName);
-        //Gave enemy damage
-        HitEnemies(DMG);
-    }
-
-    //Function to gave enemy the damage
-    private void HitEnemies(int DMG)
-    {
-        //Detect enemy in the attack range
-        Collider[] hitenemies = Physics.OverlapSphere(atkpoint.position, atkrange, EnemyLayers);
-        //Every enemy that is on the attack range
-        foreach (Collider enemy in hitenemies)
+        foreach (Collider enemy in hitEnemies)
         {
-            //Give enemy the damage
-            enemy.GetComponent<EnemyHealth>().TakeDMG(DMG);
+            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
         }
     }
 
-    private IEnumerator StopPlayerSpeed()
+    public IEnumerator MovePlayerForward(float duration, float speed)
     {
-        //Stop the player
-        PlayerInput.instance._moveSpeed = 0;
-        yield return new WaitForSeconds(0.7f);
-        //Return to proper speed after finishing the attack
-        PlayerInput.instance._moveSpeed = PlayerInput.instance.BaseSpeed;
-    }
+        Vector3 direction = player.right * (PlayerVar.isFacingRight ? 1f : -1f);
+        float elapsedTime = 0f;
 
-    private IEnumerator MovePlayerForward(float duration, float speed)
-    {
-        Vector3 direction = Player.right * (PlayerVar.isFacingRight ? 1f : -1f); // Calculate the movement direction
-        float elapsedTime = 0f; //calculate the time
-
-        while(elapsedTime < duration)
+        while (elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
@@ -208,15 +157,52 @@ public class CombatInput : MonoBehaviour
             yield return null;
         }
     }
+
+    public IEnumerator PerformDash()
+    {
+        PlayerVar.CanDash = false;
+        PlayerVar.isDashing = true;
+        PlayerInput.instance._moveSpeed = 0;
+
+        Physics.IgnoreLayerCollision(gameObject.layer, enemyLayerNumber, true);
+        trailRenderer.emitting = true;
+
+        PlayerAnim.instance.AnimationPlay(PlayerAnim.instance.DashAnim);
+
+        yield return new WaitForSeconds(dashCooldown);
+
+        Physics.IgnoreLayerCollision(gameObject.layer, enemyLayerNumber, false);
+        trailRenderer.emitting = false;
+
+        PlayerInput.instance._moveSpeed = PlayerInput.instance.BaseSpeed;
+        PlayerVar.isDashing = false;
+        PlayerVar.CanDash = true;
+    }
     #endregion
 
-    //Cuman biar tau dimana posisi atk damagenya
+    #region Initialization
+    private void InitializeCombo()
+    {
+        currentComboState = ComboState.None;
+        currentComboTimer = defaultComboTime;
+        PlayerVar.isAttacking = false;
+        PlayerVar.onAtkCooldown = false;
+    }
+
+    private void InitializeDashing()
+    {
+        PlayerVar.CanDash = true;
+        PlayerVar.isDashing = false;
+        trailRenderer.emitting = false;
+    }
+    #endregion
+
+    // Draw the attack range for visualization purposes
     private void OnDrawGizmosSelected()
     {
-        if (atkpoint == null)
+        if (attackPoint == null)
             return;
 
-        Gizmos.DrawWireSphere(atkpoint.position, atkrange);
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
-

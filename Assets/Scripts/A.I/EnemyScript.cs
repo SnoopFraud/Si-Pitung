@@ -235,4 +235,8 @@ public class EnemyScript : MonoBehaviour
         return val;
     }
     #endregion
+
+    #region Enemy Attack
+
+    #endregion
 }

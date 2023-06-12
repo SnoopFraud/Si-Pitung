@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
     }
 
     #region health
-    public void TakeDMG(int damage)
+    public void TakeDamage(int damage)
     {
         currenthealth -= damage;
         Debug.Log("Enemy HP: " + currenthealth);
