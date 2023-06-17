@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: b51b27301b5e85748b7ef0984a79b234
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8953350147858572951
+    second: premanrun_0
+  - first:
+      213: -5819818620542375963
+    second: premanrun_1
+  - first:
+      213: -719439936795853096
+    second: premanrun_2
+  - first:
+      213: 1927718279055454174
+    second: premanrun_3
+  - first:
+      213: 2852003942475548281
+    second: premanrun_4
+  - first:
+      213: 6616283314301460064
+    second: premanrun_5
+  - first:
+      213: -2064753831917608235
+    second: premanrun_6
+  - first:
+      213: -4250602945675877503
+    second: premanrun_7
+  - first:
+      213: 5045996931983159542
+    second: premanrun_8
+  - first:
+      213: -1028388206446675687
+    second: premanrun_9
+  - first:
+      213: -791944682874618084
+    second: premanrun_10
+  - first:
+      213: 2834083003818220555
+    second: premanrun_11
+  - first:
+      213: -6653087487717147519
+    second: premanrun_12
+  - first:
+      213: 739947204772551506
+    second: premanrun_13
+  - first:
+      213: -1561415693533512512
+    second: premanrun_14
+  - first:
+      213: -9207307204197702984
+    second: premanrun_15
+  - first:
+      213: -5960292183062775722
+    second: premanrun_16
+  - first:
+      213: 5875176137836709764
+    second: premanrun_17
+  - first:
+      213: 726401984802837195
+    second: premanrun_18
+  - first:
+      213: 7408456903883052086
+    second: premanrun_19
+  - first:
+      213: 8598798082828782279
+    second: premanrun_20
+  - first:
+      213: -7758318112377550771
+    second: premanrun_21
+  - first:
+      213: -6770523861993541866
+    second: premanrun_22
+  - first:
+      213: -5533325432831348674
+    second: premanrun_23
+  - first:
+      213: -2275317370077807471
+    second: premanrun_24
+  - first:
+      213: 8193275873053523582
+    second: premanrun_25
+  - first:
+      213: -5276337652871068649
+    second: premanrun_26
+  - first:
+      213: 86582125959988291
+    second: premanrun_27
+  - first:
+      213: 4319217254584212086
+    second: premanrun_28
+  - first:
+      213: 5822958029680415385
+    second: premanrun_29
+  - first:
+      213: -5982829549913081660
+    second: premanrun_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: premanrun_0
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4218
+        width: 465
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7962dc8c580b04c70800000000000000
+      internalID: 8953350147858572951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_1
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 4214
+        width: 460
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e72e51acc9db3fa0800000000000000
+      internalID: -5819818620542375963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_2
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 4207
+        width: 443
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8debd0270390406f0800000000000000
+      internalID: -719439936795853096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_3
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 4198
+        width: 416
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa022bf81a0ca10800000000000000
+      internalID: 1927718279055454174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_4
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 4190
+        width: 379
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976c441a97a549720800000000000000
+      internalID: 2852003942475548281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_5
+      rect:
+        serializedVersion: 2
+        x: 5315
+        y: 4176
+        width: 351
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e584aae92c1db50800000000000000
+      internalID: 6616283314301460064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_6
+      rect:
+        serializedVersion: 2
+        x: 6322
+        y: 4166
+        width: 344
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ace354558853e0800000000000000
+      internalID: -2064753831917608235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_7
+      rect:
+        serializedVersion: 2
+        x: 7323
+        y: 4163
+        width: 341
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183a2cd3423d205c0800000000000000
+      internalID: -4250602945675877503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 3161
+        width: 315
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0319c897bf60640800000000000000
+      internalID: 5045996931983159542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_9
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 3151
+        width: 275
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9197b87ff5e6ab1f0800000000000000
+      internalID: -1028388206446675687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_10
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 3155
+        width: 352
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fbf7fb1827205f0800000000000000
+      internalID: -791944682874618084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_11
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 3171
+        width: 423
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c9e82f97fa45720800000000000000
+      internalID: 2834083003818220555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_12
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 3194
+        width: 464
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cf503fd2c7ba3a0800000000000000
+      internalID: -6653087487717147519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_13
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 3218
+        width: 482
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bd205ff02d44a00800000000000000
+      internalID: 739947204772551506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_14
+      rect:
+        serializedVersion: 2
+        x: 6268
+        y: 3233
+        width: 488
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf63013bcb45ae0800000000000000
+      internalID: -1561415693533512512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_15
+      rect:
+        serializedVersion: 2
+        x: 7269
+        y: 3235
+        width: 488
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a6e351e2193080800000000000000
+      internalID: -9207307204197702984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2231
+        width: 488
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6587107a6d9c84da0800000000000000
+      internalID: -5960292183062775722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_17
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2218
+        width: 483
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487cb90c191d88150800000000000000
+      internalID: 5875176137836709764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_18
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 2193
+        width: 463
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2df4ca1c2b41a00800000000000000
+      internalID: 726401984802837195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_19
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 2170
+        width: 422
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6345db96d4020d660800000000000000
+      internalID: 7408456903883052086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_20
+      rect:
+        serializedVersion: 2
+        x: 4358
+        y: 2153
+        width: 351
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cac1564c41155770800000000000000
+      internalID: 8598798082828782279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_21
+      rect:
+        serializedVersion: 2
+        x: 5398
+        y: 2145
+        width: 275
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48c14938cae45490800000000000000
+      internalID: -7758318112377550771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_22
+      rect:
+        serializedVersion: 2
+        x: 6357
+        y: 2155
+        width: 315
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fa1965b644a02a0800000000000000
+      internalID: -6770523861993541866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_23
+      rect:
+        serializedVersion: 2
+        x: 7323
+        y: 2172
+        width: 341
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30f37de5dda533b0800000000000000
+      internalID: -5533325432831348674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_24
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1175
+        width: 344
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7c3538e27c60e0800000000000000
+      internalID: -2275317370077807471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_25
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1184
+        width: 352
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e32282ffc54b170800000000000000
+      internalID: 8193275873053523582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_26
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 1198
+        width: 379
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7140a952cdea6c6b0800000000000000
+      internalID: -5276337652871068649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_27
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 1206
+        width: 416
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3444ebd1cf9933100800000000000000
+      internalID: 86582125959988291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_28
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 1209
+        width: 444
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ada377531f0fb30800000000000000
+      internalID: 4319217254584212086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_29
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 1220
+        width: 460
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9921c150a7d4fc050800000000000000
+      internalID: 5822958029680415385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanrun_30
+      rect:
+        serializedVersion: 2
+        x: 6246
+        y: 1219
+        width: 465
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c878b50938b8fca0800000000000000
+      internalID: -5982829549913081660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    PlayerHealth instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public int MaxHealth = 100;
     public int CurrentHealth;
-
-    bool isInvincible = false;
-    [SerializeField]
-    private float InvinsibilitySeconds;
-    [SerializeField]
-    private float InvisibilityDeltaTime;
 
     public HealthScript healthbar;
 
@@ -38,9 +39,9 @@ public class PlayerHealth : MonoBehaviour
         //Debug.Log(CurrentHealth);
     }
 
-    void takeDamage(int damage)
+    public void takeDamage(int damage)
     {
-        if (!PlayerVar.isAttacking)
+        if (!PlayerVar.isAttacking) //Oh yeah, ini biar gk kena damage ketika collide dengan enemy
         {
             CurrentHealth -= damage;
         }
@@ -50,29 +51,4 @@ public class PlayerHealth : MonoBehaviour
     {
         CurrentHealth += health;
     }
-
-    private IEnumerator TempInvulnerability()
-    {
-        //Make player invulnerable for a limited amount of time
-        Debug.Log("Player is Invincible"); isInvincible = true;
-
-        for(float i = 0; i<InvinsibilitySeconds; i += InvisibilityDeltaTime)
-        {
-            yield return new WaitForSeconds(InvinsibilitySeconds);
-        }
-
-        isInvincible = false; Debug.Log("Player is No Longer Invincible");
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        //take damage ketika kontak dg enemy
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            takeDamage(20);
-        }
-    }
-
-    
-
 }

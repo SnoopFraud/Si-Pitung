@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: ee944089c61b4d34389ed82b9507e216
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8135296557073250446
+    second: premanidle_0
+  - first:
+      213: -6889523933662172559
+    second: premanidle_1
+  - first:
+      213: -887956531543767861
+    second: premanidle_2
+  - first:
+      213: -1727761471755278256
+    second: premanidle_3
+  - first:
+      213: -2318741310983978911
+    second: premanidle_4
+  - first:
+      213: 7198247799235048895
+    second: premanidle_5
+  - first:
+      213: -2133439647184959594
+    second: premanidle_6
+  - first:
+      213: -6613608133819202553
+    second: premanidle_7
+  - first:
+      213: -5395356956337922748
+    second: premanidle_8
+  - first:
+      213: 7179743442662921219
+    second: premanidle_9
+  - first:
+      213: -8594404917385028317
+    second: premanidle_10
+  - first:
+      213: 6732913865394311407
+    second: premanidle_11
+  - first:
+      213: 301717348830141775
+    second: premanidle_12
+  - first:
+      213: 7857127010262118664
+    second: premanidle_13
+  - first:
+      213: -5140199046186961115
+    second: premanidle_14
+  - first:
+      213: 8531665305677738052
+    second: premanidle_15
+  - first:
+      213: 1917488615798151472
+    second: premanidle_16
+  - first:
+      213: -1842372166818419711
+    second: premanidle_17
+  - first:
+      213: 7886904180750420323
+    second: premanidle_18
+  - first:
+      213: 6718617486174293299
+    second: premanidle_19
+  - first:
+      213: -4593293812684478725
+    second: premanidle_20
+  - first:
+      213: 1239170378303488181
+    second: premanidle_21
+  - first:
+      213: -8846713572505243258
+    second: premanidle_22
+  - first:
+      213: -1580121074096148832
+    second: premanidle_23
+  - first:
+      213: 1875558215689951891
+    second: premanidle_24
+  - first:
+      213: -1620282127656033302
+    second: premanidle_25
+  - first:
+      213: -8080645042608421301
+    second: premanidle_26
+  - first:
+      213: 4792958560812633492
+    second: premanidle_27
+  - first:
+      213: 4279874029249696068
+    second: premanidle_28
+  - first:
+      213: 2032884335273949227
+    second: premanidle_29
+  - first:
+      213: -712394728933862820
+    second: premanidle_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: premanidle_0
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 4174
+        width: 339
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277c03d42ee991f80800000000000000
+      internalID: -8135296557073250446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_1
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 4168
+        width: 339
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aa38e0c7e7360a0800000000000000
+      internalID: -6889523933662172559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_2
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 4170
+        width: 341
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc488593d385da3f0800000000000000
+      internalID: -887956531543767861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_3
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 4172
+        width: 341
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058ab637812c508e0800000000000000
+      internalID: -1727761471755278256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_4
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 4171
+        width: 343
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c6c8101d22dfd0800000000000000
+      internalID: -2318741310983978911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_5
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 4167
+        width: 345
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb574a64c3055e360800000000000000
+      internalID: 7198247799235048895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_6
+      rect:
+        serializedVersion: 2
+        x: 6319
+        y: 4170
+        width: 347
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974ecfb1ff7462e0800000000000000
+      internalID: -2133439647184959594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_7
+      rect:
+        serializedVersion: 2
+        x: 7318
+        y: 4169
+        width: 349
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048214517eb734a0800000000000000
+      internalID: -6613608133819202553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3168
+        width: 352
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d9b0d1f67df15b0800000000000000
+      internalID: -5395356956337922748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_9
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 3165
+        width: 354
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041d560f9293a360800000000000000
+      internalID: 7179743442662921219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_10
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 3161
+        width: 356
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d1563434a8ab880800000000000000
+      internalID: -8594404917385028317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_11
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 3160
+        width: 357
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe05122fc7d107d50800000000000000
+      internalID: 6732913865394311407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_12
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 3163
+        width: 360
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dd797845aef2400800000000000000
+      internalID: 301717348830141775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_13
+      rect:
+        serializedVersion: 2
+        x: 5314
+        y: 3165
+        width: 360
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801fcc1136f1a0d60800000000000000
+      internalID: 7857127010262118664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_14
+      rect:
+        serializedVersion: 2
+        x: 6310
+        y: 3164
+        width: 361
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527793193385aa8b0800000000000000
+      internalID: -5140199046186961115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_15
+      rect:
+        serializedVersion: 2
+        x: 7310
+        y: 3164
+        width: 361
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440327f8460966670800000000000000
+      internalID: 8531665305677738052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2164
+        width: 361
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039118d9cb94c9a10800000000000000
+      internalID: 1917488615798151472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_17
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2165
+        width: 360
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ca8bc86449e66e0800000000000000
+      internalID: -1842372166818419711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_18
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 2165
+        width: 359
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3690c27d099e37d60800000000000000
+      internalID: 7886904180750420323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_19
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 2165
+        width: 358
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d8525c1035d3d50800000000000000
+      internalID: 6718617486174293299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_20
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 2166
+        width: 355
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf621f91d975140c0800000000000000
+      internalID: -4593293812684478725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_21
+      rect:
+        serializedVersion: 2
+        x: 5315
+        y: 2167
+        width: 354
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b047f6c4ea623110800000000000000
+      internalID: 1239170378303488181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_22
+      rect:
+        serializedVersion: 2
+        x: 6319
+        y: 2165
+        width: 352
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b231b0e82a3580800000000000000
+      internalID: -8846713572505243258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_23
+      rect:
+        serializedVersion: 2
+        x: 7318
+        y: 2166
+        width: 349
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee3644148421ae0800000000000000
+      internalID: -1580121074096148832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1170
+        width: 347
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad3c19242570a10800000000000000
+      internalID: 1875558215689951891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_25
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1170
+        width: 345
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e5215df99389e0800000000000000
+      internalID: -1620282127656033302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_26
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1170
+        width: 343
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46cd479528cbdf80800000000000000
+      internalID: -8080645042608421301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_27
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1170
+        width: 341
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d8768ba62048240800000000000000
+      internalID: 4792958560812633492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_28
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 1171
+        width: 341
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44119dcf0ca256b30800000000000000
+      internalID: 4279874029249696068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_29
+      rect:
+        serializedVersion: 2
+        x: 5324
+        y: 1173
+        width: 339
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b5714881463c10800000000000000
+      internalID: 2032884335273949227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanidle_30
+      rect:
+        serializedVersion: 2
+        x: 6327
+        y: 1174
+        width: 339
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52590ab4c01d16f0800000000000000
+      internalID: -712394728933862820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

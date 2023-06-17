@@ -11,17 +11,22 @@ public class IdleState : States
     }
 
     public ChaseState chaseState;
+    public PatrolState patrolState;
 
     public override States RunCurrentState()
     {
-        if (EnemyScript.instance.isDetectingPlayer)
+        if (!EnemyScript.instance.isIdle)
         {
+            return patrolState;
+        }
+        else if (EnemyScript.instance.isDetectingPlayer)
+        {
+            EnemyScript.instance.isIdle = false;
             return chaseState;
         }
         else
         {
-            EnemyScript.instance.PatrolMovement(); // 1. Idle animation transition to patrol
-            // 2. Then do some patrol
+            StartCoroutine(EnemyScript.instance.StoppingMovement());
             return this;
         }
     }

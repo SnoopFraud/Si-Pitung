@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolState : MonoBehaviour
+public class PatrolState : States
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public IdleState IdleState;
+    public ChaseState chaseState;
 
-    // Update is called once per frame
-    void Update()
+    public override States RunCurrentState()
     {
-        
+        if (EnemyScript.instance.isDetectingPlayer)
+        {
+            return chaseState;
+        }
+        else if (EnemyScript.instance.isIdle)
+        {
+            return IdleState;
+        }
+        else
+        {
+            //Do some patrol
+            EnemyScript.instance.PatrolMovement();
+            return this;
+        }
     }
 }

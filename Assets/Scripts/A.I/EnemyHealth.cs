@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -15,15 +16,24 @@ public class EnemyHealth : MonoBehaviour
         currenthealth = maxhealth;
     }
 
+    private void Update()
+    {
+        
+    }
+
     #region health
     public void TakeDamage(int damage)
     {
         currenthealth -= damage;
-        Debug.Log("Enemy HP: " + currenthealth);
+        
         //Die
         if(currenthealth <= 0)
         {
             Die();
+        }
+        else
+        {
+            Debug.Log("Enemy HP: " + currenthealth);
         }
     }
 

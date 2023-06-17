@@ -13,7 +13,7 @@ public class Coin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreUI = GameObject.Find("/Canvas/Scoring");    
+        ScoreUI = GameObject.Find("/Canvas/Player UI/Scoring");    
     }
 
     public void GiveScore()
@@ -27,9 +27,9 @@ public class Coin : MonoBehaviour
         //Debug.Log("Score is " + ScoreUI.name);
     }
 
-    private void OnCollisionEnter(Collision contactwith)
+    private void OnTriggerEnter(Collider other)
     {
-        if(contactwith.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
             GiveScore();

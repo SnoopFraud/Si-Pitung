@@ -12,7 +12,7 @@ public class HealthItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerHealth = GameObject.Find("/Player2.0");
+        PlayerHealth = GameObject.FindGameObjectWithTag("Player");
     }
 
     void giveHealth()

@@ -30,7 +30,7 @@ public class CombatInput : MonoBehaviour
     private float currentComboTimer;
     private float defaultComboTime = 0.7f;
     private bool activateReseter;
-    private float attackCooldown = 1f;
+    [SerializeField] private float attackCooldown;
 
     // Dashing
     public float dashCooldown;
@@ -62,7 +62,7 @@ public class CombatInput : MonoBehaviour
     public void ComboAttack()
     {
         if (currentComboState == ComboState.Attack3)
-            return;
+            return; //Do a looping
 
         currentComboState++;
         PlayerVar.isAttacking = true;

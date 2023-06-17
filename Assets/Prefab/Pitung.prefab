@@ -187,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8320405006069451599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.098, z: 0}
+  m_LocalPosition: {x: 0, y: -1.271, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8320405007991456670}
@@ -315,10 +315,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: 0.56049055
+  m_Radius: 0.53504753
   m_Height: 1.5181588
   m_Direction: 0
-  m_Center: {x: -0.013028204, y: 0.00083476305, z: 0.29330134}
+  m_Center: {x: -0.013028204, y: -0.24283113, z: 0.29330134}
 --- !u!1 &8320405007991456673
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,15 +548,18 @@ MonoBehaviour:
   crouchcol: {fileID: 8320405007663226140}
   hitbox: {fileID: 4412594741782691312}
   _moveSpeed: 7
-  _jumpForce: 7.5
-  _crouchSpeed: 4
+  jumpForce: 10
+  crouchSpeed: 2
   BaseSpeed: 7
-  movedir: {x: 0, y: 0}
+  gravity: 9.8
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  _groundPoint: {fileID: 8320405006069451596}
-  _horizontalmove: 0
+  groundPoint: {fileID: 8320405006069451596}
+  KnockbackForce: 5
+  KnockbackCounter: 0
+  KnockbackTime: 0.2
+  KnockFromRight: 0
 --- !u!114 &8320405007991456674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,8 +574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 100
   CurrentHealth: 0
-  InvinsibilitySeconds: 0
-  InvisibilityDeltaTime: 0
   healthbar: {fileID: 0}
 --- !u!114 &3791568669372339912
 MonoBehaviour:
@@ -586,14 +587,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818526d00d31a154aa30801356e104f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyLayers:
+  enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  atkpoint: {fileID: 3276114752462676998}
-  atkrange: 0.68
-  Player: {fileID: 8320405007991456670}
+  attackPoint: {fileID: 540152358628989091}
+  attackRange: 0.5
+  player: {fileID: 8320405007991456670}
   dashCooldown: 0.5
-  trailRenderer: {fileID: 0}
+  trailRenderer: {fileID: 4568549305770017890}
 --- !u!114 &6528738079036479656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,7 +648,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6528738079036479671}
         m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
-        m_MethodName: jump
+        m_MethodName: Jump
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -703,7 +704,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6528738079036479671}
         m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
-        m_MethodName: crouch
+        m_MethodName: Crouch
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

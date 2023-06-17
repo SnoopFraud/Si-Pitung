@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 5d90663ac0039f34c8fc90867676e465
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1739686589328341562
+    second: premanattack_0
+  - first:
+      213: 1621644675097154098
+    second: premanattack_1
+  - first:
+      213: -2219360511173333489
+    second: premanattack_2
+  - first:
+      213: -4311860510484685393
+    second: premanattack_3
+  - first:
+      213: 2300299087687307790
+    second: premanattack_4
+  - first:
+      213: -4079873806224785774
+    second: premanattack_5
+  - first:
+      213: -544283189606604237
+    second: premanattack_6
+  - first:
+      213: -6238460360829112388
+    second: premanattack_7
+  - first:
+      213: 8119391587038135590
+    second: premanattack_8
+  - first:
+      213: -2296842244050004920
+    second: premanattack_9
+  - first:
+      213: 629635433876774053
+    second: premanattack_10
+  - first:
+      213: 995293380008504753
+    second: premanattack_11
+  - first:
+      213: 9040510030369634623
+    second: premanattack_12
+  - first:
+      213: -1849880176163394405
+    second: premanattack_13
+  - first:
+      213: -1003084153455861804
+    second: premanattack_14
+  - first:
+      213: 3951589460326144921
+    second: premanattack_15
+  - first:
+      213: 5807355906082376245
+    second: premanattack_16
+  - first:
+      213: -2629642067057824287
+    second: premanattack_17
+  - first:
+      213: 3753440162655124568
+    second: premanattack_18
+  - first:
+      213: 5112162042738842845
+    second: premanattack_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: premanattack_0
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4180
+        width: 367
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a3d695cbb942810800000000000000
+      internalID: 1739686589328341562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_1
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 4180
+        width: 365
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d11b7d3d318610800000000000000
+      internalID: 1621644675097154098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_2
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 4184
+        width: 359
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eebfeaf5f3331e0800000000000000
+      internalID: -2219360511173333489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_3
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 4184
+        width: 348
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad968ff5b13924c0800000000000000
+      internalID: -4311860510484685393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_4
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 4181
+        width: 335
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02d1ce25dd4cef10800000000000000
+      internalID: 2300299087687307790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_5
+      rect:
+        serializedVersion: 2
+        x: 5346
+        y: 4179
+        width: 334
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29efc8ba3606167c0800000000000000
+      internalID: -4079873806224785774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_6
+      rect:
+        serializedVersion: 2
+        x: 6348
+        y: 4176
+        width: 335
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3322842a2515278f0800000000000000
+      internalID: -544283189606604237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_7
+      rect:
+        serializedVersion: 2
+        x: 7340
+        y: 4176
+        width: 352
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfec67ca598c69a0800000000000000
+      internalID: -6238460360829112388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3179
+        width: 388
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62504b941afdda070800000000000000
+      internalID: 8119391587038135590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_9
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 3184
+        width: 407
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d942f52aff10e0800000000000000
+      internalID: -2296842244050004920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_10
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 3184
+        width: 395
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac5936571aecb800800000000000000
+      internalID: 629635433876774053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_11
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 3184
+        width: 362
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd64ba4e0effcd00800000000000000
+      internalID: 995293380008504753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_12
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 3184
+        width: 393
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39b98459f7567d70800000000000000
+      internalID: 9040510030369634623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_13
+      rect:
+        serializedVersion: 2
+        x: 5340
+        y: 3184
+        width: 429
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c6eb6e7c7e356e0800000000000000
+      internalID: -1849880176163394405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_14
+      rect:
+        serializedVersion: 2
+        x: 6346
+        y: 3184
+        width: 427
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df9079e6445412f0800000000000000
+      internalID: -1003084153455861804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_15
+      rect:
+        serializedVersion: 2
+        x: 7342
+        y: 3179
+        width: 404
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bdae08dadd6d630800000000000000
+      internalID: 3951589460326144921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2184
+        width: 392
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a8e4a8d6fd79050800000000000000
+      internalID: 5807355906082376245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_17
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 2181
+        width: 392
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed2892f872a18bd0800000000000000
+      internalID: -2629642067057824287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_18
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2184
+        width: 391
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c3ebcf0f5e61430800000000000000
+      internalID: 3753440162655124568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: premanattack_19
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2180
+        width: 393
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc1fafda4c02f640800000000000000
+      internalID: 5112162042738842845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
