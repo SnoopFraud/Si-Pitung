@@ -40,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Die");
-        gameObject.SetActive(false);
+        this.gameObject.SetActive(false);
     }
     #endregion
 }

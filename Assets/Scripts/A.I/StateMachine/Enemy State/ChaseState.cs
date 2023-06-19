@@ -22,10 +22,6 @@ public class ChaseState : States
         {
             return patrolState;
         }
-        else if (EnemyScript.instance.isAttackingPlayer)
-        {
-            return AttackState;
-        }
         else if(EnemyScript.instance.isIdle)
         {
             return idleState;

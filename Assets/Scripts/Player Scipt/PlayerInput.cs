@@ -10,12 +10,24 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private CapsuleCollider regularcol, crouchcol;
-    [SerializeField] private GameObject hitbox;
+    [SerializeField] private Transform player;
 
     [Header("Physic Force")]
     public float _moveSpeed, jumpForce, crouchSpeed;
     public float BaseSpeed;
     public float gravity;
+
+    [Header("Dashing Variable")]
+    [SerializeField] private float _dashingVelocity;
+    [SerializeField] private float _dashingTime;
+    [SerializeField] private float CooldownTime;
+    
+    private Vector2 _dashingDir;
+    // Trail renderer
+    [SerializeField] private TrailRenderer trailRenderer;
+    
+    //For attack
+    private Vector2 _attackDir;
 
     [Header("Ground Check")]
     [SerializeField] private LayerMask WhatIsGround;
@@ -32,6 +44,9 @@ public class PlayerInput : MonoBehaviour
     public bool KnockFromRight;
 
     public static PlayerInput instance;
+
+    int PlayerLayer;
+    int enemyLayer;
     #endregion
 
     private void Awake()
@@ -41,15 +56,18 @@ public class PlayerInput : MonoBehaviour
 
     private void Start()
     {
+        //Get Component
+        trailRenderer = GetComponent<TrailRenderer>();
+
+        PlayerLayer = LayerMask.NameToLayer("Player");
+        enemyLayer = LayerMask.NameToLayer("Enemy");
+
         _moveSpeed = BaseSpeed;
     }
 
     private void Update()
     {
-        if (!PlayerVar.isAttacking && !PlayerVar.isDashing)
-        {
-            FlipCharacter();
-        }
+        FlipCharacter();
     }
 
     private void FixedUpdate()
@@ -60,7 +78,7 @@ public class PlayerInput : MonoBehaviour
             rb.AddForce(Vector2.down * gravity, ForceMode.Acceleration);
             
             //Movement speed calculation
-            Vector3 movement = new Vector2(horizontalMove * _moveSpeed, rb.velocity.y);
+            Vector2 movement = new Vector2(horizontalMove * _moveSpeed, rb.velocity.y);
             rb.velocity = movement;
         }
         else
@@ -76,6 +94,53 @@ public class PlayerInput : MonoBehaviour
             }
             KnockbackCounter -= Time.deltaTime;
         }
+
+        if (PlayerVar.isDashing)
+        {
+            rb.velocity = _dashingDir.normalized * _dashingVelocity; //Perform the dash when the condition is true
+            return; //Return to previous function
+        }
+
+        if (PlayerVar.isHitting[0])
+        {
+            //Stop the player
+            rb.velocity = Vector2.zero;
+            return;
+        }
+        else if (PlayerVar.isHitting[1])
+        {
+            //Stop the player
+            rb.velocity = Vector2.zero;
+
+            StartCoroutine(MovePlayerForward(0.1f, 1f));
+            return;
+        }
+        else if (PlayerVar.isHitting[2])
+        {
+            //Stop the player
+            rb.velocity = Vector2.zero;
+
+            StartCoroutine(MovePlayerForward(0.1f, 2f));
+            return;
+        }
+
+        if (IsGrounded() && !PlayerVar.isOnCooldown && rb.velocity.magnitude > 0.1)
+        {
+            PlayerVar.CanDash = true;
+        }
+    }
+
+    private IEnumerator StopDashing()
+    {
+        yield return new WaitForSeconds(_dashingTime);
+        trailRenderer.emitting = false;
+        PlayerVar.isDashing = false;
+        Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, false);
+        
+        //Cooldown time
+        PlayerVar.isOnCooldown = true;
+        yield return new WaitForSeconds(CooldownTime);
+        PlayerVar.isOnCooldown = false;
     }
 
     #region Physics Condition
@@ -87,22 +152,44 @@ public class PlayerInput : MonoBehaviour
 
     private void FlipCharacter()
     {
-        if (!PlayerVar.isFacingRight && horizontalMove > 0f)
+        if (!PlayerVar.isDashing)
         {
-            Flip();
-            hitbox.transform.localPosition = new Vector3(1, 0, 0);
+            if (!PlayerVar.isFacingRight && horizontalMove > 0f)
+            {
+                Flip();
+            }
+            if (PlayerVar.isFacingRight && horizontalMove < 0f)
+            {
+                Flip();
+            }
         }
-        if (PlayerVar.isFacingRight && horizontalMove < 0f)
+    }
+
+    public IEnumerator MovePlayerForward(float duration, float speed)
+    {
+        Vector2 direction = player.right * (PlayerVar.isFacingRight ? 1f : -1f);
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
         {
-            Flip();
-            hitbox.transform.localPosition = new Vector3(-1, 0, 0);
+            elapsedTime += Time.deltaTime;
+            float t = elapsedTime / duration;
+            rb.AddForce(Vector3.Lerp(Vector3.zero, direction * speed, t), ForceMode.VelocityChange);
+            yield return null;
         }
     }
 
     private void Flip()
     {
         PlayerVar.isFacingRight = !PlayerVar.isFacingRight;
-        sr.flipX = !sr.flipX;
+        if (!PlayerVar.isFacingRight)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        } 
+        else if (PlayerVar.isFacingRight)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
     }
     #endregion
 
@@ -167,18 +254,44 @@ public class PlayerInput : MonoBehaviour
 
     public void AttackControl(InputAction.CallbackContext combat)
     {
-        if (combat.performed && !PlayerVar.onAtkCooldown && IsGrounded() && !PlayerVar.crouching)
+        if (combat.performed && IsGrounded() && !PlayerVar.crouching)
         {
-            CombatInput.instance.ComboAttack();
+            if (!PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
+            {
+                PlayerVar.isHitting[0] = true;
+                _attackDir = new Vector2(horizontalMove, 0);
+            } 
+            else if (PlayerVar.isHitting[0])
+            {
+                PlayerVar.isHitting[1] = true;
+            }
+            else if (PlayerVar.isHitting[1])
+            {
+                PlayerVar.isHitting[2] = true;
+            }
+
+            if (_attackDir == Vector2.zero)
+            {
+                _attackDir = new Vector2(transform.localScale.x, 0);
+            }
         }
     }
 
     public void DashMovement(InputAction.CallbackContext dash)
     {
-        if (PlayerVar.CanDash && rb.velocity.magnitude > 0 && !PlayerVar.crouching)
+        if(dash.performed && PlayerVar.CanDash)
         {
-            StartCoroutine(CombatInput.instance.PerformDash());
-            StartCoroutine(CombatInput.instance.MovePlayerForward(0.5f, 10f));
+            PlayerVar.isDashing = true;
+            PlayerVar.CanDash = false;
+            trailRenderer.emitting = true;
+            Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, true);
+            _dashingDir = new Vector2(horizontalMove, 0);
+
+            if (_dashingDir == Vector2.zero)
+            {
+                _dashingDir = new Vector2(transform.localScale.x, 0);
+            }
+            StartCoroutine(StopDashing());
         }
     }
     #endregion

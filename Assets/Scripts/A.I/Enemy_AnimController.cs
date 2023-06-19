@@ -12,8 +12,8 @@ public class Enemy_AnimController : MonoBehaviour
         
     }
 
-    public string[] AnimationName;
-    public Animator anim;
+    public string AttackAnimName;
+    public Animator Animation;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,19 +24,19 @@ public class Enemy_AnimController : MonoBehaviour
     {
         if (!enemy.isIdle)
         {
-            anim.SetInteger("State", 1);
+            Animation.SetInteger("State", 1);
         }
         if (enemy.isIdle)
         {
-            anim.SetInteger("State", 0);
+            Animation.SetInteger("State", 0);
         }
         if (enemy.isDetectingPlayer)
         {
-            anim.SetInteger("State", 2);
+            Animation.SetInteger("State", 2);
         }
-        if (enemy.isAttackingPlayer)
+        if (enemy.inAttackRange)
         {
-            anim.SetInteger("State", 3);
+            Animation.SetInteger("State", 3);
         }
     }
 }

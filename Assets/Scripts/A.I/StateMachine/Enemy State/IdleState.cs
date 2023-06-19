@@ -26,7 +26,7 @@ public class IdleState : States
         }
         else
         {
-            StartCoroutine(EnemyScript.instance.StoppingMovement());
+            //StartCoroutine(EnemyScript.instance.BacktoPatrol());
             return this;
         }
     }

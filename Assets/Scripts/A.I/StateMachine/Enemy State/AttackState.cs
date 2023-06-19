@@ -11,27 +11,7 @@ public class AttackState : States
     public bool isCooldownFinish = false;
 
     public override States RunCurrentState()
-    {
-        if (!EnemyScript.instance.isAttackingPlayer)
-        {
-            return patrolState;
-        }
-        else if(canAttack)
-        {
-            StartCoroutine(AttackCooldown());
-        } 
+    { 
         return this;
-    }
-    private IEnumerator AttackCooldown()
-    {
-        canAttack = false; //disable attack
-
-        // Perform attack action here
-        //EnemyScript.instance.PerformAttack();
-
-        yield return new WaitForSeconds(attackCooldown);
-
-        canAttack = true;
-        EnemyScript.instance.isAttackingPlayer = false;
     }
 }

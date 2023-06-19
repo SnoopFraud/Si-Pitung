@@ -12,9 +12,6 @@ public class PlayerScript : MonoBehaviour
     //Set Direction
     private Vector2 moveDir;
 
-    //Slide Condition
-    private bool isSlide;
-
     //Collider
     public CapsuleCollider regularcol;
     public CapsuleCollider slidecol;
@@ -83,7 +80,7 @@ public class PlayerScript : MonoBehaviour
     void DoSlide()
     {
         //Activate Condition
-        isSlide = true;
+        //isSlide = true;
         //Do Slide Animation
         anim.SetBool("Sliding", true);
         //Turn on Collider
@@ -97,7 +94,7 @@ public class PlayerScript : MonoBehaviour
     {
         //Start countdowm
         yield return new WaitForSeconds(0.8f);
-        isSlide = false;
+        //isSlide = false;
         slidecol.enabled = false;
         regularcol.enabled = true;
         anim.SetBool("Sliding", false);

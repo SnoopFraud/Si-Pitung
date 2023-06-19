@@ -7,12 +7,12 @@ public class PlayerVar : MonoBehaviour
     PlayerVar instance;
 
     //Attack State
-    public static bool isAttacking;
-    public static bool onAtkCooldown;
+    public static bool[] isHitting = new bool[3];
 
     //For Dashing
     public static bool CanDash;
     public static bool isDashing;
+    public static bool isOnCooldown;
 
     //Crouching
     public static bool crouching;

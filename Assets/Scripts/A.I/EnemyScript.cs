@@ -43,16 +43,16 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] private Transform castPoint; //for enemy sight point
     [SerializeField] private Transform WallCheck; //for checking the wall
     [SerializeField] private float DistancetoWall;
-    
-    [HideInInspector] public bool isDetectingPlayer;
+
     public float DetectionRange;
 
-    [HideInInspector] public bool isAttackingPlayer;
-    [HideInInspector] public bool canAttack = true;
     public bool isIdle;
+    public bool isDetectingPlayer;
+
     public float AttackRange;
-    public float attackCooldown = 2f;
-    public bool isCooldownFinish = false;
+    [HideInInspector] public bool inAttackRange;
+
+    private float gravity = 9.8f;
 
     Vector2 baseScale;
 
@@ -61,8 +61,10 @@ public class EnemyScript : MonoBehaviour
 
     private void Start()
     {
-        baseScale = transform.localScale;
+        //Default enemy direction
+        baseScale = transform.localScale; 
         facingDir = RIGHT;
+        //Enemy State starting point
         currentenemystate = EnemyState.Patrol;
 
         //Find the player transform component automatically
@@ -74,79 +76,99 @@ public class EnemyScript : MonoBehaviour
 
     private void Update()
     {
-        //Enemy will detect the player that are within detection range
-        detectPlayer();
+        
     }
 
     private void FixedUpdate()
     {
+        //Apply gravity
+        rb.AddForce(Vector2.down * gravity, ForceMode.Acceleration);
         StateHandler();
     }
 
     #region State Handler
     private void StateHandler()
     {
+        if (!isIdle) //Ketika idle, enemy istirahat dari cari player
+        {
+            //Enemy will detect the player that are within detection range
+            detectPlayer();
+        }
+
+
         //Every state functionality
+        //Kondisi ketika enemy state idle
         if (currentenemystate == EnemyState.Idle)
         {
-            isIdle = true;
-            StartCoroutine(StoppingMovement());
-
-            if (isDetectingPlayer)
-            {
-                currentenemystate = EnemyState.Chase;
-            }
-        }
-        if (currentenemystate == EnemyState.Patrol)
-        {
-            PatrolMovement();
-
-            if (isDetectingPlayer)
-            {
-                currentenemystate = EnemyState.Chase;
-            }
-            if (isIdle)
-            {
-                currentenemystate = EnemyState.Idle;
-            }
-        }
-        if (currentenemystate == EnemyState.Chase)
-        {
-            chasePlayer();
-            AttackRangeDetection();
-
-            if (!isDetectingPlayer)
+            if (!isIdle)
             {
                 currentenemystate = EnemyState.Patrol;
             }
+            else
+            {
+                rb.velocity = Vector2.zero;
+                StartCoroutine(BacktoPatrol());
+            }
+        }
+        //Kondisi ketika enemy state Patrol
+        if (currentenemystate == EnemyState.Patrol)
+        {
             if (isIdle)
             {
                 currentenemystate = EnemyState.Idle;
             }
-            if (isAttackingPlayer)
+            else if (isDetectingPlayer)
+            {
+                currentenemystate = EnemyState.Chase;
+            }
+            else
+            {
+                PatrolMovement(); //NOTE: Ketika menemukan obstacle atau jurang, akan balik ke idle
+                ChangeDirRandom();
+            }
+        }
+        //Kondisi ketika enemy state chase
+        if(currentenemystate == EnemyState.Chase)
+        {
+            if (!isDetectingPlayer)
+            {
+                currentenemystate = EnemyState.Idle; isIdle = true;
+            }
+            else if (inAttackRange)
             {
                 currentenemystate = EnemyState.Attack;
             }
+            else
+            {
+                chasePlayer();
+                AttackRangeDetection();
+            }
         }
-        if (currentenemystate == EnemyState.Attack)
+        //Kondisi ketika enemy state attack
+        if(currentenemystate == EnemyState.Attack)
         {
-            if (canAttack)
+            if (!inAttackRange)
             {
-                StartCoroutine(AttackCooldown());
+                currentenemystate = EnemyState.Chase;
             }
-
-            if (!isAttackingPlayer)
+            else
             {
-                if (isDetectingPlayer)
-                {
-                    currentenemystate = EnemyState.Chase;
-                }
-                else if (!isDetectingPlayer)
-                {
-                    currentenemystate = EnemyState.Patrol;
-                }
+                rb.velocity = Vector2.zero;
+                StartCoroutine(AttackReturn());
             }
         }
+    }
+
+    private IEnumerator BacktoPatrol()
+    {
+        yield return new WaitForSeconds(1f);
+        isIdle = false;
+    }
+
+    private IEnumerator AttackReturn()
+    {
+        yield return new WaitForSeconds(2f);
+        inAttackRange = false;
     }
     #endregion
 
@@ -284,19 +306,22 @@ public class EnemyScript : MonoBehaviour
 
         if (isHittingTheWall() || isOnEdge())
         {
-            currentenemystate = EnemyState.Idle;
             ChangeFacingDirection((facingDir == LEFT) ? RIGHT : LEFT); //Flip the sprite
+            isIdle = true;
         }
     }
 
-    //for Idle
-    public IEnumerator StoppingMovement()
+    float _changeDirectionCooldown;
+
+    private void ChangeDirRandom()
     {
-        rb.velocity = Vector2.zero;
-        //Play Animation
-        yield return new WaitForSeconds(2f);
-        currentenemystate = EnemyState.Patrol;
-        isIdle = false;
+        _changeDirectionCooldown -= Time.deltaTime;
+
+        if(_changeDirectionCooldown <= 0)
+        {
+            ChangeFacingDirection((facingDir == LEFT) ? RIGHT : LEFT); //Flip the sprite
+            _changeDirectionCooldown = Random.Range(1f, 10f);
+        }
     }
     #endregion
 
@@ -312,27 +337,7 @@ public class EnemyScript : MonoBehaviour
     public void AttackRangeDetection()
     {
         bool PlayerinAttackZone = isAttacking(AttackRange);
-        isAttackingPlayer = PlayerinAttackZone;
-    }
-    public void PerformAttack()
-    {
-        rb.velocity = Vector2.zero;
-        //Play Animation
-        //Debug.Log("Is Attacking");
-    }
-    private IEnumerator AttackCooldown()
-    {
-        canAttack = false; //disable attack
-        isCooldownFinish = false;
-
-        // Perform attack action here
-        PerformAttack();
-
-        yield return new WaitForSeconds(attackCooldown);
-
-        canAttack = true;
-        isCooldownFinish = true;
-        isAttackingPlayer = false;
+        inAttackRange = PlayerinAttackZone;
     }
     #endregion
 }

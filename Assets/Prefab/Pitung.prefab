@@ -102,67 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &4412594741782691312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 540152358628989091}
-  m_Layer: 9
-  m_Name: Atk Point
-  m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &540152358628989091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4412594741782691312}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3276114752462676998}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6412543244583027228
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3276114752462676998}
-  m_Layer: 9
-  m_Name: Hitbox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3276114752462676998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6412543244583027228}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 540152358628989091}
-  m_Father: {fileID: 8320405007991456670}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8320405006069451599
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,10 +271,9 @@ GameObject:
   - component: {fileID: 8320405007991456671}
   - component: {fileID: 4568549305770017890}
   - component: {fileID: 8320405007991456676}
+  - component: {fileID: 8320405007991456674}
   - component: {fileID: 8320405007991456675}
   - component: {fileID: 6528738079036479671}
-  - component: {fileID: 8320405007991456674}
-  - component: {fileID: 3791568669372339912}
   - component: {fileID: 6528738079036479656}
   m_Layer: 9
   m_Name: Pitung
@@ -359,7 +297,6 @@ Transform:
   - {fileID: 8320405006069451596}
   - {fileID: 8320405007663226143}
   - {fileID: 8320405006574414833}
-  - {fileID: 3276114752462676998}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -512,6 +449,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9e6b690b311b54c9c16fcb1da02b11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8320405007991456674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8320405007991456673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c716f75229aac499cefaf33e7a9e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100
+  CurrentHealth: 0
+  healthbar: {fileID: 0}
 --- !u!114 &8320405007991456675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,10 +477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animation: {fileID: 3791568670239387442}
-  AnimAttackName:
-  - Pitung_Attack1
-  - Pitung_Attack2
-  - Pitung_Attack3
   DashAnim: Pitung_Dash
 --- !u!114 &6528738079036479671
 MonoBehaviour:
@@ -546,12 +494,17 @@ MonoBehaviour:
   sr: {fileID: 3791568670239387443}
   regularcol: {fileID: 8320405007991456668}
   crouchcol: {fileID: 8320405007663226140}
-  hitbox: {fileID: 4412594741782691312}
+  hitbox: {fileID: 0}
+  player: {fileID: 8320405007991456670}
   _moveSpeed: 7
-  jumpForce: 10
+  jumpForce: 9
   crouchSpeed: 2
   BaseSpeed: 7
   gravity: 9.8
+  _dashingVelocity: 10
+  _dashingTime: 0.5
+  CooldownTime: 1
+  trailRenderer: {fileID: 4568549305770017890}
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -560,41 +513,6 @@ MonoBehaviour:
   KnockbackCounter: 0
   KnockbackTime: 0.2
   KnockFromRight: 0
---- !u!114 &8320405007991456674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8320405007991456673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c716f75229aac499cefaf33e7a9e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: 100
-  CurrentHealth: 0
-  healthbar: {fileID: 0}
---- !u!114 &3791568669372339912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8320405007991456673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 818526d00d31a154aa30801356e104f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 128
-  attackPoint: {fileID: 540152358628989091}
-  attackRange: 0.5
-  player: {fileID: 8320405007991456670}
-  dashCooldown: 0.5
-  trailRenderer: {fileID: 4568549305770017890}
 --- !u!114 &6528738079036479656
 MonoBehaviour:
   m_ObjectHideFlags: 0
