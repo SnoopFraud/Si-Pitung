@@ -41,7 +41,7 @@ public class PlayerAnim : MonoBehaviour
         nextHit();
 
         if(Animation.GetCurrentAnimatorStateInfo(0).IsName(Attack3) &&
-                Animation.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+                Animation.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1) //When animation is finished
         {
             PlayerVar.isHitting[2] = false;
         }

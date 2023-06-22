@@ -67,16 +67,30 @@ public class PlayerInput : MonoBehaviour
 
     private void Update()
     {
-        FlipCharacter();
+        //Tidak bisa melakukan flip apabila sedang terjadi kondisi ini
+        if (!PlayerVar.isDashing && !PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
+        {
+            FlipCharacter();
+        }
+
+        if(PlayerVar.isHitting[0] || PlayerVar.isHitting[1] || PlayerVar.isHitting[2])
+        {
+            _moveSpeed = 0;
+        }
+        else
+        {
+            _moveSpeed = BaseSpeed;
+        }
     }
 
     private void FixedUpdate()
     {
-        if(KnockbackCounter <= 0)
+        //For Knockback
+        if (KnockbackCounter <= 0)
         {
             //Apply gravity
             rb.AddForce(Vector2.down * gravity, ForceMode.Acceleration);
-            
+
             //Movement speed calculation
             Vector2 movement = new Vector2(horizontalMove * _moveSpeed, rb.velocity.y);
             rb.velocity = movement;
@@ -95,39 +109,41 @@ public class PlayerInput : MonoBehaviour
             KnockbackCounter -= Time.deltaTime;
         }
 
+        //For Dashing
         if (PlayerVar.isDashing)
         {
             rb.velocity = _dashingDir.normalized * _dashingVelocity; //Perform the dash when the condition is true
             return; //Return to previous function
         }
 
-        if (PlayerVar.isHitting[0])
-        {
-            //Stop the player
-            rb.velocity = Vector2.zero;
-            return;
-        }
-        else if (PlayerVar.isHitting[1])
-        {
-            //Stop the player
-            rb.velocity = Vector2.zero;
-
-            StartCoroutine(MovePlayerForward(0.1f, 1f));
-            return;
-        }
-        else if (PlayerVar.isHitting[2])
-        {
-            //Stop the player
-            rb.velocity = Vector2.zero;
-
-            StartCoroutine(MovePlayerForward(0.1f, 2f));
-            return;
-        }
-
+        //Condition for dashing
         if (IsGrounded() && !PlayerVar.isOnCooldown && rb.velocity.magnitude > 0.1)
         {
             PlayerVar.CanDash = true;
         }
+
+        //Condition for Attack
+        if(IsGrounded() && !PlayerVar.isAttackCooldown && !PlayerVar.crouching)
+        {
+            PlayerVar.canAttack = true;
+        }
+
+        if (PlayerVar.isHitting[1])
+        {
+            StartCoroutine(MovePlayerForward(0.1f, 1f));
+        }
+        if (PlayerVar.isHitting[2])
+        {
+            StartCoroutine(MovePlayerForward(0.1f, 1.5f));
+            StartCoroutine(AttackCooldown());
+        }
+    }
+
+    private IEnumerator AttackCooldown()
+    {
+        PlayerVar.isAttackCooldown = true;
+        yield return new WaitForSeconds(2f);
+        PlayerVar.isAttackCooldown = false;
     }
 
     private IEnumerator StopDashing()
@@ -152,16 +168,13 @@ public class PlayerInput : MonoBehaviour
 
     private void FlipCharacter()
     {
-        if (!PlayerVar.isDashing)
+        if (!PlayerVar.isFacingRight && horizontalMove > 0f)
         {
-            if (!PlayerVar.isFacingRight && horizontalMove > 0f)
-            {
-                Flip();
-            }
-            if (PlayerVar.isFacingRight && horizontalMove < 0f)
-            {
-                Flip();
-            }
+            Flip();
+        }
+        if (PlayerVar.isFacingRight && horizontalMove < 0f)
+        {
+            Flip();
         }
     }
 
@@ -207,7 +220,7 @@ public class PlayerInput : MonoBehaviour
         for (int i = 0; i < 5; i++)
         {
             sr.enabled = !sr.enabled;
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.3f);
         }
 
         // Re-enable collision with the enemy layer
@@ -238,7 +251,7 @@ public class PlayerInput : MonoBehaviour
     {
         if (crouch.performed && IsGrounded())
         {
-            _moveSpeed = crouchSpeed;
+            _moveSpeed = 0;
             PlayerVar.crouching = true;
             regularcol.enabled = false;
             crouchcol.enabled = true;
@@ -254,8 +267,9 @@ public class PlayerInput : MonoBehaviour
 
     public void AttackControl(InputAction.CallbackContext combat)
     {
-        if (combat.performed && IsGrounded() && !PlayerVar.crouching)
+        if (combat.performed && PlayerVar.canAttack)
         {
+            PlayerVar.canAttack = false;
             if (!PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
             {
                 PlayerVar.isHitting[0] = true;
@@ -268,7 +282,7 @@ public class PlayerInput : MonoBehaviour
             else if (PlayerVar.isHitting[1])
             {
                 PlayerVar.isHitting[2] = true;
-            }
+            } 
 
             if (_attackDir == Vector2.zero)
             {
@@ -281,12 +295,13 @@ public class PlayerInput : MonoBehaviour
     {
         if(dash.performed && PlayerVar.CanDash)
         {
-            PlayerVar.isDashing = true;
+            PlayerVar.isDashing = true; //This will allow to execute the dashing velocity method in update
             PlayerVar.CanDash = false;
             trailRenderer.emitting = true;
             Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, true);
             _dashingDir = new Vector2(horizontalMove, 0);
 
+            //Give direction for dashing
             if (_dashingDir == Vector2.zero)
             {
                 _dashingDir = new Vector2(transform.localScale.x, 0);

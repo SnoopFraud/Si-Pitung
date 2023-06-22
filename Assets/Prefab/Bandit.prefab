@@ -177,6 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8126710178619993844}
+  - component: {fileID: 570305292630271781}
   - component: {fileID: 8126710178619993833}
   - component: {fileID: 8126710178619993834}
   - component: {fileID: 8126710178619993835}
@@ -208,6 +209,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570305292630271781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126710178619993845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424dc5b4993e2c14386712d79da5509b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIdle: 0
+  isDetectingPlayer: 0
+  Immobilized: 0
+  inAttackRange: 0
 --- !u!114 &8126710178619993833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,13 +237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831167dced2d43441afc613ca827f8a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 8126710178619993835}
-  AnimationName:
-  - Bandit_Idle
-  - Bandit_Run
-  - Bandit_Sprint
-  - Bandit_Attack
-  anim: {fileID: 8126710179621060115}
+  enemy: {fileID: 570305292630271781}
+  AttackAnimName: Bandit_Attack
+  Animation: {fileID: 8126710179621060115}
 --- !u!114 &8126710178619993834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,14 +272,8 @@ MonoBehaviour:
   castPoint: {fileID: 8126710179314248114}
   WallCheck: {fileID: 8126710178086366898}
   DistancetoWall: 1
-  isDetectingPlayer: 0
   DetectionRange: 3
-  isAttackingPlayer: 0
-  canAttack: 1
-  isIdle: 0
-  AttackRange: 0.5
-  attackCooldown: 2
-  isCooldownFinish: 0
+  AttackRange: 1
   rb: {fileID: 8126710178619993839}
 --- !u!136 &8126710178619993838
 CapsuleCollider:

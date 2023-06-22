@@ -8,11 +8,16 @@ public class PlayerVar : MonoBehaviour
 
     //Attack State
     public static bool[] isHitting = new bool[3];
+    public static bool isAttackCooldown;
+    public static bool canAttack;
 
     //For Dashing
     public static bool CanDash;
     public static bool isDashing;
     public static bool isOnCooldown;
+
+    //For Sliding
+    public static bool isSliding;
 
     //Crouching
     public static bool crouching;
