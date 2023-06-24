@@ -25,6 +25,9 @@ public class PlayerVar : MonoBehaviour
     //for Flipping
     public static bool isFacingRight = true;
 
+    //Death Condition
+    public static bool isDead;
+
     private void Awake()
     {
         instance = this;

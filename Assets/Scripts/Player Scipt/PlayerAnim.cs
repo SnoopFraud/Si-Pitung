@@ -45,12 +45,6 @@ public class PlayerAnim : MonoBehaviour
         {
             PlayerVar.isHitting[2] = false;
         }
-        if (!PlayerInput.instance.IsGrounded())
-        {
-            PlayerVar.isHitting[0] = false;
-            PlayerVar.isHitting[1] = false;
-            PlayerVar.isHitting[2] = false;
-        }
 
         if(PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
         {

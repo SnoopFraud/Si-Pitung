@@ -128,6 +128,13 @@ public class PlayerInput : MonoBehaviour
             PlayerVar.canAttack = true;
         }
 
+        if (!IsGrounded())
+        {
+            PlayerVar.isHitting[0] = false;
+            PlayerVar.isHitting[1] = false;
+            PlayerVar.isHitting[2] = false;
+        }
+
         if (PlayerVar.isHitting[1])
         {
             StartCoroutine(MovePlayerForward(0.1f, 1f));

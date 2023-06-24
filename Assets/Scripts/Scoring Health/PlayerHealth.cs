@@ -6,24 +6,24 @@ public class PlayerHealth : MonoBehaviour
 {
     PlayerHealth instance;
     PlayerInput playerInput;
-    private void Awake()
-    {
-        instance = this;
-    }
 
     public int MaxHealth = 100;
     public int CurrentHealth;
 
     public HealthScript healthbar;
 
+    private void Awake()
+    {
+        instance = this;
+        CurrentHealth = MaxHealth;
+    }
+
     private void Start()
     {
         //Find the health script
         healthbar = GameObject.FindObjectOfType<HealthScript>();
-        playerInput = GetComponent<PlayerInput>();
-
-        CurrentHealth = MaxHealth;
         healthbar.SetMaxHealth(MaxHealth);
+        playerInput = GetComponent<PlayerInput>();
     }
 
     private void Update()
@@ -33,9 +33,8 @@ public class PlayerHealth : MonoBehaviour
         //Death condition
         if (CurrentHealth <= 0)
         {
-            CurrentHealth = 0;
-            gameObject.SetActive(false);
-            //return;
+            //Die
+            GameManager.instance.Die();
         }
         //Debug.Log(CurrentHealth);
     }
@@ -49,5 +48,10 @@ public class PlayerHealth : MonoBehaviour
     public void getHealth(int health)
     {
         CurrentHealth += health;
+    }
+
+    public void BaseHealth()
+    {
+        CurrentHealth = MaxHealth;
     }
 }

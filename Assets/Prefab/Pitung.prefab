@@ -571,6 +571,7 @@ MonoBehaviour:
   KnockbackCounter: 0
   KnockbackTime: 0.2
   KnockFromRight: 0
+  startpos: {fileID: 0}
 --- !u!114 &6528738079036479656
 MonoBehaviour:
   m_ObjectHideFlags: 0
