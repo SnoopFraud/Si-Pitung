@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerVar : MonoBehaviour
 {
-    PlayerVar instance;
-
     //Attack State
     public static bool[] isHitting = new bool[3];
     public static bool isAttackCooldown;
@@ -17,10 +15,9 @@ public class PlayerVar : MonoBehaviour
     public static bool isOnCooldown;
 
     //For Sliding
+    public static bool canSlide;
     public static bool isSliding;
-
-    //Crouching
-    public static bool crouching;
+    public static bool isSlidingCooldown;
 
     //for Flipping
     public static bool isFacingRight = true;
@@ -28,8 +25,6 @@ public class PlayerVar : MonoBehaviour
     //Death Condition
     public static bool isDead;
 
-    private void Awake()
-    {
-        instance = this;
-    }
+    //Getting a power up
+    public static bool PowerUp;
 }

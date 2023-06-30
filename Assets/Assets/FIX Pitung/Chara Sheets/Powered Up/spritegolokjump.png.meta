@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: ea6d045d9c34dce4b858de81edf273ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 475916346595184575
+    second: spritegolokjump_0
+  - first:
+      213: -2660480177997262367
+    second: spritegolokjump_1
+  - first:
+      213: -7441528274271246024
+    second: spritegolokjump_2
+  - first:
+      213: 8315824185068315267
+    second: spritegolokjump_3
+  - first:
+      213: -1560644187530514135
+    second: spritegolokjump_4
+  - first:
+      213: -823507780440960304
+    second: spritegolokjump_5
+  - first:
+      213: 1158557454410048087
+    second: spritegolokjump_6
+  - first:
+      213: 7636635176217320799
+    second: spritegolokjump_7
+  - first:
+      213: 5025060981944536398
+    second: spritegolokjump_8
+  - first:
+      213: 543010518675318114
+    second: spritegolokjump_9
+  - first:
+      213: 8627243346638187181
+    second: spritegolokjump_10
+  - first:
+      213: -4882852362624227827
+    second: spritegolokjump_11
+  - first:
+      213: -4699854159398632653
+    second: spritegolokjump_12
+  - first:
+      213: 499608796556751871
+    second: spritegolokjump_13
+  - first:
+      213: 8991846288247728023
+    second: spritegolokjump_14
+  - first:
+      213: 4423439059866025734
+    second: spritegolokjump_15
+  - first:
+      213: -1476872486743354871
+    second: spritegolokjump_16
+  - first:
+      213: -3087338034323762305
+    second: spritegolokjump_17
+  - first:
+      213: -3894745729697716015
+    second: spritegolokjump_18
+  - first:
+      213: -8744944359533627169
+    second: spritegolokjump_19
+  - first:
+      213: 6357180250281978095
+    second: spritegolokjump_20
+  - first:
+      213: -8389183056594514023
+    second: spritegolokjump_21
+  - first:
+      213: 459065122315224809
+    second: spritegolokjump_22
+  - first:
+      213: 2506042354516211715
+    second: spritegolokjump_23
+  - first:
+      213: 9090641989403726483
+    second: spritegolokjump_24
+  - first:
+      213: 8574687431578002159
+    second: spritegolokjump_25
+  - first:
+      213: -479748206081992484
+    second: spritegolokjump_26
+  - first:
+      213: 5627211842335953918
+    second: spritegolokjump_27
+  - first:
+      213: 1925184827769001270
+    second: spritegolokjump_28
+  - first:
+      213: 8313600829770704788
+    second: spritegolokjump_29
+  - first:
+      213: -2706220824559466914
+    second: spritegolokjump_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritegolokjump_0
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 4186
+        width: 334
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf8b9d456bca9600800000000000000
+      internalID: 475916346595184575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_1
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4182
+        width: 329
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1518abf53141bd0800000000000000
+      internalID: -2660480177997262367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_2
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 4176
+        width: 321
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839690226716ab890800000000000000
+      internalID: -7441528274271246024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_3
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 4170
+        width: 320
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826995890eb76370800000000000000
+      internalID: 8315824185068315267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_4
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 4169
+        width: 323
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921377d416a775ae0800000000000000
+      internalID: -1560644187530514135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_5
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 4170
+        width: 318
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2db0d69005294f0800000000000000
+      internalID: -823507780440960304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_6
+      rect:
+        serializedVersion: 2
+        x: 6358
+        y: 4182
+        width: 331
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752edf1ddd5041010800000000000000
+      internalID: 1158557454410048087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_7
+      rect:
+        serializedVersion: 2
+        x: 7338
+        y: 4193
+        width: 367
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d9fad6b37caf960800000000000000
+      internalID: 7636635176217320799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 3210
+        width: 398
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dca73d65a9cb540800000000000000
+      internalID: 5025060981944536398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_9
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 3220
+        width: 424
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26561f29039298700800000000000000
+      internalID: 543010518675318114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_10
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 3231
+        width: 440
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaa83b5d102ab770800000000000000
+      internalID: 8627243346638187181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_11
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 3242
+        width: 443
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d062b1b85af9c3cb0800000000000000
+      internalID: -4882852362624227827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_12
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 3251
+        width: 441
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33307ecfa83c6ceb0800000000000000
+      internalID: -4699854159398632653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_13
+      rect:
+        serializedVersion: 2
+        x: 5271
+        y: 3259
+        width: 435
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3fc6dad87fee600800000000000000
+      internalID: 499608796556751871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_14
+      rect:
+        serializedVersion: 2
+        x: 6259
+        y: 3265
+        width: 430
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797abedee8479cc70800000000000000
+      internalID: 8991846288247728023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_15
+      rect:
+        serializedVersion: 2
+        x: 7258
+        y: 3267
+        width: 427
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff6e87366336d30800000000000000
+      internalID: 4423439059866025734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2263
+        width: 428
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9025d115c48118be0800000000000000
+      internalID: -1476872486743354871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_17
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2259
+        width: 431
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73549a4a629725d0800000000000000
+      internalID: -3087338034323762305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_18
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 2255
+        width: 434
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8e5e2e46513f9c0800000000000000
+      internalID: -3894745729697716015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_19
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 2247
+        width: 434
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8317d0077b3a680800000000000000
+      internalID: -8744944359533627169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_20
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 2238
+        width: 435
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8af2f71cd393850800000000000000
+      internalID: 6357180250281978095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_21
+      rect:
+        serializedVersion: 2
+        x: 5302
+        y: 2228
+        width: 430
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f45f33572a39b80800000000000000
+      internalID: -8389183056594514023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_22
+      rect:
+        serializedVersion: 2
+        x: 6312
+        y: 2215
+        width: 421
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6ce58eb4dee5600800000000000000
+      internalID: 459065122315224809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_23
+      rect:
+        serializedVersion: 2
+        x: 7324
+        y: 2207
+        width: 405
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308b50d6e3047c220800000000000000
+      internalID: 2506042354516211715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1186
+        width: 374
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d8ae99b2782e70800000000000000
+      internalID: 9090641989403726483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_25
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1177
+        width: 359
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2a633d9c86ff670800000000000000
+      internalID: 8574687431578002159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_26
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1170
+        width: 343
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81ad26c879759f0800000000000000
+      internalID: -479748206081992484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_27
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 1160
+        width: 339
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef35e4a3b5fd71e40800000000000000
+      internalID: 5627211842335953918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_28
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 1160
+        width: 340
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635942a9661a7ba10800000000000000
+      internalID: 1925184827769001270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_29
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 1159
+        width: 340
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49720e648e7df5370800000000000000
+      internalID: 8313600829770704788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritegolokjump_30
+      rect:
+        serializedVersion: 2
+        x: 6339
+        y: 1159
+        width: 340
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e564e5c8f72917ad0800000000000000
+      internalID: -2706220824559466914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

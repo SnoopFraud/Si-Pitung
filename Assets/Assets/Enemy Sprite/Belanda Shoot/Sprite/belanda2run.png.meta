@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 00412bfec548cab4689929b27454f029
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6133995068963622966
+    second: belanda2run_0
+  - first:
+      213: -2214755327026150137
+    second: belanda2run_1
+  - first:
+      213: 3562204157180022014
+    second: belanda2run_2
+  - first:
+      213: -6029780133339971196
+    second: belanda2run_3
+  - first:
+      213: -4284236272168464302
+    second: belanda2run_4
+  - first:
+      213: 3581051615683505928
+    second: belanda2run_5
+  - first:
+      213: 3242909594033518726
+    second: belanda2run_6
+  - first:
+      213: 9185428661355999279
+    second: belanda2run_7
+  - first:
+      213: 7477111291853191848
+    second: belanda2run_8
+  - first:
+      213: -173053061325145179
+    second: belanda2run_9
+  - first:
+      213: -1143215563343001524
+    second: belanda2run_10
+  - first:
+      213: 4168557010586808460
+    second: belanda2run_11
+  - first:
+      213: -4227376415478569135
+    second: belanda2run_12
+  - first:
+      213: -3304270386680329596
+    second: belanda2run_13
+  - first:
+      213: -1333464275569226740
+    second: belanda2run_14
+  - first:
+      213: 5083087950315688105
+    second: belanda2run_15
+  - first:
+      213: -2208643981891759970
+    second: belanda2run_16
+  - first:
+      213: -7060461996986337830
+    second: belanda2run_17
+  - first:
+      213: -9029355078520887004
+    second: belanda2run_18
+  - first:
+      213: -5474491799928470260
+    second: belanda2run_19
+  - first:
+      213: 426975276782734124
+    second: belanda2run_20
+  - first:
+      213: 8937488068093811946
+    second: belanda2run_21
+  - first:
+      213: 515499795047930732
+    second: belanda2run_22
+  - first:
+      213: -1353707325896835016
+    second: belanda2run_23
+  - first:
+      213: -5395306863184636026
+    second: belanda2run_24
+  - first:
+      213: -8987722606567008050
+    second: belanda2run_25
+  - first:
+      213: -2327669193635953965
+    second: belanda2run_26
+  - first:
+      213: -8266423747731640106
+    second: belanda2run_27
+  - first:
+      213: -4527284759166375982
+    second: belanda2run_28
+  - first:
+      213: -6382721793296426586
+    second: belanda2run_29
+  - first:
+      213: 2094557362843156430
+    second: belanda2run_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: belanda2run_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4243
+        width: 548
+        height: 643
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfec6cebfbafdaa0800000000000000
+      internalID: -6133995068963622966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_1
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 4241
+        width: 545
+        height: 644
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705c33ca3cb9341e0800000000000000
+      internalID: -2214755327026150137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_2
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 4231
+        width: 536
+        height: 652
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc822ebecd7f6130800000000000000
+      internalID: 3562204157180022014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_3
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 4219
+        width: 519
+        height: 661
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48140967aeae15ca0800000000000000
+      internalID: -6029780133339971196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_4
+      rect:
+        serializedVersion: 2
+        x: 4306
+        y: 4206
+        width: 495
+        height: 670
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2501e8f2fc55b84c0800000000000000
+      internalID: -4284236272168464302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_5
+      rect:
+        serializedVersion: 2
+        x: 5343
+        y: 4194
+        width: 465
+        height: 677
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f6723a87372b130800000000000000
+      internalID: 3581051615683505928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_6
+      rect:
+        serializedVersion: 2
+        x: 6358
+        y: 4187
+        width: 445
+        height: 678
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f2171811210d20800000000000000
+      internalID: 3242909594033518726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_7
+      rect:
+        serializedVersion: 2
+        x: 7358
+        y: 4182
+        width: 445
+        height: 678
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f0d573b2397f70800000000000000
+      internalID: 9185428661355999279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3175
+        width: 445
+        height: 685
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab8f0ca1904c760800000000000000
+      internalID: 7477111291853191848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_9
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 3183
+        width: 445
+        height: 684
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abbb685821399df0800000000000000
+      internalID: -173053061325145179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_10
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 3200
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c480e3d808b7220f0800000000000000
+      internalID: -1143215563343001524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_11
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3223
+        width: 471
+        height: 657
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80bdf1e380b9d930800000000000000
+      internalID: 4168557010586808460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_12
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 3249
+        width: 489
+        height: 635
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15729873c875555c0800000000000000
+      internalID: -4227376415478569135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_13
+      rect:
+        serializedVersion: 2
+        x: 5302
+        y: 3271
+        width: 499
+        height: 617
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a8310179fd422d0800000000000000
+      internalID: -3304270386680329596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_14
+      rect:
+        serializedVersion: 2
+        x: 6297
+        y: 3287
+        width: 503
+        height: 604
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc50e6e459e7de0800000000000000
+      internalID: -1333464275569226740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_15
+      rect:
+        serializedVersion: 2
+        x: 7295
+        y: 3294
+        width: 505
+        height: 598
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a092a83f81ca8640800000000000000
+      internalID: 5083087950315688105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2288
+        width: 503
+        height: 603
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90990810025951e0800000000000000
+      internalID: -2208643981891759970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2273
+        width: 499
+        height: 616
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5fb7fb833340e90800000000000000
+      internalID: -7060461996986337830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_18
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 2251
+        width: 490
+        height: 634
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429a4e9456941b280800000000000000
+      internalID: -9029355078520887004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_19
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 2226
+        width: 474
+        height: 654
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05897b86b2b604b0800000000000000
+      internalID: -5474491799928470260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_20
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 2203
+        width: 449
+        height: 671
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b428480cbece500800000000000000
+      internalID: 426975276782734124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_21
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 2186
+        width: 445
+        height: 682
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec160b8b06580c70800000000000000
+      internalID: 8937488068093811946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_22
+      rect:
+        serializedVersion: 2
+        x: 6358
+        y: 2176
+        width: 445
+        height: 686
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b5e95155c672700800000000000000
+      internalID: 515499795047930732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_23
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 2179
+        width: 445
+        height: 679
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830431efb5aa63de0800000000000000
+      internalID: -1353707325896835016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_24
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1186
+        width: 445
+        height: 678
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68717a55ef40025b0800000000000000
+      internalID: -5395306863184636026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_25
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1191
+        width: 451
+        height: 678
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec853d788e1354380800000000000000
+      internalID: -8987722606567008050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_26
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1199
+        width: 482
+        height: 674
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d285be633572bfd0800000000000000
+      internalID: -2327669193635953965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_27
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 1210
+        width: 505
+        height: 667
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03a991663c74d80800000000000000
+      internalID: -8266423747731640106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_28
+      rect:
+        serializedVersion: 2
+        x: 4279
+        y: 1221
+        width: 522
+        height: 659
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d729d48f7adb21c0800000000000000
+      internalID: -4527284759166375982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_29
+      rect:
+        serializedVersion: 2
+        x: 5269
+        y: 1229
+        width: 532
+        height: 653
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a91c6a98540c67a0800000000000000
+      internalID: -6382721793296426586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2run_30
+      rect:
+        serializedVersion: 2
+        x: 6266
+        y: 1231
+        width: 535
+        height: 652
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecff1f5f2dc511d10800000000000000
+      internalID: 2094557362843156430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 35c155245752ed74085eb5d4adda8da1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3858423658431678187
+    second: spriterattack3golok_0
+  - first:
+      213: 5004905883017360188
+    second: spriterattack3golok_1
+  - first:
+      213: 1635392130665738665
+    second: spriterattack3golok_2
+  - first:
+      213: -5930376488408246946
+    second: spriterattack3golok_3
+  - first:
+      213: -2453166194655620103
+    second: spriterattack3golok_4
+  - first:
+      213: -2104984062936674646
+    second: spriterattack3golok_5
+  - first:
+      213: 8948187386151903367
+    second: spriterattack3golok_6
+  - first:
+      213: 4325795527190221631
+    second: spriterattack3golok_7
+  - first:
+      213: 6381413379452385578
+    second: spriterattack3golok_8
+  - first:
+      213: 3984530335719982955
+    second: spriterattack3golok_9
+  - first:
+      213: -7804483910475789099
+    second: spriterattack3golok_10
+  - first:
+      213: 2981129804739170625
+    second: spriterattack3golok_11
+  - first:
+      213: -1808208269124190976
+    second: spriterattack3golok_12
+  - first:
+      213: 8035038322699347139
+    second: spriterattack3golok_13
+  - first:
+      213: 1478421104170865408
+    second: spriterattack3golok_14
+  - first:
+      213: 2872994666960620677
+    second: spriterattack3golok_16
+  - first:
+      213: 7098892665057085633
+    second: spriterattack3golok_19
+  - first:
+      213: -4477072034150807823
+    second: spriterattack3golok_20
+  - first:
+      213: -2207094867015789683
+    second: spriterattack3golok_21
+  - first:
+      213: 8205122008449533477
+    second: spriterattack3golok_22
+  - first:
+      213: -1330646396713853973
+    second: spriterattack3golok_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriterattack3golok_0
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 4203
+        width: 492
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519773e1020247ac0800000000000000
+      internalID: -3858423658431678187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_1
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 4203
+        width: 492
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33338b226ff47540800000000000000
+      internalID: 5004905883017360188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_2
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 4210
+        width: 491
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1fcc86a7412b610800000000000000
+      internalID: 1635392130665738665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_3
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 4211
+        width: 487
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e551918110213bda0800000000000000
+      internalID: -5930376488408246946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_4
+      rect:
+        serializedVersion: 2
+        x: 4239
+        y: 4210
+        width: 483
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f31e88e75a94fdd0800000000000000
+      internalID: -2453166194655620103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_5
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 4210
+        width: 474
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae0dceb52899c2e0800000000000000
+      internalID: -2104984062936674646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_6
+      rect:
+        serializedVersion: 2
+        x: 6247
+        y: 4210
+        width: 464
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7802737a4095e2c70800000000000000
+      internalID: 8948187386151903367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_7
+      rect:
+        serializedVersion: 2
+        x: 7260
+        y: 4210
+        width: 448
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339529ec10580c30800000000000000
+      internalID: 4325795527190221631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3210
+        width: 435
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a293f2f88a55f8850800000000000000
+      internalID: 6381413379452385578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_9
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 3210
+        width: 417
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678b59ba35eb4730800000000000000
+      internalID: 3984530335719982955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_10
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3210
+        width: 392
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcc6dcbb37e0b390800000000000000
+      internalID: -7804483910475789099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_11
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 3210
+        width: 348
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141dec043c91f5920800000000000000
+      internalID: 2981129804739170625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_12
+      rect:
+        serializedVersion: 2
+        x: 4338
+        y: 3209
+        width: 381
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dbde6d824f7e6e0800000000000000
+      internalID: -1808208269124190976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_13
+      rect:
+        serializedVersion: 2
+        x: 5323
+        y: 3206
+        width: 556
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4252578c0328f60800000000000000
+      internalID: 8035038322699347139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_14
+      rect:
+        serializedVersion: 2
+        x: 6315
+        y: 3199
+        width: 621
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0039b864928648410800000000000000
+      internalID: 1478421104170865408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_16
+      rect:
+        serializedVersion: 2
+        x: 7319
+        y: 3197
+        width: 580
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c87c58d6deed720800000000000000
+      internalID: 2872994666960620677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_19
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2197
+        width: 556
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88a5f6445548260800000000000000
+      internalID: 7098892665057085633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_20
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 2197
+        width: 558
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f60b9a94be3ed1c0800000000000000
+      internalID: -4477072034150807823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_21
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2197
+        width: 558
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d839fe189e2de51e0800000000000000
+      internalID: -2207094867015789683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_22
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 2197
+        width: 557
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526cf5c7ef27ed170800000000000000
+      internalID: 8205122008449533477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattack3golok_23
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2197
+        width: 557
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb973af628988de0800000000000000
+      internalID: -1330646396713853973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,12 @@ public class TriggerHitbox : MonoBehaviour
     EnemyVAR enemy;
     Enemy_AnimController EnemyAnim;
 
+    Obstacle_Script obstacle;
+
+    [SerializeField] private int damage1;
+    [SerializeField] private int damage2;
+    [SerializeField] private int damage3;
+
     private void Awake()
     {
         
@@ -26,15 +32,33 @@ public class TriggerHitbox : MonoBehaviour
 
             if (PlayerVar.isHitting[0])
             {
-                enemyHealth.TakeDamage(5);
+                enemyHealth.TakeDamage(damage1);
             }
             if (PlayerVar.isHitting[1])
             {
-                enemyHealth.TakeDamage(15);
+                enemyHealth.TakeDamage(damage2);
             }
             if (PlayerVar.isHitting[2])
             {
-                enemyHealth.TakeDamage(20);
+                enemyHealth.TakeDamage(damage3);
+            }
+        }
+
+        if(other.gameObject.tag == "Obstacle")
+        {
+            obstacle = other.gameObject.GetComponent<Obstacle_Script>();
+
+            if (PlayerVar.isHitting[0])
+            {
+                obstacle.TakeDamage(damage1);
+            }
+            if (PlayerVar.isHitting[1])
+            {
+                obstacle.TakeDamage(damage2);
+            }
+            if (PlayerVar.isHitting[2])
+            {
+                obstacle.TakeDamage(damage3);
             }
         }
     }

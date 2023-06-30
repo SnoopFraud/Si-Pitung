@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 8eacd1dc6b09cd34d8dcdb55a8bde267
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7375976511786685589
+    second: belanda2idle_0
+  - first:
+      213: 7677207688093472533
+    second: belanda2idle_1
+  - first:
+      213: -821527195045612688
+    second: belanda2idle_2
+  - first:
+      213: 2596066105476874462
+    second: belanda2idle_3
+  - first:
+      213: 7436012157785594484
+    second: belanda2idle_4
+  - first:
+      213: -5821580920171906603
+    second: belanda2idle_5
+  - first:
+      213: -4137245035287263535
+    second: belanda2idle_6
+  - first:
+      213: -7270424720845504695
+    second: belanda2idle_7
+  - first:
+      213: 2388298816940026069
+    second: belanda2idle_8
+  - first:
+      213: -1451042008117220844
+    second: belanda2idle_9
+  - first:
+      213: -1240968049709786100
+    second: belanda2idle_10
+  - first:
+      213: 8083359768946696202
+    second: belanda2idle_11
+  - first:
+      213: 6605435539550042741
+    second: belanda2idle_12
+  - first:
+      213: -7831695285461744927
+    second: belanda2idle_13
+  - first:
+      213: -3405963304280297969
+    second: belanda2idle_14
+  - first:
+      213: -2169254419523562675
+    second: belanda2idle_15
+  - first:
+      213: -4732739317276893007
+    second: belanda2idle_16
+  - first:
+      213: -4504739732289958160
+    second: belanda2idle_17
+  - first:
+      213: 7673653539811412855
+    second: belanda2idle_18
+  - first:
+      213: -2635974210531440602
+    second: belanda2idle_19
+  - first:
+      213: -5306445467019482612
+    second: belanda2idle_20
+  - first:
+      213: 2543618791684174304
+    second: belanda2idle_21
+  - first:
+      213: -764649297418822160
+    second: belanda2idle_22
+  - first:
+      213: -6799302352105233261
+    second: belanda2idle_23
+  - first:
+      213: 2006751771303331912
+    second: belanda2idle_24
+  - first:
+      213: -8491321151736490628
+    second: belanda2idle_25
+  - first:
+      213: 8254293129099190788
+    second: belanda2idle_26
+  - first:
+      213: 2160589087063278780
+    second: belanda2idle_27
+  - first:
+      213: 4567480399779630313
+    second: belanda2idle_28
+  - first:
+      213: -2526705587782546317
+    second: belanda2idle_29
+  - first:
+      213: 6341918481434858327
+    second: belanda2idle_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: belanda2idle_0
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 4200
+        width: 445
+        height: 675
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b645f217443a990800000000000000
+      internalID: -7375976511786685589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_1
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 4200
+        width: 445
+        height: 675
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51795bb77bbea8a60800000000000000
+      internalID: 7677207688093472533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_2
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 4200
+        width: 444
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073bbf56e595994f0800000000000000
+      internalID: -821527195045612688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_3
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 4200
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0816e4e54170420800000000000000
+      internalID: 2596066105476874462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_4
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 4200
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47adb4ae8a5023760800000000000000
+      internalID: 7436012157785594484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_5
+      rect:
+        serializedVersion: 2
+        x: 5352
+        y: 4199
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d936f54ff6953fa0800000000000000
+      internalID: -5821580920171906603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_6
+      rect:
+        serializedVersion: 2
+        x: 6351
+        y: 4199
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d644fa7f8d8596c0800000000000000
+      internalID: -4137245035287263535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_7
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 4199
+        width: 445
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ff8cb9c334a1b90800000000000000
+      internalID: -7270424720845504695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 3198
+        width: 444
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d82239ce11f42120800000000000000
+      internalID: 2388298816940026069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_9
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 3198
+        width: 445
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae0084bfcdcdbe0800000000000000
+      internalID: -1451042008117220844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_10
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 3198
+        width: 445
+        height: 672
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c507b322237cee0800000000000000
+      internalID: -1240968049709786100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_11
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 3198
+        width: 445
+        height: 672
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0060c3e1ecdd2070800000000000000
+      internalID: 8083359768946696202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_12
+      rect:
+        serializedVersion: 2
+        x: 4347
+        y: 3198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57afe9940a83bab50800000000000000
+      internalID: 6605435539550042741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_13
+      rect:
+        serializedVersion: 2
+        x: 5344
+        y: 3198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e283f8c1aa305390800000000000000
+      internalID: -7831695285461744927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_14
+      rect:
+        serializedVersion: 2
+        x: 6343
+        y: 3198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6b5a9b669bb0d0800000000000000
+      internalID: -3405963304280297969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_15
+      rect:
+        serializedVersion: 2
+        x: 7343
+        y: 3198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d431ad0499245e1e0800000000000000
+      internalID: -2169254419523562675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_16
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0af238aaee15eb0800000000000000
+      internalID: -4732739317276893007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fec443a413fb71c0800000000000000
+      internalID: -4504739732289958160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_18
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 2198
+        width: 445
+        height: 671
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bc0e9dc3b4e7a60800000000000000
+      internalID: 7673653539811412855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_19
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 2198
+        width: 445
+        height: 672
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ce28eb632b6bd0800000000000000
+      internalID: -2635974210531440602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_20
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 2198
+        width: 445
+        height: 672
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a625666f7bb56b0800000000000000
+      internalID: -5306445467019482612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_21
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 2198
+        width: 445
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f75a70dfbc4320800000000000000
+      internalID: 2543618791684174304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_22
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 2198
+        width: 444
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd5999e38b6365f0800000000000000
+      internalID: -764649297418822160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_23
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 2199
+        width: 445
+        height: 673
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3942a46f88604a1a0800000000000000
+      internalID: -6799302352105233261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_24
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1199
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848cbe09a1a69db10800000000000000
+      internalID: 2006751771303331912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_25
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1199
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755cf4c664c82a80800000000000000
+      internalID: -8491321151736490628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_26
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 1200
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a7e72ed32d8270800000000000000
+      internalID: 8254293129099190788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_27
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1200
+        width: 445
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40effc354fbfd10800000000000000
+      internalID: 2160589087063278780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_28
+      rect:
+        serializedVersion: 2
+        x: 4355
+        y: 1200
+        width: 444
+        height: 674
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec8c6b5933f26f30800000000000000
+      internalID: 4567480399779630313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_29
+      rect:
+        serializedVersion: 2
+        x: 5355
+        y: 1200
+        width: 445
+        height: 675
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0a3ca7a65fecd0800000000000000
+      internalID: -2526705587782546317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belanda2idle_30
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 1200
+        width: 445
+        height: 675
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753d8680245030850800000000000000
+      internalID: 6341918481434858327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

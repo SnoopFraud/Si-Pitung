@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 6e9ba061be13a5745834ad786a31397e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3011634323927220475
+    second: spritedashgolok_0
+  - first:
+      213: -7526969964273044349
+    second: spritedashgolok_1
+  - first:
+      213: -515858091574580089
+    second: spritedashgolok_2
+  - first:
+      213: -5201431714197862920
+    second: spritedashgolok_3
+  - first:
+      213: -3115293619155175717
+    second: spritedashgolok_4
+  - first:
+      213: 7195734843487459036
+    second: spritedashgolok_5
+  - first:
+      213: -991443831885298748
+    second: spritedashgolok_6
+  - first:
+      213: -7802696551450999696
+    second: spritedashgolok_7
+  - first:
+      213: 6906348432207428445
+    second: spritedashgolok_8
+  - first:
+      213: 1559131411575867304
+    second: spritedashgolok_9
+  - first:
+      213: -450139821896527239
+    second: spritedashgolok_10
+  - first:
+      213: -2858738543032992817
+    second: spritedashgolok_11
+  - first:
+      213: 7770670737328056509
+    second: spritedashgolok_12
+  - first:
+      213: -2269355378631647383
+    second: spritedashgolok_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritedashgolok_0
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 4147
+        width: 341
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf04e0716797bc920800000000000000
+      internalID: 3011634323927220475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_1
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 4140
+        width: 342
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384787472b4da8790800000000000000
+      internalID: -7526969964273044349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_2
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 4123
+        width: 348
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78caf218ccd47d8f0800000000000000
+      internalID: -515858091574580089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_3
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 4100
+        width: 373
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f509cf0a6dc0d7b0800000000000000
+      internalID: -5201431714197862920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_4
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 4104
+        width: 400
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f63b75f044c4d0800000000000000
+      internalID: -3115293619155175717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_5
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 4111
+        width: 430
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd698fb27b26cd360800000000000000
+      internalID: 7195734843487459036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_6
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 4117
+        width: 459
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c389b9761fad32f0800000000000000
+      internalID: -991443831885298748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_7
+      rect:
+        serializedVersion: 2
+        x: 7145
+        y: 4113
+        width: 483
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740990b3d047b390800000000000000
+      internalID: -7802696551450999696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3126
+        width: 504
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bbcc4ce4748df50800000000000000
+      internalID: 6906348432207428445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_9
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 3129
+        width: 520
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7022912c523a510800000000000000
+      internalID: 1559131411575867304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_10
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 3126
+        width: 529
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97299988738c0c9f0800000000000000
+      internalID: -450139821896527239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_11
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 3119
+        width: 532
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbfcccf078b358d0800000000000000
+      internalID: -2858738543032992817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_12
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 3126
+        width: 531
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db826f46dd7f6db60800000000000000
+      internalID: 7770670737328056509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritedashgolok_13
+      rect:
+        serializedVersion: 2
+        x: 5107
+        y: 3124
+        width: 532
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fd9838e41a180e0800000000000000
+      internalID: -2269355378631647383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

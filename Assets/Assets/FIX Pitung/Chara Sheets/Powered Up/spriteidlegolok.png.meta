@@ -1,0 +1,2988 @@
+fileFormatVersion: 2
+guid: 66f7922c37ac7164b8d60d4d3166fe60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9144348136543674308
+    second: spriteidlegolok_0
+  - first:
+      213: 7776550896339694193
+    second: spriteidlegolok_1
+  - first:
+      213: 5373470853563766831
+    second: spriteidlegolok_2
+  - first:
+      213: -6210169503779948618
+    second: spriteidlegolok_3
+  - first:
+      213: 7351501311240229147
+    second: spriteidlegolok_4
+  - first:
+      213: -2355072756463860247
+    second: spriteidlegolok_5
+  - first:
+      213: -480823155253112191
+    second: spriteidlegolok_6
+  - first:
+      213: 6525986343594572134
+    second: spriteidlegolok_7
+  - first:
+      213: 5007079541954991852
+    second: spriteidlegolok_8
+  - first:
+      213: -7834639607570148110
+    second: spriteidlegolok_9
+  - first:
+      213: 7811650595494925985
+    second: spriteidlegolok_10
+  - first:
+      213: 8438822186996385339
+    second: spriteidlegolok_11
+  - first:
+      213: 523040964492461880
+    second: spriteidlegolok_12
+  - first:
+      213: 6900268679725439034
+    second: spriteidlegolok_13
+  - first:
+      213: 1905104270125164746
+    second: spriteidlegolok_14
+  - first:
+      213: 3755513651093965906
+    second: spriteidlegolok_15
+  - first:
+      213: 6712707128107664333
+    second: spriteidlegolok_16
+  - first:
+      213: -7803984420479522635
+    second: spriteidlegolok_17
+  - first:
+      213: -2086711316175794402
+    second: spriteidlegolok_18
+  - first:
+      213: -7686496618905491889
+    second: spriteidlegolok_19
+  - first:
+      213: 7298657360752664146
+    second: spriteidlegolok_20
+  - first:
+      213: 8042711682831046161
+    second: spriteidlegolok_21
+  - first:
+      213: 4760040744170747124
+    second: spriteidlegolok_22
+  - first:
+      213: -7660370238342785997
+    second: spriteidlegolok_23
+  - first:
+      213: -3215448483859124
+    second: spriteidlegolok_24
+  - first:
+      213: -1695006881299111755
+    second: spriteidlegolok_25
+  - first:
+      213: -5686124470514065051
+    second: spriteidlegolok_26
+  - first:
+      213: -3266000596650030834
+    second: spriteidlegolok_27
+  - first:
+      213: 8720265558189194092
+    second: spriteidlegolok_28
+  - first:
+      213: -4335835962461591216
+    second: spriteidlegolok_29
+  - first:
+      213: -8365158177047059914
+    second: spriteidlegolok_30
+  - first:
+      213: -1920006595420489234
+    second: spriteidlegolok_31
+  - first:
+      213: -5927974475293621637
+    second: spriteidlegolok_32
+  - first:
+      213: -888130160762046725
+    second: spriteidlegolok_33
+  - first:
+      213: 6675645829581356551
+    second: spriteidlegolok_34
+  - first:
+      213: -1332425323280213153
+    second: spriteidlegolok_35
+  - first:
+      213: 6990415644620358905
+    second: spriteidlegolok_36
+  - first:
+      213: 441272729608105189
+    second: spriteidlegolok_37
+  - first:
+      213: -3253693414843017968
+    second: spriteidlegolok_38
+  - first:
+      213: -6028061192137046243
+    second: spriteidlegolok_39
+  - first:
+      213: -4861021925280310702
+    second: spriteidlegolok_40
+  - first:
+      213: -7325082332954958834
+    second: spriteidlegolok_41
+  - first:
+      213: 7384670090928081734
+    second: spriteidlegolok_42
+  - first:
+      213: 8312099435902050960
+    second: spriteidlegolok_43
+  - first:
+      213: -2356287266398397398
+    second: spriteidlegolok_44
+  - first:
+      213: 8092812135976653538
+    second: spriteidlegolok_45
+  - first:
+      213: -7509644532583486537
+    second: spriteidlegolok_46
+  - first:
+      213: 5590007575131234308
+    second: spriteidlegolok_47
+  - first:
+      213: 6586446541711706959
+    second: spriteidlegolok_48
+  - first:
+      213: 1071834884490112657
+    second: spriteidlegolok_49
+  - first:
+      213: 6360500433365448415
+    second: spriteidlegolok_50
+  - first:
+      213: -1176653306805691677
+    second: spriteidlegolok_51
+  - first:
+      213: 7361613418610471680
+    second: spriteidlegolok_52
+  - first:
+      213: 5856154086626230943
+    second: spriteidlegolok_53
+  - first:
+      213: 4513648543249470738
+    second: spriteidlegolok_54
+  - first:
+      213: 8735417069736213034
+    second: spriteidlegolok_55
+  - first:
+      213: 6400334530999024046
+    second: spriteidlegolok_56
+  - first:
+      213: -2949851762557395366
+    second: spriteidlegolok_57
+  - first:
+      213: -7892404630370831064
+    second: spriteidlegolok_58
+  - first:
+      213: -1521954913114930312
+    second: spriteidlegolok_59
+  - first:
+      213: 4639971045133749986
+    second: spriteidlegolok_60
+  - first:
+      213: 876139104349342738
+    second: spriteidlegolok_61
+  - first:
+      213: -536654636245011396
+    second: spriteidlegolok_62
+  - first:
+      213: -2758893739149150088
+    second: spriteidlegolok_63
+  - first:
+      213: 3601139363552191534
+    second: spriteidlegolok_64
+  - first:
+      213: 293715920369905431
+    second: spriteidlegolok_65
+  - first:
+      213: 7243903036140436747
+    second: spriteidlegolok_66
+  - first:
+      213: 2433455471659832207
+    second: spriteidlegolok_67
+  - first:
+      213: -7087860910282371374
+    second: spriteidlegolok_68
+  - first:
+      213: -1971837152297839281
+    second: spriteidlegolok_69
+  - first:
+      213: 620067423587150716
+    second: spriteidlegolok_70
+  - first:
+      213: -8482296823452215186
+    second: spriteidlegolok_71
+  - first:
+      213: 7628336828065997106
+    second: spriteidlegolok_72
+  - first:
+      213: 8906610638929565510
+    second: spriteidlegolok_73
+  - first:
+      213: 6145033785864804729
+    second: spriteidlegolok_74
+  - first:
+      213: -4203859262663036302
+    second: spriteidlegolok_75
+  - first:
+      213: -368979839283249730
+    second: spriteidlegolok_76
+  - first:
+      213: 2957580359339046979
+    second: spriteidlegolok_77
+  - first:
+      213: -3792963388940464358
+    second: spriteidlegolok_78
+  - first:
+      213: 1605752657402683107
+    second: spriteidlegolok_79
+  - first:
+      213: -476641668789763155
+    second: spriteidlegolok_80
+  - first:
+      213: 2305576242617701224
+    second: spriteidlegolok_81
+  - first:
+      213: -5991160209191613422
+    second: spriteidlegolok_82
+  - first:
+      213: -3288444918623922781
+    second: spriteidlegolok_83
+  - first:
+      213: -2878335208934401913
+    second: spriteidlegolok_84
+  - first:
+      213: 6893305292573668830
+    second: spriteidlegolok_85
+  - first:
+      213: -2498449550184277929
+    second: spriteidlegolok_86
+  - first:
+      213: -2106032032423320264
+    second: spriteidlegolok_87
+  - first:
+      213: -5153107256258376901
+    second: spriteidlegolok_88
+  - first:
+      213: 5209339130296756587
+    second: spriteidlegolok_89
+  - first:
+      213: 6587628665878128457
+    second: spriteidlegolok_90
+  - first:
+      213: -6180499336206705629
+    second: spriteidlegolok_91
+  - first:
+      213: -5307560527923513758
+    second: spriteidlegolok_92
+  - first:
+      213: 5696964925881928374
+    second: spriteidlegolok_93
+  - first:
+      213: -6474323548920246646
+    second: spriteidlegolok_94
+  - first:
+      213: 3452030273843643379
+    second: spriteidlegolok_95
+  - first:
+      213: -6448533161984671494
+    second: spriteidlegolok_96
+  - first:
+      213: 2135185325547674996
+    second: spriteidlegolok_97
+  - first:
+      213: 7568641065839910016
+    second: spriteidlegolok_98
+  - first:
+      213: -4387668349170884665
+    second: spriteidlegolok_99
+  - first:
+      213: 5731104001250117313
+    second: spriteidlegolok_100
+  - first:
+      213: -8603338847340423224
+    second: spriteidlegolok_101
+  - first:
+      213: 2152397495167190312
+    second: spriteidlegolok_102
+  - first:
+      213: -3659998071434836540
+    second: spriteidlegolok_103
+  - first:
+      213: -6006915307217100159
+    second: spriteidlegolok_104
+  - first:
+      213: -118058444010868182
+    second: spriteidlegolok_105
+  - first:
+      213: 4628065658240354002
+    second: spriteidlegolok_106
+  - first:
+      213: 4152657090958021401
+    second: spriteidlegolok_107
+  - first:
+      213: -3195988344825648001
+    second: spriteidlegolok_108
+  - first:
+      213: -7226856510090408546
+    second: spriteidlegolok_109
+  - first:
+      213: 8634551787555933671
+    second: spriteidlegolok_110
+  - first:
+      213: -6119500354454378201
+    second: spriteidlegolok_111
+  - first:
+      213: -7261582887053755063
+    second: spriteidlegolok_112
+  - first:
+      213: -3655397974306517955
+    second: spriteidlegolok_113
+  - first:
+      213: -3920915253008573576
+    second: spriteidlegolok_114
+  - first:
+      213: -1987220375514770229
+    second: spriteidlegolok_115
+  - first:
+      213: -4975219570243869412
+    second: spriteidlegolok_116
+  - first:
+      213: 248198202935044158
+    second: spriteidlegolok_117
+  - first:
+      213: 5059407844834543123
+    second: spriteidlegolok_118
+  - first:
+      213: 6252025356430646114
+    second: spriteidlegolok_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteidlegolok_0
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 9172
+        width: 341
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c302fc291dfb81180800000000000000
+      internalID: -9144348136543674308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_1
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 9172
+        width: 342
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172b21a96dbdbeb60800000000000000
+      internalID: 7776550896339694193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_2
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 9172
+        width: 343
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28559d7547629a40800000000000000
+      internalID: 5373470853563766831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_3
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 9172
+        width: 341
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b77b3c3dbb01d9a0800000000000000
+      internalID: -6210169503779948618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_4
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 9172
+        width: 342
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11da4e1e77c50660800000000000000
+      internalID: 7351501311240229147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_5
+      rect:
+        serializedVersion: 2
+        x: 5326
+        y: 9172
+        width: 343
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e585c24ec9115fd0800000000000000
+      internalID: -2355072756463860247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_6
+      rect:
+        serializedVersion: 2
+        x: 6327
+        y: 9172
+        width: 341
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1821b5743e5c359f0800000000000000
+      internalID: -480823155253112191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_7
+      rect:
+        serializedVersion: 2
+        x: 7326
+        y: 9172
+        width: 342
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669310bd006f09a50800000000000000
+      internalID: 6525986343594572134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_8
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 9172
+        width: 343
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce65a549058bc7540800000000000000
+      internalID: 5007079541954991852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_9
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 9172
+        width: 341
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4539f59c4c54390800000000000000
+      internalID: -7834639607570148110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_10
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 9172
+        width: 342
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a691f524de886c60800000000000000
+      internalID: 7811650595494925985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_11
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 9172
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36ca9a7118bc1570800000000000000
+      internalID: 8438822186996385339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 8172
+        width: 341
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8370d8b6cf6324700800000000000000
+      internalID: 523040964492461880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_13
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 8172
+        width: 342
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d9c51ecda2cf50800000000000000
+      internalID: 6900268679725439034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_14
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 8172
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8e3e07d3a407a10800000000000000
+      internalID: 1905104270125164746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_15
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 8172
+        width: 341
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c0692a4c34e1430800000000000000
+      internalID: 3755513651093965906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_16
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 8172
+        width: 342
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3071c4193582d50800000000000000
+      internalID: 6712707128107664333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_17
+      rect:
+        serializedVersion: 2
+        x: 5326
+        y: 8172
+        width: 343
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a2a0548da2b390800000000000000
+      internalID: -7803984420479522635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_18
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 8172
+        width: 344
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fcd822d138a03e0800000000000000
+      internalID: -2086711316175794402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_19
+      rect:
+        serializedVersion: 2
+        x: 7323
+        y: 8172
+        width: 343
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a5e6cc04145590800000000000000
+      internalID: -7686496618905491889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_20
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 8172
+        width: 343
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ed3fc133a0a4560800000000000000
+      internalID: 7298657360752664146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_21
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 8172
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165706d9a37d9f60800000000000000
+      internalID: 8042711682831046161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_22
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 8172
+        width: 342
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4fea846df0f0240800000000000000
+      internalID: 4760040744170747124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_23
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 8172
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3349a97cad5e0b590800000000000000
+      internalID: -7660370238342785997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 7172
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45735f019394fff0800000000000000
+      internalID: -3215448483859124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_25
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 7172
+        width: 342
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0e254d8302a78e0800000000000000
+      internalID: -1695006881299111755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_26
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 7172
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5616a52abe3d611b0800000000000000
+      internalID: -5686124470514065051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_27
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 7172
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e090678e2c5dca2d0800000000000000
+      internalID: -3266000596650030834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_28
+      rect:
+        serializedVersion: 2
+        x: 4330
+        y: 7172
+        width: 343
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bb0feb25b940970800000000000000
+      internalID: 8720265558189194092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_29
+      rect:
+        serializedVersion: 2
+        x: 5326
+        y: 7172
+        width: 343
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ec151a2404d3c0800000000000000
+      internalID: -4335835962461591216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_30
+      rect:
+        serializedVersion: 2
+        x: 6327
+        y: 7172
+        width: 341
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e72f55fcf8eb80800000000000000
+      internalID: -8365158177047059914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_31
+      rect:
+        serializedVersion: 2
+        x: 7326
+        y: 7172
+        width: 342
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9fd819c24ca55e0800000000000000
+      internalID: -1920006595420489234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_32
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 7172
+        width: 343
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b728a8a5f9a9bbda0800000000000000
+      internalID: -5927974475293621637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_33
+      rect:
+        serializedVersion: 2
+        x: 9324
+        y: 7172
+        width: 341
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6b775035abca3f0800000000000000
+      internalID: -888130160762046725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_34
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 7172
+        width: 342
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eb38e4388a4ac50800000000000000
+      internalID: 6675645829581356551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_35
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 7172
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd52c5a36428de0800000000000000
+      internalID: -1332425323280213153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_36
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 6173
+        width: 341
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40ee1fdf1f20160800000000000000
+      internalID: 6990415644620358905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_37
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 6173
+        width: 342
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecab59a537bf1600800000000000000
+      internalID: 441272729608105189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_38
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 6173
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0151148f31f88d2d0800000000000000
+      internalID: -3253693414843017968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_39
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 6173
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d178a56a846085ca0800000000000000
+      internalID: -6028061192137046243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_40
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 6173
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a1842505e2a8cb0800000000000000
+      internalID: -4861021925280310702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_41
+      rect:
+        serializedVersion: 2
+        x: 5323
+        y: 6173
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04eab99d64185a90800000000000000
+      internalID: -7325082332954958834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_42
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 6173
+        width: 344
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b4831725e9b7660800000000000000
+      internalID: 7384670090928081734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_43
+      rect:
+        serializedVersion: 2
+        x: 7326
+        y: 6173
+        width: 342
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092aaa6c5628a5370800000000000000
+      internalID: 8312099435902050960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_44
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 6173
+        width: 343
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c1c812739cc4fd0800000000000000
+      internalID: -2356287266398397398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_45
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 6173
+        width: 341
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2dbd692c17f4070800000000000000
+      internalID: 8092812135976653538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_46
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 6173
+        width: 342
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb28edd51268c790800000000000000
+      internalID: -7509644532583486537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_47
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 6165
+        width: 343
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400a07fb542b39d40800000000000000
+      internalID: 5590007575131234308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_48
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 5172
+        width: 341
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b83d2bb32c76b50800000000000000
+      internalID: 6586446541711706959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_49
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 5172
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ea7eb062cefde00800000000000000
+      internalID: 1071834884490112657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_50
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 5172
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6377cd179054850800000000000000
+      internalID: 6360500433365448415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_51
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 5168
+        width: 341
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eade083d00bbafe0800000000000000
+      internalID: -1176653306805691677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_52
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 5172
+        width: 343
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003b6069664b92660800000000000000
+      internalID: 7361613418610471680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_53
+      rect:
+        serializedVersion: 2
+        x: 5326
+        y: 5172
+        width: 343
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920f435d1d354150800000000000000
+      internalID: 5856154086626230943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_54
+      rect:
+        serializedVersion: 2
+        x: 6330
+        y: 5172
+        width: 342
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215185d8f63b3ae30800000000000000
+      internalID: 4513648543249470738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_55
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 5172
+        width: 342
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ab28eea8f6a3970800000000000000
+      internalID: 8735417069736213034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_56
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 5172
+        width: 343
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9fcd3785e82d850800000000000000
+      internalID: 6400334530999024046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_57
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 5172
+        width: 341
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ed4b073750017d0800000000000000
+      internalID: -2949851762557395366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_58
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 5172
+        width: 342
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825391fedcb887290800000000000000
+      internalID: -7892404630370831064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_59
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 5172
+        width: 343
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873cf97f11ee0eae0800000000000000
+      internalID: -1521954913114930312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4172
+        width: 341
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee8b49f41d746040800000000000000
+      internalID: 4639971045133749986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_61
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 4172
+        width: 342
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c42989fdba82c00800000000000000
+      internalID: 876139104349342738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_62
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 4172
+        width: 343
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34bc8f937b6d88f0800000000000000
+      internalID: -536654636245011396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_63
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 4172
+        width: 341
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87837f0f2c076b9d0800000000000000
+      internalID: -2758893739149150088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_64
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 4172
+        width: 343
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e246437eb21d9f130800000000000000
+      internalID: 3601139363552191534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_65
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 4172
+        width: 342
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f668ac21d731400800000000000000
+      internalID: 293715920369905431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_66
+      rect:
+        serializedVersion: 2
+        x: 6335
+        y: 4172
+        width: 342
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d36887e63878460800000000000000
+      internalID: 7243903036140436747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_67
+      rect:
+        serializedVersion: 2
+        x: 7329
+        y: 4172
+        width: 342
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83d305cbde55c120800000000000000
+      internalID: 2433455471659832207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_68
+      rect:
+        serializedVersion: 2
+        x: 8333
+        y: 4172
+        width: 342
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0e312e0cd2ad90800000000000000
+      internalID: -7087860910282371374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_69
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 4172
+        width: 341
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f459e56ae80a2a4e0800000000000000
+      internalID: -1971837152297839281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_70
+      rect:
+        serializedVersion: 2
+        x: 10333
+        y: 4172
+        width: 343
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b24b7590cea9800800000000000000
+      internalID: 620067423587150716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_71
+      rect:
+        serializedVersion: 2
+        x: 11323
+        y: 4172
+        width: 343
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d4beeaf3d84a80800000000000000
+      internalID: -8482296823452215186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_72
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3173
+        width: 341
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23167efadeb4dd960800000000000000
+      internalID: 7628336828065997106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_73
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 3173
+        width: 343
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479c16df23aa9b70800000000000000
+      internalID: 8906610638929565510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_74
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 3173
+        width: 343
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979de33abab874550800000000000000
+      internalID: 6145033785864804729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_75
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3173
+        width: 341
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272fb3b0644e8a5c0800000000000000
+      internalID: -4203859262663036302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_76
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 3173
+        width: 343
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdbd368ace11eaf0800000000000000
+      internalID: -368979839283249730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_77
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 3173
+        width: 345
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487319baaf6b0920800000000000000
+      internalID: 2957580359339046979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_78
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 3173
+        width: 344
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f442cc4efac5bc0800000000000000
+      internalID: -3792963388940464358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_79
+      rect:
+        serializedVersion: 2
+        x: 7329
+        y: 3173
+        width: 342
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee50a5c887c84610800000000000000
+      internalID: 1605752657402683107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_80
+      rect:
+        serializedVersion: 2
+        x: 8331
+        y: 3173
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da303a67de0a269f0800000000000000
+      internalID: -476641668789763155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_81
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 3173
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863decf806d0fff10800000000000000
+      internalID: 2305576242617701224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_82
+      rect:
+        serializedVersion: 2
+        x: 10330
+        y: 3173
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ccda2488f1bdca0800000000000000
+      internalID: -5991160209191613422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_83
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 3173
+        width: 343
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a59bf9f4c81d52d0800000000000000
+      internalID: -3288444918623922781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_84
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2172
+        width: 341
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78817f6a0691e08d0800000000000000
+      internalID: -2878335208934401913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_85
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2172
+        width: 342
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed57c2c24a0f9af50800000000000000
+      internalID: 6893305292573668830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_86
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 2172
+        width: 343
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75818081f59b35dd0800000000000000
+      internalID: -2498449550184277929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_87
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2172
+        width: 341
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83560d5560fd5c2e0800000000000000
+      internalID: -2106032032423320264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_88
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 2172
+        width: 343
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b4b35b04c7c78b0800000000000000
+      internalID: -5153107256258376901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_89
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 2172
+        width: 345
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6961e7b65a4b4840800000000000000
+      internalID: 5209339130296756587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_90
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 2172
+        width: 344
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a8dd6e55fb6b50800000000000000
+      internalID: 6587628665878128457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_91
+      rect:
+        serializedVersion: 2
+        x: 7329
+        y: 2172
+        width: 342
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c9cd279947a3aa0800000000000000
+      internalID: -6180499336206705629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_92
+      rect:
+        serializedVersion: 2
+        x: 8329
+        y: 2172
+        width: 343
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266fb3d02d1c756b0800000000000000
+      internalID: -5307560527923513758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_93
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 2172
+        width: 341
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba4d019a6faf0f40800000000000000
+      internalID: 5696964925881928374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_94
+      rect:
+        serializedVersion: 2
+        x: 10329
+        y: 2172
+        width: 342
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e89a1e8059626a0800000000000000
+      internalID: -6474323548920246646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_95
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 2172
+        width: 343
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f348529e3318ef20800000000000000
+      internalID: 3452030273843643379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_96
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1172
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c39541453286a0800000000000000
+      internalID: -6448533161984671494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_97
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1172
+        width: 342
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d55eaadb3b1ad10800000000000000
+      internalID: 2135185325547674996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_98
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1167
+        width: 342
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c52d1f2f6390960800000000000000
+      internalID: 7568641065839910016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_99
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1172
+        width: 341
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfd17f12eedb13c0800000000000000
+      internalID: -4387668349170884665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_100
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 1172
+        width: 343
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6455579b8f88f40800000000000000
+      internalID: 5731104001250117313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_101
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 1172
+        width: 345
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c794f996ecca9880800000000000000
+      internalID: -8603338847340423224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_102
+      rect:
+        serializedVersion: 2
+        x: 6330
+        y: 1169
+        width: 342
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82581e23e1adedd10800000000000000
+      internalID: 2152397495167190312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_103
+      rect:
+        serializedVersion: 2
+        x: 7329
+        y: 1166
+        width: 342
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c503814523153dc0800000000000000
+      internalID: -3659998071434836540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_104
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 1166
+        width: 343
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182e775aa5623aca0800000000000000
+      internalID: -6006915307217100159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_105
+      rect:
+        serializedVersion: 2
+        x: 9333
+        y: 1172
+        width: 341
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a223ffd78729c5ef0800000000000000
+      internalID: -118058444010868182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_106
+      rect:
+        serializedVersion: 2
+        x: 10330
+        y: 1166
+        width: 343
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6c99412313a3040800000000000000
+      internalID: 4628065658240354002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_107
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 1172
+        width: 343
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9135f8c5f9331a930800000000000000
+      internalID: 4152657090958021401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_108
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 173
+        width: 341
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ce060988195a3d0800000000000000
+      internalID: -3195988344825648001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_109
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 166
+        width: 342
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d87592b4c05bb90800000000000000
+      internalID: -7226856510090408546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_110
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 173
+        width: 342
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed4cfb5a1714d770800000000000000
+      internalID: 8634551787555933671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_111
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 173
+        width: 341
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729aed1a9da231ba0800000000000000
+      internalID: -6119500354454378201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_112
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 173
+        width: 341
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dfa1676dca93b90800000000000000
+      internalID: -7261582887053755063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_113
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 173
+        width: 345
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c07c4d8ea654dc0800000000000000
+      internalID: -3655397974306517955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_114
+      rect:
+        serializedVersion: 2
+        x: 6331
+        y: 173
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b530ee95c1699c0800000000000000
+      internalID: -3920915253008573576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_115
+      rect:
+        serializedVersion: 2
+        x: 7329
+        y: 173
+        width: 342
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc41603e899fb64e0800000000000000
+      internalID: -1987220375514770229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_116
+      rect:
+        serializedVersion: 2
+        x: 8323
+        y: 173
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15ea04292874fab0800000000000000
+      internalID: -4975219570243869412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_117
+      rect:
+        serializedVersion: 2
+        x: 9327
+        y: 173
+        width: 341
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3865d753f6c17300800000000000000
+      internalID: 248198202935044158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_118
+      rect:
+        serializedVersion: 2
+        x: 10330
+        y: 173
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316003501a0a63640800000000000000
+      internalID: 5059407844834543123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteidlegolok_119
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 173
+        width: 343
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b98c0efe7a3c650800000000000000
+      internalID: 6252025356430646114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

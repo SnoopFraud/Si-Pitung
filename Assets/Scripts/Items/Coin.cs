@@ -5,7 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     #region Var
-    int score = 10;
+    [SerializeField] private int score;
     GameObject ScoreUI;
 
     #endregion

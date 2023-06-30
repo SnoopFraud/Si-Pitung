@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 3e7ad1212a9ad7141a1aa68dcd642445
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2132368395485517593
+    second: spriterattackolok_0
+  - first:
+      213: 9000006333135586388
+    second: spriterattackolok_1
+  - first:
+      213: 2507577364744855066
+    second: spriterattackolok_2
+  - first:
+      213: 7805368237257047013
+    second: spriterattackolok_3
+  - first:
+      213: -865486841666747646
+    second: spriterattackolok_4
+  - first:
+      213: 4471883206541578183
+    second: spriterattackolok_5
+  - first:
+      213: -7301734522928529921
+    second: spriterattackolok_6
+  - first:
+      213: -4782720812586548616
+    second: spriterattackolok_7
+  - first:
+      213: -8136450844309396292
+    second: spriterattackolok_8
+  - first:
+      213: 4152678155786634112
+    second: spriterattackolok_9
+  - first:
+      213: 9036796811555842280
+    second: spriterattackolok_10
+  - first:
+      213: -8878694341282364943
+    second: spriterattackolok_11
+  - first:
+      213: -68913236042930549
+    second: spriterattackolok_12
+  - first:
+      213: -5884053420664928767
+    second: spriterattackolok_14
+  - first:
+      213: -5810257197902073744
+    second: spriterattackolok_16
+  - first:
+      213: 8833023055047469839
+    second: spriterattackolok_18
+  - first:
+      213: 554175311993750193
+    second: spriterattackolok_20
+  - first:
+      213: -8821334767642554718
+    second: spriterattackolok_22
+  - first:
+      213: -3566218095950282932
+    second: spriterattackolok_24
+  - first:
+      213: -7000902763496771871
+    second: spriterattackolok_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriterattackolok_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 4187
+        width: 431
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e0d8fd3e4862e0800000000000000
+      internalID: -2132368395485517593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_1
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 4187
+        width: 431
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45400de631276ec70800000000000000
+      internalID: 9000006333135586388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_2
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 4193
+        width: 430
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e5d68d354bcc220800000000000000
+      internalID: 2507577364744855066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_3
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 4181
+        width: 428
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebb2d2ae0d325c60800000000000000
+      internalID: 7805368237257047013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_4
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 4187
+        width: 421
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203cda49d4c2df3f0800000000000000
+      internalID: -865486841666747646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_5
+      rect:
+        serializedVersion: 2
+        x: 5313
+        y: 4190
+        width: 406
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf02f255125f0e30800000000000000
+      internalID: 4471883206541578183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_6
+      rect:
+        serializedVersion: 2
+        x: 6347
+        y: 4189
+        width: 381
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd73ac33270baa90800000000000000
+      internalID: -7301734522928529921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_7
+      rect:
+        serializedVersion: 2
+        x: 7346
+        y: 4193
+        width: 382
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87249e9c2cc50adb0800000000000000
+      internalID: -4782720812586548616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3193
+        width: 372
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4e28cd015851f80800000000000000
+      internalID: -8136450844309396292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_9
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3193
+        width: 353
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083cf26e7c641a930800000000000000
+      internalID: 4152678155786634112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_10
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 3187
+        width: 331
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82b2432d6296d70800000000000000
+      internalID: 9036796811555842280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_11
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 3194
+        width: 354
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f10896b98a88c480800000000000000
+      internalID: -8878694341282364943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_12
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 3188
+        width: 404
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86a655e6cb2b0ff0800000000000000
+      internalID: -68913236042930549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_14
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 3188
+        width: 428
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10648d5c694a75ea0800000000000000
+      internalID: -5884053420664928767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_16
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 3195
+        width: 451
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f361dcd1dd5fa0800000000000000
+      internalID: -5810257197902073744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_18
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 3195
+        width: 455
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ba0f05ba3359a70800000000000000
+      internalID: 8833023055047469839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_20
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 2195
+        width: 437
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2cda69283d0b700800000000000000
+      internalID: 554175311993750193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_22
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2195
+        width: 429
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeccd924c2549580800000000000000
+      internalID: -8821334767642554718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_24
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 2195
+        width: 400
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f305f498f328ec0800000000000000
+      internalID: -3566218095950282932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterattackolok_25
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 2195
+        width: 400
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee69ba670cc7de90800000000000000
+      internalID: -7000902763496771871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

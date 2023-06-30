@@ -42,7 +42,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Crouch",
+                    "name": "Sliding",
                     "type": "Button",
                     "id": "1a08fd6d-23a1-464c-9318-d016444ff268",
                     "expectedControlType": "Button",
@@ -63,6 +63,15 @@
                     "name": "Dash",
                     "type": "Button",
                     "id": "4d6647ce-faaa-47db-a3cf-025649966527",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "75b8bf3b-4810-4835-aeb8-915eb11ccba0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -308,7 +317,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Crouch",
+                    "action": "Sliding",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -318,8 +327,8 @@
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Crouch",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Sliding",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -342,6 +351,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6d0f98a-6145-4af2-9350-9a056234228a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

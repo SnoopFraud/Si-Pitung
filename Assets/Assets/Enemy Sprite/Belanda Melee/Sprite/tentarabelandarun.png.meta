@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 93ca5818c2870844db88a5a885b97126
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8356213710249945677
+    second: tentarabelandarun_0
+  - first:
+      213: -4310795909982035387
+    second: tentarabelandarun_1
+  - first:
+      213: -8203404554118158752
+    second: tentarabelandarun_2
+  - first:
+      213: 8689232032033640770
+    second: tentarabelandarun_3
+  - first:
+      213: -1562332888661121779
+    second: tentarabelandarun_4
+  - first:
+      213: 5332395909398993417
+    second: tentarabelandarun_5
+  - first:
+      213: 2319222055616804144
+    second: tentarabelandarun_6
+  - first:
+      213: -8615156286184333649
+    second: tentarabelandarun_7
+  - first:
+      213: 3125903018188954721
+    second: tentarabelandarun_8
+  - first:
+      213: -6731227943065817772
+    second: tentarabelandarun_9
+  - first:
+      213: -8026159921982622842
+    second: tentarabelandarun_10
+  - first:
+      213: -102572060851584990
+    second: tentarabelandarun_11
+  - first:
+      213: -6065536234412443468
+    second: tentarabelandarun_12
+  - first:
+      213: -8916976255411077572
+    second: tentarabelandarun_13
+  - first:
+      213: 7654905961013818347
+    second: tentarabelandarun_14
+  - first:
+      213: -7784278855131951359
+    second: tentarabelandarun_15
+  - first:
+      213: -6399932116154047875
+    second: tentarabelandarun_16
+  - first:
+      213: 1776293909529029116
+    second: tentarabelandarun_17
+  - first:
+      213: -6144011311197661259
+    second: tentarabelandarun_18
+  - first:
+      213: -623665263013596489
+    second: tentarabelandarun_19
+  - first:
+      213: 5987792936677621869
+    second: tentarabelandarun_20
+  - first:
+      213: -7905904136642900838
+    second: tentarabelandarun_21
+  - first:
+      213: 2179635054754002333
+    second: tentarabelandarun_22
+  - first:
+      213: -7350358165631661112
+    second: tentarabelandarun_23
+  - first:
+      213: -8434634094717746653
+    second: tentarabelandarun_24
+  - first:
+      213: 8452585750009287908
+    second: tentarabelandarun_25
+  - first:
+      213: 5229480804171110027
+    second: tentarabelandarun_26
+  - first:
+      213: 5181796198831282481
+    second: tentarabelandarun_27
+  - first:
+      213: -7914601273975812521
+    second: tentarabelandarun_28
+  - first:
+      213: -1805763785057493397
+    second: tentarabelandarun_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tentarabelandarun_0
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 4206
+        width: 593
+        height: 654
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a62baa81c37f370800000000000000
+      internalID: 8356213710249945677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_1
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 4199
+        width: 592
+        height: 655
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542605e95f9fc24c0800000000000000
+      internalID: -4310795909982035387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_2
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 4199
+        width: 586
+        height: 659
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06627f28507a72e80800000000000000
+      internalID: -8203404554118158752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_3
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 4193
+        width: 575
+        height: 664
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2419f40ee7a569870800000000000000
+      internalID: 8689232032033640770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_4
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 4185
+        width: 562
+        height: 670
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a17ee38a715ae0800000000000000
+      internalID: -1562332888661121779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_5
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 4173
+        width: 544
+        height: 675
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a197dc3d9700a40800000000000000
+      internalID: 5332395909398993417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_6
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 4166
+        width: 523
+        height: 681
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0357a4cfb288f2020800000000000000
+      internalID: 2319222055616804144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_7
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 4163
+        width: 516
+        height: 683
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae5285b001d07880800000000000000
+      internalID: -8615156286184333649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3154
+        width: 516
+        height: 693
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c5979bb30716b20800000000000000
+      internalID: 3125903018188954721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 3158
+        width: 516
+        height: 693
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45de06f69dfd592a0800000000000000
+      internalID: -6731227943065817772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_10
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 3175
+        width: 543
+        height: 678
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683bfbb431a5d9090800000000000000
+      internalID: -8026159921982622842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_11
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3201
+        width: 570
+        height: 653
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220cf0d0147939ef0800000000000000
+      internalID: -102572060851584990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_12
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 3233
+        width: 587
+        height: 630
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8f59f6ee2e2dba0800000000000000
+      internalID: -6065536234412443468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_13
+      rect:
+        serializedVersion: 2
+        x: 5308
+        y: 3251
+        width: 593
+        height: 608
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e31a10759804480800000000000000
+      internalID: -8916976255411077572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_14
+      rect:
+        serializedVersion: 2
+        x: 6315
+        y: 3274
+        width: 600
+        height: 593
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3bf330a60bb3a60800000000000000
+      internalID: 7654905961013818347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_15
+      rect:
+        serializedVersion: 2
+        x: 7297
+        y: 3277
+        width: 604
+        height: 589
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f8647cf9fa8f390800000000000000
+      internalID: -7784278855131951359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2273
+        width: 600
+        height: 593
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72260e06afde27a0800000000000000
+      internalID: -6399932116154047875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_17
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2257
+        width: 593
+        height: 608
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ea2646e9a6a810800000000000000
+      internalID: 1776293909529029116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_18
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 2233
+        width: 587
+        height: 631
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d41cc3461cbaa0800000000000000
+      internalID: -6144011311197661259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_19
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 2207
+        width: 570
+        height: 655
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2f2536fbb4857f0800000000000000
+      internalID: -623665263013596489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_20
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 2180
+        width: 541
+        height: 677
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60434383f9e81350800000000000000
+      internalID: 5987792936677621869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_21
+      rect:
+        serializedVersion: 2
+        x: 5368
+        y: 2163
+        width: 516
+        height: 693
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ccb133316984290800000000000000
+      internalID: -7905904136642900838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_22
+      rect:
+        serializedVersion: 2
+        x: 6368
+        y: 2160
+        width: 516
+        height: 693
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95f99ab88e9f3e10800000000000000
+      internalID: 2179635054754002333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_23
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 2170
+        width: 516
+        height: 683
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb02a531384ef990800000000000000
+      internalID: -7350358165631661112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_24
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1167
+        width: 522
+        height: 681
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32243fdbaf822fa80800000000000000
+      internalID: -8434634094717746653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_25
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1182
+        width: 544
+        height: 676
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e415d6b4fd9d4570800000000000000
+      internalID: 8452585750009287908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_26
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 1182
+        width: 561
+        height: 670
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86d75c9519d29840800000000000000
+      internalID: 5229480804171110027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_27
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1190
+        width: 576
+        height: 664
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139dec1403079e740800000000000000
+      internalID: 5181796198831282481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_28
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 1209
+        width: 592
+        height: 656
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e41dd1310b92290800000000000000
+      internalID: -7914601273975812521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tentarabelandarun_29
+      rect:
+        serializedVersion: 2
+        x: 5279
+        y: 1202
+        width: 594
+        height: 655
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e1263a763a0f6e0800000000000000
+      internalID: -1805763785057493397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

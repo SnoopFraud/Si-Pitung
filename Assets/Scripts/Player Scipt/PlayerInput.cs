@@ -9,7 +9,7 @@ public class PlayerInput : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody rb;
     [SerializeField] private SpriteRenderer sr;
-    [SerializeField] private CapsuleCollider regularcol, crouchcol;
+    [SerializeField] private CapsuleCollider regularcol, slidecol;
     [SerializeField] private Transform player;
 
     [Header("Physic Force")]
@@ -21,10 +21,17 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private float _dashingVelocity;
     [SerializeField] private float _dashingTime;
     [SerializeField] private float CooldownTime;
-    
-    private Vector2 _dashingDir;
     // Trail renderer
     [SerializeField] private TrailRenderer trailRenderer;
+
+    private Vector2 _dashingDir;
+
+    [Header("Sliding Variable")]
+    //Sliding var
+    [SerializeField] private float _slidingVelocity;
+    [SerializeField] private float _slidingTime;
+    [SerializeField] private float _slideCooldownTime;
+    private Vector2 _slidingDir;
     
     //For attack
     private Vector2 _attackDir;
@@ -42,8 +49,8 @@ public class PlayerInput : MonoBehaviour
     public float KnockbackTime;
 
     public bool KnockFromRight;
-
     public static PlayerInput instance;
+    public bool isPowerUp;
 
     int PlayerLayer;
     int enemyLayer;
@@ -85,6 +92,8 @@ public class PlayerInput : MonoBehaviour
 
     private void FixedUpdate()
     {
+        isPowerUp = PlayerVar.PowerUp;
+
         //For Knockback
         if (KnockbackCounter <= 0)
         {
@@ -109,6 +118,19 @@ public class PlayerInput : MonoBehaviour
             KnockbackCounter -= Time.deltaTime;
         }
 
+        //Condition for Sliding
+        if(IsGrounded() && rb.velocity.magnitude > 0.1 && !PlayerVar.isSlidingCooldown)
+        {
+            PlayerVar.canSlide = true;
+        }
+
+        //For Sliding
+        if (PlayerVar.isSliding)
+        {
+            rb.velocity = _slidingDir.normalized * _slidingVelocity;
+            return; //Return to previous function
+        }
+        
         //For Dashing
         if (PlayerVar.isDashing)
         {
@@ -123,16 +145,9 @@ public class PlayerInput : MonoBehaviour
         }
 
         //Condition for Attack
-        if(IsGrounded() && !PlayerVar.isAttackCooldown && !PlayerVar.crouching)
+        if(IsGrounded() && !PlayerVar.isAttackCooldown && !PlayerVar.isSliding)
         {
             PlayerVar.canAttack = true;
-        }
-
-        if (!IsGrounded())
-        {
-            PlayerVar.isHitting[0] = false;
-            PlayerVar.isHitting[1] = false;
-            PlayerVar.isHitting[2] = false;
         }
 
         if (PlayerVar.isHitting[1])
@@ -164,6 +179,20 @@ public class PlayerInput : MonoBehaviour
         PlayerVar.isOnCooldown = true;
         yield return new WaitForSeconds(CooldownTime);
         PlayerVar.isOnCooldown = false;
+    }
+
+    private IEnumerator StopSliding()
+    {
+        yield return new WaitForSeconds(_slidingTime);
+        //False the condition
+        PlayerVar.isSliding = false;
+        regularcol.enabled = true;
+        slidecol.enabled = false;
+
+        //Cooldown time
+        PlayerVar.isSlidingCooldown = true;
+        yield return new WaitForSeconds(_slideCooldownTime);
+        PlayerVar.isSlidingCooldown = false;
     }
 
     #region Physics Condition
@@ -240,35 +269,27 @@ public class PlayerInput : MonoBehaviour
     public void MovePlayer(InputAction.CallbackContext move)
     {
         horizontalMove = move.ReadValue<Vector2>().x;
+
+        if (move.performed && IsGrounded())
+        {
+            AudioManager.instance.PlaySound("PlayerWalk");
+        }
+        else
+        {
+            AudioManager.instance.StopSound("PlayerWalk");
+        }
     }
 
     public void Jump(InputAction.CallbackContext jump)
     {
-        if (jump.performed && IsGrounded() && !PlayerVar.crouching)
+        if (jump.performed && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            AudioManager.instance.PlaySound("PlayerJump");
         }
         if (jump.canceled && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
-    }
-
-    public void Crouch(InputAction.CallbackContext crouch)
-    {
-        if (crouch.performed && IsGrounded())
-        {
-            _moveSpeed = 0;
-            PlayerVar.crouching = true;
-            regularcol.enabled = false;
-            crouchcol.enabled = true;
-        }
-        else
-        {
-            _moveSpeed = BaseSpeed;
-            PlayerVar.crouching = false;
-            regularcol.enabled = true;
-            crouchcol.enabled = false;
         }
     }
 
@@ -315,6 +336,59 @@ public class PlayerInput : MonoBehaviour
             }
             StartCoroutine(StopDashing());
         }
+    }
+
+    public void Slide(InputAction.CallbackContext Sliding)
+    {
+        if (Sliding.performed && PlayerVar.canSlide)
+        {
+            PlayerVar.isSliding = true;
+            PlayerVar.canSlide = false;
+            //Switch collision
+            regularcol.enabled = false;
+            slidecol.enabled = true;
+
+            _slidingDir = new Vector2(horizontalMove, 0);
+
+            //Give Direction for sliding
+            if(_slidingDir == Vector2.zero)
+            {
+                _slidingDir = new Vector2(transform.localScale.x, 0);
+            }
+
+            StartCoroutine(StopSliding());
+        }
+    }
+
+    public void Pause(InputAction.CallbackContext pause)
+    {
+        if (pause.performed)
+        {
+            GameManager.instance.isPaused = !GameManager.instance.isPaused;
+        }
+    }
+    #endregion
+
+    #region PowerUp
+    public void StartingPowerUp()
+    {
+        StartCoroutine(PowerUpNow());
+    }
+
+    public IEnumerator PowerUpNow()
+    {
+        ResetAttack();
+        PlayerVar.PowerUp = true;
+        yield return new WaitForSeconds(3f);
+        PlayerVar.PowerUp = false;
+        ResetAttack();
+    }
+
+    private void ResetAttack()
+    {
+        PlayerVar.isHitting[0] = false;
+        PlayerVar.isHitting[1] = false;
+        PlayerVar.isHitting[2] = false;
     }
     #endregion
 }

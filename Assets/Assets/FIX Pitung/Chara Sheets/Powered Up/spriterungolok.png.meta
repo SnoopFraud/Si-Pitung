@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: f4c438b97b153b840ae95454cdaccc79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6169521669365846075
+    second: spriterungolok_0
+  - first:
+      213: 231985094046997217
+    second: spriterungolok_1
+  - first:
+      213: -7132658017217623780
+    second: spriterungolok_2
+  - first:
+      213: 2685220881168784956
+    second: spriterungolok_3
+  - first:
+      213: 6152514106949889581
+    second: spriterungolok_4
+  - first:
+      213: -4408737811254203704
+    second: spriterungolok_5
+  - first:
+      213: 4855588773871010217
+    second: spriterungolok_6
+  - first:
+      213: 4156748926390145365
+    second: spriterungolok_7
+  - first:
+      213: 330288716636571402
+    second: spriterungolok_8
+  - first:
+      213: -3463157275248843390
+    second: spriterungolok_9
+  - first:
+      213: 2541103569300621834
+    second: spriterungolok_10
+  - first:
+      213: 3668754889954642304
+    second: spriterungolok_11
+  - first:
+      213: -8607596949673107838
+    second: spriterungolok_12
+  - first:
+      213: 7679186110924880712
+    second: spriterungolok_13
+  - first:
+      213: -7730629584695209497
+    second: spriterungolok_14
+  - first:
+      213: -5463025960561647163
+    second: spriterungolok_15
+  - first:
+      213: 5669815886623604919
+    second: spriterungolok_16
+  - first:
+      213: 1504150062166747220
+    second: spriterungolok_17
+  - first:
+      213: -5382310817483544476
+    second: spriterungolok_18
+  - first:
+      213: -605763442209900649
+    second: spriterungolok_19
+  - first:
+      213: 842185786953075159
+    second: spriterungolok_20
+  - first:
+      213: 4903456352911153608
+    second: spriterungolok_21
+  - first:
+      213: -8022710739276606810
+    second: spriterungolok_22
+  - first:
+      213: -6678894867746388997
+    second: spriterungolok_23
+  - first:
+      213: 5113195527416798010
+    second: spriterungolok_24
+  - first:
+      213: -8955511954828701894
+    second: spriterungolok_25
+  - first:
+      213: -4001652231197864545
+    second: spriterungolok_26
+  - first:
+      213: -9213931520962508765
+    second: spriterungolok_27
+  - first:
+      213: -5614683303599396355
+    second: spriterungolok_28
+  - first:
+      213: 648260246421129159
+    second: spriterungolok_29
+  - first:
+      213: -7656825282171619526
+    second: spriterungolok_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriterungolok_0
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4257
+        width: 437
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3050a0554b8e9550800000000000000
+      internalID: 6169521669365846075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_1
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 4258
+        width: 433
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5bd3c63d283300800000000000000
+      internalID: 231985094046997217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_2
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 4237
+        width: 414
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c663e255b30d90800000000000000
+      internalID: -7132658017217623780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_3
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 4230
+        width: 379
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed68d1a22d34520800000000000000
+      internalID: 2685220881168784956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_4
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 4202
+        width: 352
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ee35c9bfe126550800000000000000
+      internalID: 6152514106949889581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_5
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 4185
+        width: 315
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca2c54b15401d2c0800000000000000
+      internalID: -4408737811254203704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_6
+      rect:
+        serializedVersion: 2
+        x: 6394
+        y: 4163
+        width: 286
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1c4f98344826340800000000000000
+      internalID: 4855588773871010217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_7
+      rect:
+        serializedVersion: 2
+        x: 7373
+        y: 4177
+        width: 322
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55198f9002dbfa930800000000000000
+      internalID: 4156748926390145365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 3192
+        width: 344
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07417c76db659400800000000000000
+      internalID: 330288716636571402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_9
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 3194
+        width: 358
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285ab778ec460ffc0800000000000000
+      internalID: -3463157275248843390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_10
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 3201
+        width: 361
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a04a1ab30d34320800000000000000
+      internalID: 2541103569300621834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_11
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 3212
+        width: 399
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08949bf62290ae230800000000000000
+      internalID: 3668754889954642304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_12
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 3225
+        width: 432
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e9ff4ed2cab8880800000000000000
+      internalID: -8607596949673107838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_13
+      rect:
+        serializedVersion: 2
+        x: 5261
+        y: 3237
+        width: 456
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b7ac1f413f19a60800000000000000
+      internalID: 7679186110924880712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_14
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 3245
+        width: 471
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1dd12f95947b490800000000000000
+      internalID: -7730629584695209497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_15
+      rect:
+        serializedVersion: 2
+        x: 7250
+        y: 3243
+        width: 476
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c16cfd45de6f24b0800000000000000
+      internalID: -5463025960561647163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2245
+        width: 471
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b00118428b3fae40800000000000000
+      internalID: 5669815886623604919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_17
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2231
+        width: 456
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a4502380dfd410800000000000000
+      internalID: 1504150062166747220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_18
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 2219
+        width: 432
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a62504d03e45b0800000000000000
+      internalID: -5382310817483544476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_19
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 2206
+        width: 399
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7973929db55e797f0800000000000000
+      internalID: -605763442209900649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_20
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 2201
+        width: 361
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9883ad28b00bb00800000000000000
+      internalID: 842185786953075159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_21
+      rect:
+        serializedVersion: 2
+        x: 5330
+        y: 2194
+        width: 357
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d6e6c2939c0440800000000000000
+      internalID: 4903456352911153608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_22
+      rect:
+        serializedVersion: 2
+        x: 6358
+        y: 2192
+        width: 343
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d4b9b61b99a090800000000000000
+      internalID: -8022710739276606810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_23
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 2178
+        width: 322
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf30ccb018ccf43a0800000000000000
+      internalID: -6678894867746388997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_24
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1175
+        width: 287
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b5bc6cd38b5f640800000000000000
+      internalID: 5113195527416798010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_25
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1185
+        width: 316
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fcbae4351a7b380800000000000000
+      internalID: -8955511954828701894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_26
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1203
+        width: 352
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4dc45f764778c0800000000000000
+      internalID: -4001652231197864545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_27
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1230
+        width: 378
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3284144691a812080800000000000000
+      internalID: -9213931520962508765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_28
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 1246
+        width: 414
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df924a28843a412b0800000000000000
+      internalID: -5614683303599396355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_29
+      rect:
+        serializedVersion: 2
+        x: 5273
+        y: 1258
+        width: 433
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c740fd62451ff800800000000000000
+      internalID: 648260246421129159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriterungolok_30
+      rect:
+        serializedVersion: 2
+        x: 6270
+        y: 1257
+        width: 437
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a373ee439fd7db590800000000000000
+      internalID: -7656825282171619526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
