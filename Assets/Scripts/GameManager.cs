@@ -87,7 +87,6 @@ public class GameManager : MonoBehaviour
     //Save the game
     public void NextLv(string key)
     {
-        sceneScript.LoadScene(NextLevel);
         PlayerPrefs.SetInt(key, 1);
     }
     //Quit the Game
