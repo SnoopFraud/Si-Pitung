@@ -149,16 +149,6 @@ public class PlayerInput : MonoBehaviour
         {
             PlayerVar.canAttack = true;
         }
-
-        if (PlayerVar.isHitting[1])
-        {
-            StartCoroutine(MovePlayerForward(0.1f, 1f));
-        }
-        if (PlayerVar.isHitting[2])
-        {
-            StartCoroutine(MovePlayerForward(0.1f, 1.5f));
-            StartCoroutine(AttackCooldown());
-        }
     }
 
     private IEnumerator AttackCooldown()
@@ -309,11 +299,17 @@ public class PlayerInput : MonoBehaviour
             else if (PlayerVar.isHitting[0])
             {
                 PlayerVar.isHitting[1] = true;
+                StartCoroutine(MovePlayerForward(0.5f, 3f));
             }
             else if (PlayerVar.isHitting[1])
             {
                 PlayerVar.isHitting[2] = true;
+                StartCoroutine(MovePlayerForward(0.5f, 4f));
             } 
+            else if (PlayerVar.isHitting[2])
+            {
+                StartCoroutine(AttackCooldown());
+            }
 
             if (_attackDir == Vector2.zero)
             {
