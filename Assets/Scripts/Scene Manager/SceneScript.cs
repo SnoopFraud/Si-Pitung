@@ -8,5 +8,6 @@ public class SceneScript : MonoBehaviour
     public void LoadScene(string levelName)
     {
         SceneManager.LoadScene(levelName); // Load the specified level
+        Time.timeScale = 1;
     }
 }

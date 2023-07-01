@@ -33,14 +33,17 @@ public class TriggerHitbox : MonoBehaviour
             if (PlayerVar.isHitting[0])
             {
                 enemyHealth.TakeDamage(damage1);
+                PlayerAudio.instance.PlaySound("Hit1");
             }
             if (PlayerVar.isHitting[1])
             {
                 enemyHealth.TakeDamage(damage2);
+                PlayerAudio.instance.PlaySound("Hit2");
             }
             if (PlayerVar.isHitting[2])
             {
                 enemyHealth.TakeDamage(damage3);
+                PlayerAudio.instance.PlaySound("Hit3");
             }
         }
 
@@ -51,14 +54,17 @@ public class TriggerHitbox : MonoBehaviour
             if (PlayerVar.isHitting[0])
             {
                 obstacle.TakeDamage(damage1);
+                PlayerAudio.instance.PlaySound("Tong DMG");
             }
             if (PlayerVar.isHitting[1])
             {
                 obstacle.TakeDamage(damage2);
+                PlayerAudio.instance.PlaySound("Tong DMG");
             }
             if (PlayerVar.isHitting[2])
             {
                 obstacle.TakeDamage(damage3);
+                PlayerAudio.instance.PlaySound("Tong DMG");
             }
         }
     }

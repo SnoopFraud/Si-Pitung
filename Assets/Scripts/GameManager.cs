@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     public bool isEnd;
     public bool isPaused;
+    public bool isGameOver;
 
     public SceneScript sceneScript;
 
@@ -51,29 +52,26 @@ public class GameManager : MonoBehaviour
         if(CountEnemies == 0)
         {
             isEnd = true;
-        }
+        }     
+    }
 
-        if (isPaused)
+    //Pause the Game
+    public void PauseGame()
+    {
+        isPaused = !isPaused;
+
+        if (!isPaused)
         {
-            PauseGame();
+            Time.timeScale = 1;
+            PauseUI.SetActive(false);
         }
         else
         {
-            PressContinue();
+            Time.timeScale = 0;
+            PauseUI.SetActive(true);
         }
     }
-    //Pause Game
-    public void PauseGame()
-    {
-        PauseUI.SetActive(true);
-        Time.timeScale = 0;
-    }
-    public void PressContinue()
-    {
-        isPaused = false;
-        PauseUI.SetActive(false);
-        Time.timeScale = 1;
-    }
+
     //Win Condition
     public void Win()
     {
@@ -97,10 +95,5 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quitting");
-    }
-    //Restarting the Game
-    public void LoadScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
     }
 }

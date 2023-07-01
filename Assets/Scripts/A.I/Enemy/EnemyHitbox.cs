@@ -35,6 +35,7 @@ public class EnemyHitbox : MonoBehaviour
                 PlayerInput.KnockFromRight = false;
             }
             playerHealth.takeDamage(damage);
+            PlayerAudio.instance.PlaySound("Knife Damage");
         }
     }
 }

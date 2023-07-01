@@ -35,11 +35,12 @@ public class HealthItem : MonoBehaviour
         //Debug.Log("Score is " + ScoreUI.name);
     }
 
-    private void OnCollisionEnter(Collision contactwith)
+    private void OnTriggerEnter(Collider other)
     {
-        if (contactwith.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
+            PlayerAudio.instance.PlaySound("Health");
             giveHealth();
         }
     }

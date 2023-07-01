@@ -231,6 +231,8 @@ public class PlayerInput : MonoBehaviour
     private void Flip()
     {
         PlayerVar.isFacingRight = !PlayerVar.isFacingRight;
+        PlayerAudio.instance.PlaySound("Jump");
+
         if (!PlayerVar.isFacingRight)
         {
             transform.localScale = new Vector3(-1, 1, 1);
@@ -272,11 +274,11 @@ public class PlayerInput : MonoBehaviour
 
         if (move.performed && IsGrounded())
         {
-            AudioManager.instance.PlaySound("PlayerWalk");
+            PlayerAudio.instance.PlaySound("Footstep");
         }
         else
         {
-            AudioManager.instance.StopSound("PlayerWalk");
+            PlayerAudio.instance.StopSound("Footstep");
         }
     }
 
@@ -285,7 +287,8 @@ public class PlayerInput : MonoBehaviour
         if (jump.performed && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            AudioManager.instance.PlaySound("PlayerJump");
+            PlayerAudio.instance.PlaySound("Jump");
+            PlayerAudio.instance.StopSound("Footstep");
         }
         if (jump.canceled && rb.velocity.y > 0f)
         {
@@ -327,7 +330,10 @@ public class PlayerInput : MonoBehaviour
             PlayerVar.CanDash = false;
             trailRenderer.emitting = true;
             Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, true);
+            
             _dashingDir = new Vector2(horizontalMove, 0);
+            
+            PlayerAudio.instance.PlaySound("Wind Dash");
 
             //Give direction for dashing
             if (_dashingDir == Vector2.zero)
@@ -350,8 +356,10 @@ public class PlayerInput : MonoBehaviour
 
             _slidingDir = new Vector2(horizontalMove, 0);
 
+            PlayerAudio.instance.PlaySound("Wind Dash");
+
             //Give Direction for sliding
-            if(_slidingDir == Vector2.zero)
+            if (_slidingDir == Vector2.zero)
             {
                 _slidingDir = new Vector2(transform.localScale.x, 0);
             }
@@ -364,7 +372,7 @@ public class PlayerInput : MonoBehaviour
     {
         if (pause.performed)
         {
-            GameManager.instance.isPaused = !GameManager.instance.isPaused;
+            GameManager.instance.PauseGame();
         }
     }
     #endregion
@@ -381,6 +389,7 @@ public class PlayerInput : MonoBehaviour
         PlayerVar.PowerUp = true;
         yield return new WaitForSeconds(3f);
         PlayerVar.PowerUp = false;
+        PlayerAudio.instance.PlaySound("Power Down");
         ResetAttack();
     }
 

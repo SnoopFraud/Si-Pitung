@@ -52,6 +52,7 @@ public class EnemyShooterScript : MonoBehaviour
     private void Awake()
     {
         var = GetComponent<EnemyVAR>();
+        EnemyVAR.enAudio = GetComponentInChildren<EnemyAudio>();
     }
 
     private void Start()
@@ -313,6 +314,7 @@ public class EnemyShooterScript : MonoBehaviour
         ammo.transform.position = BulletPos.position;
         ammo.gameObject.SetActive(true);
         ammo.GetComponent<ProjectileMove>().DirectionSetup(direction);
+        EnemyVAR.enAudio.PlaySound("Shooting");
     }
     #endregion
 

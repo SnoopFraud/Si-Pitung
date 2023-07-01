@@ -32,6 +32,7 @@ public class Coin : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
+            PlayerAudio.instance.PlaySound("Coin");
             GiveScore();
         }
     }

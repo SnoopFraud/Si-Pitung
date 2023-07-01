@@ -30,14 +30,6 @@ public class ProjectileMove : MonoBehaviour
         transform.Translate(direction * speed * Time.deltaTime);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Wall"))
-        {
-            gameObject.SetActive(false);
-        }
-    }
-
     private void Deactivate()
     {
         gameObject.SetActive(false);

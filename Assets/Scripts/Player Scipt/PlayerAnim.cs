@@ -32,6 +32,7 @@ public class PlayerAnim : MonoBehaviour
                 CurrentAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
             {
                 PlayerVar.isHitting[i] = false;
+                
                 if (PlayerVar.isHitting[i+1])
                 {
                     AnimationPlay("Pitung_Attack" + (i+2).ToString());

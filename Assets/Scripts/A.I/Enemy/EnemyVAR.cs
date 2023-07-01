@@ -8,4 +8,6 @@ public class EnemyVAR : MonoBehaviour
     public bool isDetectingPlayer;
     public bool Immobilized;
     public bool inAttackRange;
+
+    public static EnemyAudio enAudio;
 }

@@ -324,8 +324,7 @@ public class EnemyScript : MonoBehaviour
         float horizontalSpeed = (facingDir == LEFT) ? -moveSpeed : moveSpeed;
 
         rb.velocity = new Vector2(horizontalSpeed, rb.velocity.y);
-        //Play Animation
-
+        
         if (isHittingTheWall() || isOnEdge())
         {
             ChangeFacingDirection((facingDir == LEFT) ? RIGHT : LEFT); //Flip the sprite

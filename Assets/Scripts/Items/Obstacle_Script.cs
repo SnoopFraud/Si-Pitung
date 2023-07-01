@@ -33,6 +33,7 @@ public class Obstacle_Script : MonoBehaviour
         {
             //Die
             gameObject.SetActive(false);
+            PlayerAudio.instance.PlaySound("Tong Hancur");
             //Spawn Object
             SpawnObject();
         }

@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2846200276287828461}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0.19286, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 23.360935, y: 9.002965, z: 9.42984}
   m_Children: []
   m_Father: {fileID: 8609789124310347195}
@@ -114,6 +114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8609789124310347195}
   - component: {fileID: 270204627693868337}
+  - component: {fileID: 4882096095312310071}
   m_Layer: 0
   m_Name: Health
   m_TagString: Untagged
@@ -148,3 +149,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62f1a71a127c5f4780aee89bb54fab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &4882096095312310071
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740459520790247961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.2346566
+  m_Height: 0.9572027
+  m_Direction: 1
+  m_Center: {x: 0.000000029802322, y: 0.3808962, z: 0}

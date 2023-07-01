@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175109584390134648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175109584390134654}
+  - component: {fileID: 175109584390134655}
+  m_Layer: 0
+  m_Name: Player Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175109584390134654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175109584390134648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.884773, y: 5.3560286, z: -1.9101274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175109584390134655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175109584390134648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44a68ce71519bd4da661064834cf41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sound:
+  - name: Footstep
+    Audio_clip: {fileID: 8300000, guid: 52e919a5cd016e14b84697ca1898f038, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Jump
+    Audio_clip: {fileID: 8300000, guid: 946508875cf3a3946a72decfd0d6864a, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Wind Dash
+    Audio_clip: {fileID: 8300000, guid: 64293420856ec524d8c67fb15406cb60, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Hit1
+    Audio_clip: {fileID: 8300000, guid: 14c60e4359586e2408bbd3d047dcfbb1, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Hit2
+    Audio_clip: {fileID: 8300000, guid: d40695dcfb20703479d4a48f7ad72d81, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Hit3
+    Audio_clip: {fileID: 8300000, guid: db6f38b181bd52042b4982ded24c4ccc, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Tong DMG
+    Audio_clip: {fileID: 8300000, guid: ca827e8bb02a271479f91ff91234c0d1, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Dapat Golok
+    Audio_clip: {fileID: 8300000, guid: a8ccde83e8d0d3949851e36c37de723f, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
+  - name: Power Down
+    Audio_clip: {fileID: 8300000, guid: 83af76145c24e394a94dceadc84e94f6, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    source: {fileID: 0}
+    Loop: 0
