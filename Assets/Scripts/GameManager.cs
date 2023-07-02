@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public string NextLevel;
     public int CountEnemies;
 
+    public bool isStart;
     public bool isEnd;
     public bool isPaused;
     public bool isGameOver;
