@@ -76,6 +76,9 @@ public class PlayerInput : MonoBehaviour
         enemyLayer = LayerMask.NameToLayer("Enemy");
 
         _moveSpeed = BaseSpeed;
+
+        //Resetting var
+        ResetFlag();
     }
 
     private void Update()
@@ -400,6 +403,19 @@ public class PlayerInput : MonoBehaviour
         PlayerVar.isHitting[0] = false;
         PlayerVar.isHitting[1] = false;
         PlayerVar.isHitting[2] = false;
+    }
+    private void ResetFlag()
+    {
+        //Reset Attack
+        PlayerVar.isHitting[0] = false;
+        PlayerVar.isHitting[1] = false;
+        PlayerVar.isHitting[2] = false;
+        //Reset Sliding
+        PlayerVar.isSliding = false;
+        //Reset Dashing
+        PlayerVar.isDashing = false;
+        //Reset Power Up
+        PlayerVar.PowerUp = false;
     }
     #endregion
 }

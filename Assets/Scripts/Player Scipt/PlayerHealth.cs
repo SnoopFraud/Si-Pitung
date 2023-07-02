@@ -31,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
         //update the current health to the health bar
         healthbar.SetHealth(CurrentHealth);
         //Death condition
-        if (CurrentHealth == 0)
+        if (CurrentHealth <= 0)
         {
             //Die
             GameManager.instance.Die();
