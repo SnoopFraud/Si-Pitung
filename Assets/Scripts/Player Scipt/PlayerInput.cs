@@ -50,6 +50,7 @@ public class PlayerInput : MonoBehaviour
     public bool KnockFromRight;
 
     [Header("Attack Variables")]
+    public float AttackCooldownTimer;
     public float AttackSpeed1;
     public float AttackSpeed2;
     public float AttackSpeed3;
@@ -163,7 +164,7 @@ public class PlayerInput : MonoBehaviour
     private IEnumerator AttackCooldown()
     {
         PlayerVar.isAttackCooldown = true;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(AttackCooldownTimer);
         PlayerVar.isAttackCooldown = false;
     }
 
@@ -410,12 +411,16 @@ public class PlayerInput : MonoBehaviour
         PlayerVar.isHitting[0] = false;
         PlayerVar.isHitting[1] = false;
         PlayerVar.isHitting[2] = false;
+        PlayerVar.isAttackCooldown = false;
         //Reset Sliding
         PlayerVar.isSliding = false;
         //Reset Dashing
         PlayerVar.isDashing = false;
+        PlayerVar.isOnCooldown = false;
         //Reset Power Up
         PlayerVar.PowerUp = false;
+        //Reenable collision
+        Physics.IgnoreLayerCollision(regularcol.gameObject.layer, enemyLayer, false);
     }
     #endregion
 }

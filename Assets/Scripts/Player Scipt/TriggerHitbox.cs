@@ -30,7 +30,7 @@ public class TriggerHitbox : MonoBehaviour
             enemy.Immobilized = true;
             EnemyAnim.Animation.Play("EnemyHurt");
 
-            if (PlayerVar.isHitting[0])
+            if (PlayerVar.isHitting[0] || PlayerVar.isSliding)
             {
                 enemyHealth.TakeDamage(damage1);
                 PlayerAudio.instance.PlaySound("Hit1");
@@ -51,7 +51,7 @@ public class TriggerHitbox : MonoBehaviour
         {
             obstacle = other.gameObject.GetComponent<Obstacle_Script>();
 
-            if (PlayerVar.isHitting[0])
+            if (PlayerVar.isHitting[0] || PlayerVar.isSliding)
             {
                 obstacle.TakeDamage(damage1);
                 PlayerAudio.instance.PlaySound("Tong DMG");

@@ -5,22 +5,27 @@ using UnityEngine;
 public class HealthItem : MonoBehaviour
 {
     #region Var
-    GameObject PlayerHealth;
+    PlayerHealth PlayerHealth;
+    public int Health;
 
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        PlayerHealth = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     void giveHealth()
     {
-        if (PlayerHealth.GetComponent<PlayerHealth>().CurrentHealth < 
-            PlayerHealth.GetComponent<PlayerHealth>().MaxHealth)
+        if (PlayerHealth.CurrentHealth < 
+            PlayerHealth.MaxHealth)
         {
-            PlayerHealth.GetComponent<PlayerHealth>().getHealth(10);
+            int healthToAdd = Mathf.Min(
+                Health, PlayerHealth.MaxHealth 
+                - PlayerHealth.CurrentHealth);
+
+            PlayerHealth.getHealth(healthToAdd);
         }
         else
         {
@@ -39,6 +44,8 @@ public class HealthItem : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            PlayerHealth = other.gameObject.GetComponent<PlayerHealth>();
+
             gameObject.SetActive(false);
             PlayerAudio.instance.PlaySound("Health");
             giveHealth();
