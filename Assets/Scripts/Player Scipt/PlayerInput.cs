@@ -47,8 +47,14 @@ public class PlayerInput : MonoBehaviour
     public float KnockbackForce;
     public float KnockbackCounter;
     public float KnockbackTime;
-
     public bool KnockFromRight;
+
+    [Header("Attack Variables")]
+    public float AttackSpeed1;
+    public float AttackSpeed2;
+    public float AttackSpeed3;
+    public float PowerUpTime;
+
     public static PlayerInput instance;
     public bool isPowerUp;
 
@@ -148,16 +154,6 @@ public class PlayerInput : MonoBehaviour
         if(IsGrounded() && !PlayerVar.isAttackCooldown && !PlayerVar.isSliding)
         {
             PlayerVar.canAttack = true;
-        }
-
-        if (PlayerVar.isHitting[1])
-        {
-            StartCoroutine(MovePlayerForward(0.1f, 1f));
-        }
-        if (PlayerVar.isHitting[2])
-        {
-            StartCoroutine(MovePlayerForward(0.1f, 1.5f));
-            StartCoroutine(AttackCooldown());
         }
     }
 
@@ -312,8 +308,14 @@ public class PlayerInput : MonoBehaviour
             }
             else if (PlayerVar.isHitting[1])
             {
+                StartCoroutine(MovePlayerForward(0.1f, AttackSpeed2));
                 PlayerVar.isHitting[2] = true;
             } 
+            else if (PlayerVar.isHitting[2])
+            {
+                StartCoroutine(MovePlayerForward(0.1f, AttackSpeed3));
+                StartCoroutine(AttackCooldown());
+            }
 
             if (_attackDir == Vector2.zero)
             {
@@ -387,7 +389,7 @@ public class PlayerInput : MonoBehaviour
     {
         ResetAttack();
         PlayerVar.PowerUp = true;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(PowerUpTime);
         PlayerVar.PowerUp = false;
         PlayerAudio.instance.PlaySound("Power Down");
         ResetAttack();

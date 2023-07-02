@@ -13,7 +13,7 @@ public class Coin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreUI = GameObject.Find("/Canvas/Player UI/Scoring");    
+        ScoreUI = GameObject.Find("/GameUI/Player UI/Scoring");    
     }
 
     public void GiveScore()

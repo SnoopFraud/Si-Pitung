@@ -745,6 +745,10 @@ MonoBehaviour:
   KnockbackCounter: 0
   KnockbackTime: 0.2
   KnockFromRight: 0
+  AttackSpeed1: 0
+  AttackSpeed2: 20
+  AttackSpeed3: 30
+  PowerUpTime: 20
   isPowerUp: 0
 --- !u!114 &6528738079036479656
 MonoBehaviour:

@@ -211,7 +211,8 @@ public class EnemyShooterScript : MonoBehaviour
 
         Debug.DrawLine(WallCheck.position, targetpos, Color.red);
 
-        if (Physics.Linecast(WallCheck.position, targetpos, 1 << LayerMask.NameToLayer("Obstacle")))
+        if (Physics.Linecast(WallCheck.position, targetpos, 1 << LayerMask.NameToLayer("Obstacle"))
+            || Physics.Linecast(WallCheck.position, targetpos, 1 << LayerMask.NameToLayer("Ground")))
         {
             val = true;
         }
