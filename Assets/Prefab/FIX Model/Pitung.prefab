@@ -724,6 +724,8 @@ MonoBehaviour:
   sr: {fileID: 3791568670239387443}
   regularcol: {fileID: 8320405007991456668}
   slidecol: {fileID: 8320405007663226140}
+  PowerUpCollider: {fileID: 5705968768144212926}
+  PunchCollider: {fileID: 1044470586}
   player: {fileID: 8320405007991456670}
   _moveSpeed: 7
   jumpForce: 9
@@ -745,6 +747,14 @@ MonoBehaviour:
   KnockbackCounter: 0
   KnockbackTime: 0.2
   KnockFromRight: 0
+<<<<<<< Updated upstream
+=======
+  AttackCooldownTimer: 0.5
+  AttackSpeed1: 0
+  AttackSpeed2: 3
+  AttackSpeed3: 5
+  PowerUpTime: 20
+>>>>>>> Stashed changes
   isPowerUp: 0
 --- !u!114 &6528738079036479656
 MonoBehaviour:

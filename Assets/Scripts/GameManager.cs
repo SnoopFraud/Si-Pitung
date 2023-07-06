@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public int CountEnemies;
 
     public bool isEnd;
+    public bool isOnTimeout;
     public bool isPaused;
     public bool isGameOver;
 
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         Time.timeScale = 1;
+        isOnTimeout = false;
     }
 
     private void Start()
@@ -59,6 +61,7 @@ public class GameManager : MonoBehaviour
     public void PauseGame()
     {
         isPaused = !isPaused;
+        isOnTimeout = !isOnTimeout;
 
         if (!isPaused)
         {
@@ -75,12 +78,14 @@ public class GameManager : MonoBehaviour
     //Win Condition
     public void Win()
     {
+        isOnTimeout = true;
         WinLevelUI.SetActive(true);
         Time.timeScale = 0;
     }
     //Lose Condition
     public void Die()
     {
+        isOnTimeout = false;
         GameOverUI.SetActive(true);
         Time.timeScale = 0;
     }
