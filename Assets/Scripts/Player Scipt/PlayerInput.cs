@@ -119,11 +119,11 @@ public class PlayerInput : MonoBehaviour
             //Do the knocback
             if (KnockFromRight)
             {
-                rb.velocity = new Vector2(-KnockbackForce, KnockbackForce);
+                rb.velocity = new Vector2(-KnockbackForce, 0);
             }
             if (!KnockFromRight)
             {
-                rb.velocity = new Vector2(KnockbackForce, KnockbackForce);
+                rb.velocity = new Vector2(KnockbackForce, 0);
             }
             KnockbackCounter -= Time.deltaTime;
         }
