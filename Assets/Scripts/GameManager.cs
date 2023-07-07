@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject WinLevelUI;
     [SerializeField] private GameObject PowerUpUI;
     [SerializeField] private GameObject PauseUI;
+
+    public TextMeshProUGUI highscoretext;
+    public int highscore;
 
     //var
     public string NextLevel;
@@ -30,6 +35,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         Time.timeScale = 1;
         isDisbaled = false;
+        highscore = PlayerPrefs.GetInt("HighScore1", 0);
     }
 
     private void Start()
@@ -83,6 +89,7 @@ public class GameManager : MonoBehaviour
         WinLevelUI.SetActive(true);
         Time.timeScale = 0;
         isDisbaled = true;
+        highscoretext.text = "Gulden terbanyak: " + highscore.ToString();
     }
     //Lose Condition
     public void Die()

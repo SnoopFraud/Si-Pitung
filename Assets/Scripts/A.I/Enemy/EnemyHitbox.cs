@@ -7,11 +7,25 @@ public class EnemyHitbox : MonoBehaviour
 {
     PlayerHealth playerHealth;
     PlayerInput PlayerInput;
+    Scoring Score;
 
     public int damage;
 
     private void Awake()
     {
+        Score = GameObject.Find("/GameUI/Player UI/Scoring").GetComponent<Scoring>();
+    }
+
+    private void MinusScore(int Amountscore)
+    {
+        if(Score.score > 0)
+        {
+            Score.score -= Amountscore;
+        }
+        else
+        {
+            return;
+        }
         
     }
 
@@ -36,6 +50,8 @@ public class EnemyHitbox : MonoBehaviour
             }
             playerHealth.takeDamage(damage);
             PlayerAudio.instance.PlaySound("Knife Damage");
+            //Decrease Score on each hits
+            MinusScore(5);
         }
     }
 }

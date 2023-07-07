@@ -9,7 +9,6 @@ public class Scoring : MonoBehaviour
     #region var
     public TextMeshProUGUI scoretxt;
     public int score = 0;
-    public int MaxScore;
     #endregion
 
     // Start is called before the first frame update
@@ -21,6 +20,10 @@ public class Scoring : MonoBehaviour
     public void AddScore(int newScore)
     {
         score += newScore;
+        if(GameManager.instance.highscore < score)
+        {
+            PlayerPrefs.SetInt("HighScore1", score);
+        }
     }
 
     public void UpdateScore()
