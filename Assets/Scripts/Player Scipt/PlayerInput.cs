@@ -9,7 +9,11 @@ public class PlayerInput : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody rb;
     [SerializeField] private SpriteRenderer sr;
+<<<<<<< Updated upstream
     [SerializeField] private CapsuleCollider regularcol, slidecol, PowerUpCollider, PunchCollider;
+=======
+    [SerializeField] private CapsuleCollider regularcol, slidecol, punchcol, golokcol;
+>>>>>>> Stashed changes
     [SerializeField] private Transform player;
 
     [Header("Physic Force")]
@@ -164,6 +168,15 @@ public class PlayerInput : MonoBehaviour
             rb.velocity = _attackDir.normalized * AttackSpeed3;
             return;
         }
+
+        if (PlayerVar.isHitting[1])
+        {
+            rb.velocity = _attackDir * AttackSpeed2;
+        }
+        if (PlayerVar.isHitting[2])
+        {
+            rb.velocity = _attackDir * AttackSpeed3;
+        }
     }
 
     private IEnumerator AttackCooldown()
@@ -275,7 +288,11 @@ public class PlayerInput : MonoBehaviour
     #region Control Physics
     public void MovePlayer(InputAction.CallbackContext move)
     {
+<<<<<<< Updated upstream
         if (!GameManager.instance.isOnTimeout)
+=======
+        if (!GameManager.instance.Disabled)
+>>>>>>> Stashed changes
         {
             horizontalMove = move.ReadValue<Vector2>().x;
 
@@ -292,7 +309,11 @@ public class PlayerInput : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext jump)
     {
+<<<<<<< Updated upstream
         if (!GameManager.instance.isOnTimeout)
+=======
+        if (!GameManager.instance.Disabled)
+>>>>>>> Stashed changes
         {
             if (jump.performed && IsGrounded())
             {
@@ -309,6 +330,7 @@ public class PlayerInput : MonoBehaviour
 
     public void AttackControl(InputAction.CallbackContext combat)
     {
+<<<<<<< Updated upstream
         if (!GameManager.instance.isOnTimeout)
         {
             if (combat.performed && PlayerVar.canAttack)
@@ -332,6 +354,12 @@ public class PlayerInput : MonoBehaviour
                 StartCoroutine(AttackCooldown());
             }
 =======
+=======
+        if (!GameManager.instance.Disabled)
+        {
+            if (combat.performed && PlayerVar.canAttack)
+            {
+>>>>>>> Stashed changes
                 PlayerVar.canAttack = false;
                 if (!PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
                 {
@@ -350,6 +378,9 @@ public class PlayerInput : MonoBehaviour
                 {
                     StartCoroutine(AttackCooldown());
                 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
                 if (_attackDir == Vector2.zero)
@@ -363,7 +394,11 @@ public class PlayerInput : MonoBehaviour
 
     public void DashMovement(InputAction.CallbackContext dash)
     {
+<<<<<<< Updated upstream
         if (!GameManager.instance.isOnTimeout)
+=======
+        if (!GameManager.instance.Disabled)
+>>>>>>> Stashed changes
         {
             if (dash.performed && PlayerVar.CanDash)
             {
@@ -388,7 +423,11 @@ public class PlayerInput : MonoBehaviour
 
     public void Slide(InputAction.CallbackContext Sliding)
     {
+<<<<<<< Updated upstream
         if (!GameManager.instance.isOnTimeout)
+=======
+        if (!GameManager.instance.Disabled)
+>>>>>>> Stashed changes
         {
             if (Sliding.performed && PlayerVar.canSlide)
             {
@@ -410,7 +449,11 @@ public class PlayerInput : MonoBehaviour
 
                 StartCoroutine(StopSliding());
             }
+<<<<<<< Updated upstream
         } 
+=======
+        }
+>>>>>>> Stashed changes
     }
 
     public void Pause(InputAction.CallbackContext pause)
@@ -431,14 +474,24 @@ public class PlayerInput : MonoBehaviour
     public IEnumerator PowerUpNow()
     {
         ResetAttack();
+<<<<<<< Updated upstream
         PunchCollider.enabled = false;
         PowerUpCollider.enabled = false;
+=======
+        punchcol.enabled = false;
+        golokcol.enabled = false;
+>>>>>>> Stashed changes
         PlayerVar.PowerUp = true;
         yield return new WaitForSeconds(3f);
         PlayerVar.PowerUp = false;
         PlayerAudio.instance.PlaySound("Power Down");
+<<<<<<< Updated upstream
         PowerUpCollider.enabled = false;
         PunchCollider.enabled = false;
+=======
+        punchcol.enabled = false;
+        golokcol.enabled = false;
+>>>>>>> Stashed changes
         ResetAttack();
     }
 

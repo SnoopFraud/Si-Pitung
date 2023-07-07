@@ -18,7 +18,11 @@ public class GameManager : MonoBehaviour
     public int CountEnemies;
 
     public bool isEnd;
+<<<<<<< Updated upstream
     public bool isOnTimeout;
+=======
+    public bool Disabled;
+>>>>>>> Stashed changes
     public bool isPaused;
     public bool isGameOver;
 
@@ -28,7 +32,11 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         Time.timeScale = 1;
+<<<<<<< Updated upstream
         isOnTimeout = false;
+=======
+        Disabled = false;
+>>>>>>> Stashed changes
     }
 
     private void Start()
@@ -42,6 +50,11 @@ public class GameManager : MonoBehaviour
         GameObject[] ActiveEnemies = GameObject.FindGameObjectsWithTag("Enemy");
         CountEnemies = ActiveEnemies.Length;
 
+        if (CountEnemies == 0)
+        {
+            isEnd = true;
+        }
+
         if (PlayerVar.PowerUp)
         {
             PowerUpUI.SetActive(true);
@@ -49,11 +62,6 @@ public class GameManager : MonoBehaviour
         else
         {
             PowerUpUI.SetActive(false);
-        }
-
-        if(CountEnemies == 0)
-        {
-            isEnd = true;
         }     
     }
 
@@ -67,11 +75,13 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 1;
             PauseUI.SetActive(false);
+            Disabled = false;
         }
         else
         {
             Time.timeScale = 0;
             PauseUI.SetActive(true);
+            Disabled = true;
         }
     }
 
@@ -81,6 +91,7 @@ public class GameManager : MonoBehaviour
         isOnTimeout = true;
         WinLevelUI.SetActive(true);
         Time.timeScale = 0;
+        Disabled = true;
     }
     //Lose Condition
     public void Die()
