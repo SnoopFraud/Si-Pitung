@@ -9,7 +9,7 @@ public class PlayerInput : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody rb;
     [SerializeField] private SpriteRenderer sr;
-    [SerializeField] private CapsuleCollider regularcol, slidecol;
+    [SerializeField] private CapsuleCollider regularcol, slidecol, punchcol, golokcol;
     [SerializeField] private Transform player;
 
     [Header("Physic Force")]
@@ -159,6 +159,15 @@ public class PlayerInput : MonoBehaviour
         {
             PlayerVar.canAttack = true;
         }
+
+        if (PlayerVar.isHitting[1])
+        {
+            rb.velocity = _attackDir.normalized * AttackSpeed2;
+        }
+        if (PlayerVar.isHitting[2])
+        {
+            rb.velocity = _attackDir.normalized * AttackSpeed3;
+        }
     }
 
     private IEnumerator AttackCooldown()
@@ -270,107 +279,120 @@ public class PlayerInput : MonoBehaviour
     #region Control Physics
     public void MovePlayer(InputAction.CallbackContext move)
     {
-        horizontalMove = move.ReadValue<Vector2>().x;
+        if (!GameManager.instance.isDisbaled)
+        {
+            horizontalMove = move.ReadValue<Vector2>().x;
 
-        if (move.performed && IsGrounded())
-        {
-            PlayerAudio.instance.PlaySound("Footstep");
-        }
-        else
-        {
-            PlayerAudio.instance.StopSound("Footstep");
+            if (move.performed && IsGrounded())
+            {
+                PlayerAudio.instance.PlaySound("Footstep");
+            }
+            else
+            {
+                PlayerAudio.instance.StopSound("Footstep");
+            }
         }
     }
 
     public void Jump(InputAction.CallbackContext jump)
     {
-        if (jump.performed && IsGrounded())
+        if (!GameManager.instance.isDisbaled)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            PlayerAudio.instance.PlaySound("Jump");
-            PlayerAudio.instance.StopSound("Footstep");
-        }
-        if (jump.canceled && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            if (jump.performed && IsGrounded())
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                PlayerAudio.instance.PlaySound("Jump");
+                PlayerAudio.instance.StopSound("Footstep");
+            }
+            if (jump.canceled && rb.velocity.y > 0f)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            }
         }
     }
 
     public void AttackControl(InputAction.CallbackContext combat)
     {
-        if (combat.performed && PlayerVar.canAttack)
+        if (!GameManager.instance.isDisbaled)
         {
-            PlayerVar.canAttack = false;
-            if (!PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
+            if (combat.performed && PlayerVar.canAttack)
             {
-                PlayerVar.isHitting[0] = true;
-                _attackDir = new Vector2(horizontalMove, 0);
-            } 
-            else if (PlayerVar.isHitting[0])
-            {
-                PlayerVar.isHitting[1] = true;
-            }
-            else if (PlayerVar.isHitting[1])
-            {
-                StartCoroutine(MovePlayerForward(0.1f, AttackSpeed2));
-                PlayerVar.isHitting[2] = true;
-            } 
-            else if (PlayerVar.isHitting[2])
-            {
-                StartCoroutine(MovePlayerForward(0.1f, AttackSpeed3));
-                StartCoroutine(AttackCooldown());
-            }
+                PlayerVar.canAttack = false;
+                if (!PlayerVar.isHitting[0] && !PlayerVar.isHitting[1] && !PlayerVar.isHitting[2])
+                {
+                    PlayerVar.isHitting[0] = true;
+                    _attackDir = new Vector2(horizontalMove, 0);
+                }
+                else if (PlayerVar.isHitting[0])
+                {
+                    PlayerVar.isHitting[1] = true;
+                }
+                else if (PlayerVar.isHitting[1])
+                {
+                    PlayerVar.isHitting[2] = true;
+                }
+                else if (PlayerVar.isHitting[2])
+                {
+                    StartCoroutine(AttackCooldown());
+                }
 
-            if (_attackDir == Vector2.zero)
-            {
-                _attackDir = new Vector2(transform.localScale.x, 0);
+                if (_attackDir == Vector2.zero)
+                {
+                    _attackDir = new Vector2(transform.localScale.x, 0);
+                }
             }
         }
     }
 
     public void DashMovement(InputAction.CallbackContext dash)
     {
-        if(dash.performed && PlayerVar.CanDash)
+        if (!GameManager.instance.isDisbaled)
         {
-            PlayerVar.isDashing = true; //This will allow to execute the dashing velocity method in update
-            PlayerVar.CanDash = false;
-            trailRenderer.emitting = true;
-            Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, true);
-            
-            _dashingDir = new Vector2(horizontalMove, 0);
-            
-            PlayerAudio.instance.PlaySound("Wind Dash");
-
-            //Give direction for dashing
-            if (_dashingDir == Vector2.zero)
+            if (dash.performed && PlayerVar.CanDash)
             {
-                _dashingDir = new Vector2(transform.localScale.x, 0);
+                PlayerVar.isDashing = true; //This will allow to execute the dashing velocity method in update
+                PlayerVar.CanDash = false;
+                trailRenderer.emitting = true;
+                Physics.IgnoreLayerCollision(PlayerLayer, enemyLayer, true);
+
+                _dashingDir = new Vector2(horizontalMove, 0);
+
+                PlayerAudio.instance.PlaySound("Wind Dash");
+
+                //Give direction for dashing
+                if (_dashingDir == Vector2.zero)
+                {
+                    _dashingDir = new Vector2(transform.localScale.x, 0);
+                }
+                StartCoroutine(StopDashing());
             }
-            StartCoroutine(StopDashing());
         }
     }
 
     public void Slide(InputAction.CallbackContext Sliding)
     {
-        if (Sliding.performed && PlayerVar.canSlide)
+        if (!GameManager.instance.isDisbaled)
         {
-            PlayerVar.isSliding = true;
-            PlayerVar.canSlide = false;
-            //Switch collision
-            regularcol.enabled = false;
-            slidecol.enabled = true;
-
-            _slidingDir = new Vector2(horizontalMove, 0);
-
-            PlayerAudio.instance.PlaySound("Wind Dash");
-
-            //Give Direction for sliding
-            if (_slidingDir == Vector2.zero)
+            if (Sliding.performed && PlayerVar.canSlide)
             {
-                _slidingDir = new Vector2(transform.localScale.x, 0);
-            }
+                PlayerVar.isSliding = true;
+                PlayerVar.canSlide = false;
+                //Switch collision
+                regularcol.enabled = false;
+                slidecol.enabled = true;
 
-            StartCoroutine(StopSliding());
+                _slidingDir = new Vector2(horizontalMove, 0);
+
+                PlayerAudio.instance.PlaySound("Wind Dash");
+
+                //Give Direction for sliding
+                if (_slidingDir == Vector2.zero)
+                {
+                    _slidingDir = new Vector2(transform.localScale.x, 0);
+                }
+
+                StartCoroutine(StopSliding());
+            }
         }
     }
 
@@ -404,6 +426,8 @@ public class PlayerInput : MonoBehaviour
         PlayerVar.isHitting[0] = false;
         PlayerVar.isHitting[1] = false;
         PlayerVar.isHitting[2] = false;
+        punchcol.enabled = false;
+        golokcol.enabled = false;
     }
     private void ResetFlag()
     {

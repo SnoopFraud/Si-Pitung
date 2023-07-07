@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public bool isEnd;
     public bool isPaused;
     public bool isGameOver;
+    public bool isDisbaled;
 
     public SceneScript sceneScript;
 
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         Time.timeScale = 1;
+        isDisbaled = false;
     }
 
     private void Start()
@@ -63,11 +65,13 @@ public class GameManager : MonoBehaviour
 
         if (!isPaused)
         {
+            isDisbaled = false;
             Time.timeScale = 1;
             PauseUI.SetActive(false);
         }
         else
         {
+            isDisbaled = true;
             Time.timeScale = 0;
             PauseUI.SetActive(true);
         }
@@ -78,12 +82,14 @@ public class GameManager : MonoBehaviour
     {
         WinLevelUI.SetActive(true);
         Time.timeScale = 0;
+        isDisbaled = true;
     }
     //Lose Condition
     public void Die()
     {
         GameOverUI.SetActive(true);
         Time.timeScale = 0;
+        isDisbaled = true;
     }
     //Save the game
     public void NextLv(string key)
