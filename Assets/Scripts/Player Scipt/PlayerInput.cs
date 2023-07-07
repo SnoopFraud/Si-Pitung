@@ -8,7 +8,7 @@ public class PlayerInput : MonoBehaviour
     #region Variable
     [Header("Components")]
     [SerializeField] private Rigidbody rb;
-    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private SpriteRenderer sr, srGolok;
     [SerializeField] private CapsuleCollider regularcol, slidecol, punchcol, golokcol;
     [SerializeField] private Transform player;
 
@@ -107,6 +107,8 @@ public class PlayerInput : MonoBehaviour
         //For Knockback
         if (KnockbackCounter <= 0)
         {
+            KnockbackCounter = 0;
+
             //Apply gravity
             rb.AddForce(Vector2.down * gravity, ForceMode.Acceleration);
 
@@ -119,11 +121,11 @@ public class PlayerInput : MonoBehaviour
             //Do the knocback
             if (KnockFromRight)
             {
-                rb.velocity = new Vector2(-KnockbackForce, 0);
+                rb.velocity = new Vector2(-KnockbackForce, KnockbackForce);
             }
             if (!KnockFromRight)
             {
-                rb.velocity = new Vector2(KnockbackForce, 0);
+                rb.velocity = new Vector2(KnockbackForce, KnockbackForce);
             }
             KnockbackCounter -= Time.deltaTime;
         }
@@ -262,17 +264,30 @@ public class PlayerInput : MonoBehaviour
         // Ignore enemy layer temporarily
         Physics.IgnoreLayerCollision(regularcol.gameObject.layer, enemyLayer, true);
 
-
         // Blink effect - toggle the visibility of the player renderer
         for (int i = 0; i < 5; i++)
         {
-            sr.enabled = !sr.enabled;
+            if (PlayerVar.PowerUp)
+            {
+                srGolok.enabled = !srGolok.enabled;
+            }
+            else
+            {
+                sr.enabled = !sr.enabled;
+            }
             yield return new WaitForSeconds(0.3f);
         }
 
         // Re-enable collision with the enemy layer
         Physics.IgnoreLayerCollision(regularcol.gameObject.layer, enemyLayer, false);
-        sr.enabled = true;
+        if (PlayerVar.PowerUp)
+        {
+            srGolok.enabled = true;
+        }
+        else
+        {
+            sr.enabled = true;
+        }
     }
     #endregion
 

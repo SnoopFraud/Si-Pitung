@@ -22,6 +22,6 @@ public class EnemiesLeft : MonoBehaviour
     private void EnemyUpdate()
     {
         EnemyLeft = GameManager.instance.CountEnemies;
-        enemytxt.text = "Tersisa " + EnemyLeft + " Musuh";
+        enemytxt.text = "Hajar Semua Musuh! " + EnemyLeft + " Tersisa";
     }
 }
