@@ -9,6 +9,7 @@ public class Powerup : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             other.gameObject.transform.GetComponent<PlayerInput>().StartingPowerUp();
+
             PlayerAudio.instance.PlaySound("Dapat Golok");
             gameObject.SetActive(false);
             //ResetAttack();

@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12cd0dd856a81ae4f83528046390ec52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 13
   direction: {x: 0, y: 0}
 --- !u!114 &196211337459576089
 MonoBehaviour:
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c6f64ee3cf1643b548235cdfb4090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 17
 --- !u!114 &6120587117060277863
 MonoBehaviour:
   m_ObjectHideFlags: 0

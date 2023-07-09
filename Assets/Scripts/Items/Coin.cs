@@ -6,19 +6,13 @@ public class Coin : MonoBehaviour
 {
     #region Var
     [SerializeField] private int score;
-    GameObject ScoreUI;
 
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        ScoreUI = GameObject.Find("/GameUI/Player UI/Scoring");    
-    }
-
-    public void GiveScore()
-    {
-        ScoreUI.GetComponent<Scoring>().AddScore(score);
+           
     }
 
     // Update is called once per frame
@@ -31,9 +25,9 @@ public class Coin : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            GameManager.instance.addScore(score);
             gameObject.SetActive(false);
             PlayerAudio.instance.PlaySound("Coin");
-            GiveScore();
         }
     }
 }

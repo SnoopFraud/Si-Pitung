@@ -14,12 +14,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject WinLevelUI;
     [SerializeField] private GameObject PowerUpUI;
     [SerializeField] private GameObject PauseUI;
+    [SerializeField] private TextMeshProUGUI ScoreText;
 
     public TextMeshProUGUI highscoretext;
-    public int highscore;
+    public int score = 0;
+    public int highscore = 0;
 
     //var
-    public string NextLevel;
+    public string currentlevel;
     public int CountEnemies;
 
     public bool isStart;
@@ -32,15 +34,18 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        //When awake
         instance = this;
         Time.timeScale = 1;
         isDisbaled = false;
-        highscore = PlayerPrefs.GetInt("HighScore1", 0);
     }
 
     private void Start()
     {
         isEnd = false;
+        //Load the highscore
+        highscore = PlayerPrefs.GetInt(currentlevel);
+        ScoreText.text = score.ToString() + " G";
     }
 
     //Do function here
@@ -61,7 +66,7 @@ public class GameManager : MonoBehaviour
         if(CountEnemies == 0)
         {
             isEnd = true;
-        }     
+        }
     }
 
     //Pause the Game
@@ -109,4 +114,30 @@ public class GameManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Quitting");
     }
+
+    #region scoring
+    public void addScore(int Newscore)
+    {
+        //Update the existing score from the int
+        score += Newscore;
+        ScoreText.text = score.ToString() + " G";
+        //Update the highscore if it's surpassed the highscore
+        if (highscore < score)
+        {
+            PlayerPrefs.SetInt(currentlevel, score);
+        }
+    }
+    public void MinusScore(int Newscore)
+    {
+        if(score > 0)
+        {
+            score -= Newscore;
+            ScoreText.text = score.ToString() + " G";
+        }
+        else
+        {
+            return;
+        }
+    }
+    #endregion
 }

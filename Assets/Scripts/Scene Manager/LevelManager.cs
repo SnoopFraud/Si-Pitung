@@ -36,6 +36,9 @@ public class LevelManager : MonoBehaviour
 
         if (LevelStatus3 == 1)
         {
+            btn[1].interactable = true;
+            btn[1].GetComponent<Image>().sprite = imgCleared[1];
+
             btn[2].interactable = true;
             btn[2].GetComponent<Image>().sprite = imgCleared[2];
         }
@@ -47,6 +50,12 @@ public class LevelManager : MonoBehaviour
 
         if (LevelStatus4 == 1)
         {
+            btn[1].interactable = true;
+            btn[1].GetComponent<Image>().sprite = imgCleared[1];
+
+            btn[2].interactable = true;
+            btn[2].GetComponent<Image>().sprite = imgCleared[2];
+
             btn[3].interactable = true;
             btn[3].GetComponent<Image>().sprite = imgCleared[3];
         }
@@ -58,6 +67,15 @@ public class LevelManager : MonoBehaviour
 
         if (LevelStatus5 == 1)
         {
+            btn[1].interactable = true;
+            btn[1].GetComponent<Image>().sprite = imgCleared[1];
+
+            btn[2].interactable = true;
+            btn[2].GetComponent<Image>().sprite = imgCleared[2];
+
+            btn[3].interactable = true;
+            btn[3].GetComponent<Image>().sprite = imgCleared[3];
+
             btn[4].interactable = true;
             btn[4].GetComponent<Image>().sprite = imgCleared[4];
         }

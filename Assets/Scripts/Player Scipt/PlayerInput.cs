@@ -54,7 +54,10 @@ public class PlayerInput : MonoBehaviour
     public float AttackSpeed1;
     public float AttackSpeed2;
     public float AttackSpeed3;
+
     public float PowerUpTime;
+    [HideInInspector]
+    public float RemainingTime;
 
     public static PlayerInput instance;
     public bool isPowerUp;
@@ -66,6 +69,8 @@ public class PlayerInput : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        //Resetting var
+        ResetFlag();
     }
 
     private void Start()
@@ -429,7 +434,7 @@ public class PlayerInput : MonoBehaviour
     public IEnumerator PowerUpNow()
     {
         ResetAttack();
-        PlayerVar.PowerUp = true;
+        PlayerVar.PowerUp = true;     
         yield return new WaitForSeconds(PowerUpTime);
         PlayerVar.PowerUp = false;
         PlayerAudio.instance.PlaySound("Power Down");
