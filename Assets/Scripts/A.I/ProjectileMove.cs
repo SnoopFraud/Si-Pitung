@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileMove : MonoBehaviour
 {
     ProjectileMove instance;
+
     private void Awake()
     {
         if (instance == null)
@@ -28,6 +29,15 @@ public class ProjectileMove : MonoBehaviour
     {
         //Move the bottle
         transform.Translate(direction * speed * Time.deltaTime);
+
+        if(direction.x < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        } 
+        else if (direction.x > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
     }
 
     private void Deactivate()

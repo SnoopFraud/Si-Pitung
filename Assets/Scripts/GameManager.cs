@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI highscoretext;
     public int score = 0;
-    public int highscore = 0;
+    public int guldenamount;
 
     //var
     public string currentlevel;
@@ -43,8 +43,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         isEnd = false;
-        //Load the highscore
-        highscore = PlayerPrefs.GetInt(currentlevel);
         ScoreText.text = score.ToString() + " G";
     }
 
@@ -94,7 +92,7 @@ public class GameManager : MonoBehaviour
         WinLevelUI.SetActive(true);
         Time.timeScale = 0;
         isDisbaled = true;
-        highscoretext.text = "Gulden terbanyak: " + highscore.ToString();
+        highscoretext.text = "Gulden yang terkumpul: " + score.ToString() + "/" + guldenamount;
     }
     //Lose Condition
     public void Die()
@@ -121,11 +119,6 @@ public class GameManager : MonoBehaviour
         //Update the existing score from the int
         score += Newscore;
         ScoreText.text = score.ToString() + " G";
-        //Update the highscore if it's surpassed the highscore
-        if (highscore < score)
-        {
-            PlayerPrefs.SetInt(currentlevel, score);
-        }
     }
     public void MinusScore(int Newscore)
     {
