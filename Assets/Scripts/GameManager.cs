@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         isEnd = false;
+        isDisbaled = false;
         ScoreText.text = score.ToString() + " G";
     }
 
@@ -71,16 +72,15 @@ public class GameManager : MonoBehaviour
     public void PauseGame()
     {
         isPaused = !isPaused;
+        isDisbaled = !isDisbaled;
 
         if (!isPaused)
         {
-            isDisbaled = false;
             Time.timeScale = 1;
             PauseUI.SetActive(false);
         }
         else
         {
-            isDisbaled = true;
             Time.timeScale = 0;
             PauseUI.SetActive(true);
         }

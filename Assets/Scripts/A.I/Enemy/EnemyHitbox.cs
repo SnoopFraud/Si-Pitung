@@ -37,7 +37,7 @@ public class EnemyHitbox : MonoBehaviour
             playerHealth.takeDamage(damage);
             PlayerAudio.instance.PlaySound("Knife Damage");
             //Decrease Score on each hits
-            GameManager.instance.MinusScore(5);
+            GameManager.instance.MinusScore(10);
         }
     }
 }

@@ -418,9 +418,12 @@ public class PlayerInput : MonoBehaviour
 
     public void Pause(InputAction.CallbackContext pause)
     {
-        if (pause.performed)
+        if (!GameManager.instance.isDisbaled)
         {
-            GameManager.instance.PauseGame();
+            if (pause.performed)
+            {
+                GameManager.instance.PauseGame();
+            }
         }
     }
     #endregion
